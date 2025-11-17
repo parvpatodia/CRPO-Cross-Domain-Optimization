@@ -1,0 +1,3372 @@
+{
+  "gsm8k": {
+    "domain": "math",
+    "accuracy": 0.555,
+    "correct": 111,
+    "total": 200,
+    "api_calls_used": 200,
+    "details": [
+      {
+        "example_id": "gsm8k_0",
+        "prompt": "John packs M&M in small bags to eat.  He buys 3 large bags weighing 10 ounces each.  If an ounce of ",
+        "expected": "He bought 3*10=<<3*10=30>>30 ounces of M&M\nThat means he got 30*30=<<30*30=900>>900 M&Ms\nSo he can m",
+        "model_response": "To find the total number of small bags John can make, we need to follow these steps:\n\n1. Calculate t",
+        "correct": true
+      },
+      {
+        "example_id": "gsm8k_1",
+        "prompt": "The Llesis family drove and hiked 6 hours to their vacation spot. They drove an average of 50 miles ",
+        "expected": "Half the average speed of Llesis family driving is 50/2 = <<50/2=25>>25 miles per hour.\nHence, their",
+        "model_response": "To find the distance to their vacation spot, we need to calculate the distance they drove and the di",
+        "correct": false
+      },
+      {
+        "example_id": "gsm8k_2",
+        "prompt": "A restaurant has 40 tables with 4 legs and 50 tables with 3 legs. Calculate the total number of legs",
+        "expected": "The total number of legs which the tables with four legs have is 40*4 = <<40*4=160>>160 legs\nThe thr",
+        "model_response": "To find the total number of legs, we need to calculate the number of legs for each type of table and",
+        "correct": true
+      },
+      {
+        "example_id": "gsm8k_3",
+        "prompt": "A food caterer was told to prepare gourmet hot dogs for 36 guests. While most people would only eat ",
+        "expected": "The food caterer prepared an additional 36/2 = <<36/2=18>>18 hot dogs.\nAltogether, he prepared 36 + ",
+        "model_response": "To find out how many guests did not get a second hotdog, we need to follow these steps:\n\n1. The cate",
+        "correct": false
+      },
+      {
+        "example_id": "gsm8k_4",
+        "prompt": "Rose is out picking flowers for a vase she wants to fill.  She starts off by picking 3 flowers with ",
+        "expected": "Rose picks 3*5=<<3*5=15>>15 petals worth of the 5 petal flowers.\nRose then picks 4*6=<<4*6=24>>24 pe",
+        "model_response": "To find the total number of petals in the vase, we'll first calculate the total number of petals for",
+        "correct": false
+      },
+      {
+        "example_id": "gsm8k_5",
+        "prompt": "There are 700 bees in a hive. There are twice as many worker bees as baby bees, and there are twice ",
+        "expected": "Let x represent the number of queens\nBabies:2x\nWorkers:2(2x)=4x\nTotal:x+2x+4x=700\n7x=700\nx=<<100=100",
+        "model_response": "To find the number of worker bees, we need to break down the information given.\n\nLet's denote the nu",
+        "correct": false
+      },
+      {
+        "example_id": "gsm8k_6",
+        "prompt": "Jason works as a salesperson at a car dealership.  He needs to sell 15 cars this month to earn a big",
+        "expected": "If it takes 2 customers to make one sale, then to get his 15 sales Jason will need 2*15=<<2*15=30>>3",
+        "model_response": "To solve this problem, let's break it down step by step.\n\n1. Jason needs to sell 15 cars to earn his",
+        "correct": true
+      },
+      {
+        "example_id": "gsm8k_7",
+        "prompt": "A company pays each of its employees $600 in a month. The company has a policy of increasing the sal",
+        "expected": "In a month, Sylvie earns $600. which totals $600/month * 12 months/year = $7200 in a year.\nSylvie ea",
+        "model_response": "To find Sylvie's annual salary after three more years of service, we need to calculate her salary in",
+        "correct": false
+      },
+      {
+        "example_id": "gsm8k_8",
+        "prompt": "Theo has $6000 he wishes to spend on his upcoming business trip to South Africa. He buys 6 business ",
+        "expected": "Theo buys business suits for 6 suits * $100/suit = $<<6*100=600>>600.\nTheo buys suitcases for 3 suit",
+        "model_response": "To find out how much Theo has to spend on buying gifts for his business partners, we need to calcula",
+        "correct": false
+      },
+      {
+        "example_id": "gsm8k_9",
+        "prompt": "Jade bought a new cell phone with an incredible camera, so she spent all week taking pictures of her",
+        "expected": "Jade needs a total of 210 photos / 7 photos/batch = <<210/7=30>>30 batches to upload all her photos.",
+        "model_response": "To find out how many days Jade will need to upload all her photos, we need to divide the total numbe",
+        "correct": true
+      },
+      {
+        "example_id": "gsm8k_10",
+        "prompt": "Madeline and her roommate, Keenan, share the cost of groceries. In total, they spend about $400 per ",
+        "expected": "They spend $400/4=$<<400/4=100>>100 per week.\nKeenan pays for 100-60=<<100-60=40>>40% of the groceri",
+        "model_response": "To find out how much Keenan spends per week, we need to break down the problem into steps.\n\nStep 1: ",
+        "correct": true
+      },
+      {
+        "example_id": "gsm8k_11",
+        "prompt": "Steve and Tim decide to see who can get home from school the fastest. Steve lives further away than ",
+        "expected": "Steve has to travel 3 miles * (5280 feet/1 mile) = <<3*5280=15840>>15840 feet to get home.\nIt will t",
+        "model_response": "To find out who will win the race, we need to calculate the time it takes for both Steve and Tim to ",
+        "correct": false
+      },
+      {
+        "example_id": "gsm8k_12",
+        "prompt": "The girls are trying to raise money for a carnival. Kim raises $320 more than Alexandra, who raises ",
+        "expected": "Kim raises 320+430=<<320+430=750>>750 dollars.\nMaryam raises 400+300=<<400+300=700>>700 dollars.\nThe",
+        "model_response": "To find the total amount of money raised, we need to calculate the amount raised by each girl and th",
+        "correct": true
+      },
+      {
+        "example_id": "gsm8k_13",
+        "prompt": "Rory is retrieving tennis balls from the court after a tennis match. In the first of three sets, he ",
+        "expected": "Let B be the number of tennis balls Rory retrieved in the third set.\nIn the second set, he retrieved",
+        "model_response": "To solve this problem, let's break it down into steps.\n\n1. Let's denote the number of tennis balls r",
+        "correct": false
+      },
+      {
+        "example_id": "gsm8k_14",
+        "prompt": "15 gallons of gas were equally divided into 5 different containers. Josey needed 1/4 of a container ",
+        "expected": "15 gallons = 120 pints\n120/5 = <<120/5=24>>24 pints per container\n(1/4)24 = 6 pints\nJosey needed 6 p",
+        "model_response": "To find out how many pints of gasoline Josey needed, we need to follow these steps:\n\n1. First, we ne",
+        "correct": true
+      },
+      {
+        "example_id": "gsm8k_15",
+        "prompt": "Vicki is planning a pop concert at her high school. The show will be 2 hours. She is allowing each g",
+        "expected": "First, we should convert the 2 hours of showtime into minutes for our calculations. Since there are ",
+        "model_response": "To find out how many groups can perform, we need to calculate the total available time for performan",
+        "correct": false
+      },
+      {
+        "example_id": "gsm8k_16",
+        "prompt": "A local town is expanding and wants to build several new homes across the next three years. In the f",
+        "expected": "In the second year, they build three times as many homes as the first year which is 12 * 3 = <<12*3=",
+        "model_response": "To find the total number of homes built over the next three years, we need to calculate the number o",
+        "correct": true
+      },
+      {
+        "example_id": "gsm8k_17",
+        "prompt": "A cobra, which has 70 spots, has twice as many spots as a mamba. If there are 40 cobras and 60 mamba",
+        "expected": "A cobra, which has 70 spots, has twice as many spots as a mamba, meaning a mamba has 70/2= <<70/2=35",
+        "model_response": "To find the total number of spots, we first need to find the number of spots on a mamba and then mul",
+        "correct": false
+      },
+      {
+        "example_id": "gsm8k_18",
+        "prompt": "Julie operates the cash register exactly twice as fast as her less-experienced colleague Jewel. Dail",
+        "expected": "While Jewel is processing 50 orders in a day, Julie processes 50 orders/day * 2 = <<50*2=100>>100 or",
+        "model_response": "To find the total weekly production, we need to first determine the daily production of Julie and Je",
+        "correct": true
+      },
+      {
+        "example_id": "gsm8k_19",
+        "prompt": "There are 50 books in a small library. Half of them are written in English, and 10% in German. All o",
+        "expected": "Half of the books are in English, which means 50 * 0.5 = <<50*0.5=25>>25 books.\nGerman books make up",
+        "model_response": "To find the number of Spanish books, we need to first find the number of English and German books, a",
+        "correct": true
+      },
+      {
+        "example_id": "gsm8k_20",
+        "prompt": "Tony is painting a room with four walls. The north and south walls are 10 x 8 feet. The east and wes",
+        "expected": "The north and south walls are 80 square feet each because 10 x 8 = <<10*8=80>>80\nThe east and west w",
+        "model_response": "To find the total cost of painting the room, we need to calculate the total area of the walls that n",
+        "correct": false
+      },
+      {
+        "example_id": "gsm8k_21",
+        "prompt": "Fern is trying to decide between buying the Widgeteer 3000, which makes 60 widgets an hour, and the ",
+        "expected": "First find how many more widgets the Widgeteer 3000 makes per hour: 60 widgets/hour - 45 widgets/hou",
+        "model_response": "To solve this problem, we need to calculate the total number of widgets each machine can produce in ",
+        "correct": false
+      },
+      {
+        "example_id": "gsm8k_22",
+        "prompt": "Each solid 10-foot section of a redwood tree weighs 400 pounds. Termites ate 30% of this redwood's w",
+        "expected": "First find how many 10-foot sections are in the redwood: 200 feet / 10 feet/section = <<200/10=20>>2",
+        "model_response": "To find the total weight of the redwood tree, we need to calculate the total number of 10-foot secti",
+        "correct": false
+      },
+      {
+        "example_id": "gsm8k_23",
+        "prompt": "Dr. Hugo Grumpus and his assistant, Igor, were preparing to perform a laboratory experiment.  Dr. Gr",
+        "expected": "On the lab bench, there were half of the requested number of test tubes, or 16/2=<<16/2=8>>8 test tu",
+        "model_response": "To solve this problem, let's break it down step by step.\n\n1. Dr. Grumpus requested 16 test tubes, bu",
+        "correct": false
+      },
+      {
+        "example_id": "gsm8k_24",
+        "prompt": "For four hours, Patrick sold 15 cups of lemonade per hour at a price of $0.50 per cup.  In the next ",
+        "expected": "Patrick earned $0.50 x 15 = $<<0.5*15=7.50>>7.50 from selling the lemonade for $0.50 per cup.\nSo for",
+        "model_response": "To find out how much money Patrick earned, we need to calculate the total amount of money he earned ",
+        "correct": false
+      },
+      {
+        "example_id": "gsm8k_25",
+        "prompt": "Fred was preparing for a party to be held in four days.  So, he made 24 gallons of root beer on the ",
+        "expected": "Fred started with 24 gallons, but on day 1, his children drank 4 gallons, leaving 24-4=<<24-4=20>>20",
+        "model_response": "To find out how much root beer was available for each person to drink during the party, we need to c",
+        "correct": false
+      },
+      {
+        "example_id": "gsm8k_26",
+        "prompt": "Mark buys a fleet of 12 cars for his company.  Each car sells for $20,000.  He pays 10% tax on the c",
+        "expected": "The cars cost 20000*12=$<<20000*12=240000>>240,000\nSo the tax came out to 240,000*.1=$<<240000*.1=24",
+        "model_response": "To find the total cost, we need to break it down into steps.\n\nStep 1: Calculate the total cost of th",
+        "correct": false
+      },
+      {
+        "example_id": "gsm8k_27",
+        "prompt": "Janet\u2019s ducks lay 16 eggs per day. She eats three for breakfast every morning and bakes muffins for ",
+        "expected": "Janet sells 16 - 3 - 4 = <<16-3-4=9>>9 duck eggs a day.\nShe makes 9 * 2 = $<<9*2=18>>18 every day at",
+        "model_response": "To find out how much Janet makes every day at the farmers' market, we need to follow these steps:\n\n1",
+        "correct": false
+      },
+      {
+        "example_id": "gsm8k_28",
+        "prompt": "Lloyd earns $10 an hour on Math tutoring.  He tutored 5 hours for the first week and 8 hours for the",
+        "expected": "Lloyd tutored 5 + 8 = <<5+8=13>>13 hours for the first two weeks.\nTherefore, he earned 13 x $10 = $<",
+        "model_response": "To find out how much Lloyd earned for the first two weeks, we need to calculate his earnings for eac",
+        "correct": true
+      },
+      {
+        "example_id": "gsm8k_29",
+        "prompt": "Comet Halley orbits the sun every 75 years. Bill's dad saw the Comet when he was 30 years old. Bill ",
+        "expected": "Bill saw the Comet for the second time when he was 30 years * 3= <<30*3=90>>90 years old.\nComet Hall",
+        "model_response": "Let's break down the information step by step.\n\n1. Bill's dad saw the Comet when he was 30 years old",
+        "correct": false
+      },
+      {
+        "example_id": "gsm8k_30",
+        "prompt": "For every muffin, Svetlana needed 5 tablespoons of flour, 3 tablespoons of sugar, and 0.25 of a tabl",
+        "expected": "5 + 3 + 0.25 = <<5+3+0.25=8.25>>8.25 tablespoons\n16 * 8.25 = <<16*8.25=132>>132 tablespoons\nSvetlana",
+        "model_response": "To find out the total amount of dry ingredients needed, we need to calculate the amount of flour, su",
+        "correct": false
+      },
+      {
+        "example_id": "gsm8k_31",
+        "prompt": "Nick, Richard, Jason and DJ each have paintball guns. DJ has 8 guns, Nick has 10 guns, RJ has 1 gun ",
+        "expected": "The total number of guns is 8+10+1+5=<<8+10+1+5=24>>24 guns.\nThey would each have 24/4=<<24/4=6>>6 g",
+        "model_response": "To find out how many guns each person would have if they were shared equally, we need to find the to",
+        "correct": true
+      },
+      {
+        "example_id": "gsm8k_32",
+        "prompt": "The Ben and Aggie Burrito Shop makes 125 chimichangas on Tuesdays, 125 chimichangas on Wednesdays an",
+        "expected": "125*2 = <<125*2=250>>250 chimichangas are made on Friday.\nIn those three days 125+125+250 = <<125+12",
+        "model_response": "To find the total number of chimichangas made on those three days, we need to add up the number of c",
+        "correct": true
+      },
+      {
+        "example_id": "gsm8k_33",
+        "prompt": "Jenny goes to the florist to buy some flowers. Roses cost $2 each and $15 for a dozen. If she bought",
+        "expected": "Jenny has $25 because 5 x 5 = <<5*5=25>>25\nShe buys 1 dozen roses and 3 single roses because 15 - 12",
+        "model_response": "To solve this problem, let's break it down into steps.\n\nStep 1: Calculate the cost of 15 roses. \n- R",
+        "correct": false
+      },
+      {
+        "example_id": "gsm8k_34",
+        "prompt": "Tom decides to give his wife an anniversary getaway.  The plane tickets cost $5000 each.  The hotel ",
+        "expected": "The hotel room is 1500*.2=$<<1500*.2=300>>300 more expensive per night than normal\nSo they paid 1500",
+        "model_response": "To find the total cost of the trip, we need to calculate the cost of the plane tickets and the hotel",
+        "correct": false
+      },
+      {
+        "example_id": "gsm8k_35",
+        "prompt": "John decides to do several activities while out on vacation.  He spends 6 hours boating and half tha",
+        "expected": "He spent 6/2=<<6/2=3>>3 hours swimming\nHe spent 3*2=<<3*2=6>>6 hours watching shows\nSo he spent 6+3+",
+        "model_response": "To find the time John spent sightseeing, we need to follow these steps:\n\n1. Calculate the time John ",
+        "correct": false
+      },
+      {
+        "example_id": "gsm8k_36",
+        "prompt": "Six years ago, when Noah was half as old as Cera, the population of Chile was half what it is now. C",
+        "expected": "If Cera is 46 years old now, she was 46-6 = <<46-6=40>>40 years old six years ago.\nSix years ago, No",
+        "model_response": "Let's break down the problem step by step:\n\n1. Cera is currently 46 years old. \n2. Six years ago, Ce",
+        "correct": false
+      },
+      {
+        "example_id": "gsm8k_37",
+        "prompt": "The number of students in a school hall was 1000. The hall had 3 entrances A, B, and C which also se",
+        "expected": "The number of students who went out through exit A is 30/100%1000 = 300 students.\nThe number of stud",
+        "model_response": "To solve this problem, let's break it down step by step.\n\nStep 1: Calculate the number of students w",
+        "correct": false
+      },
+      {
+        "example_id": "gsm8k_38",
+        "prompt": "A robe takes 2 bolts of blue fiber and half that much white fiber.  How many bolts in total does it ",
+        "expected": "It takes 2/2=<<2/2=1>>1 bolt of white fiber\nSo the total amount of fabric is 2+1=<<2+1=3>>3 bolts of",
+        "model_response": "To find the total number of bolts, we need to calculate the amount of white fiber first. \n\nThe robe ",
+        "correct": true
+      },
+      {
+        "example_id": "gsm8k_39",
+        "prompt": "Miss Albert's class is composed of 12 boys and 12 girls. One-third of the girls and one-fourth of th",
+        "expected": "There are 12 + 12 = <<12+12=24>>24 students in Miss Albert's class.\n12 x 1/3 = <<12*1/3=4>>4 girls a",
+        "model_response": "To find the number of students not on varsity, we first need to find the total number of students on",
+        "correct": true
+      },
+      {
+        "example_id": "gsm8k_40",
+        "prompt": "Avery needs to buy a 3 piece place setting (dinner & salad plate and a bowl) for her holiday dinner.",
+        "expected": "Each place setting will need a dinner plate that\u2019s $6.00, a bowl for $5.00 and a salad plate that\u2019s ",
+        "model_response": "To find the total cost of the place settings, we need to calculate the cost of each setting and then",
+        "correct": true
+      },
+      {
+        "example_id": "gsm8k_41",
+        "prompt": "Richard wants to make a video to share online of him doing a science experiment that creates a fount",
+        "expected": "If Richard's driveway is 24 feet long and he puts a bottle of soda every 3 feet, then out of 24 feet",
+        "model_response": "To find the total time it will take Richard to set off all the soda fountains, we need to follow the",
+        "correct": false
+      },
+      {
+        "example_id": "gsm8k_42",
+        "prompt": "Michael is traveling on the interstate at an average speed of 50km/hr (taking into account all the n",
+        "expected": "There are 24 hours in each day, so he has been traveling for a total of 3*24 = <<24*3=72>>72 hours\nA",
+        "model_response": "To find the percentage of distance covered, we first need to calculate the total distance Michael tr",
+        "correct": true
+      },
+      {
+        "example_id": "gsm8k_43",
+        "prompt": "Betsy and Donovan made a meal together. Betsy's part took 18 minutes longer than Donovan's part. The",
+        "expected": "Let D = Donovan's time in minutes\nBetsy = D + <<+18=18>>18\n2D + 18 = 98\n2D = 80\nD = <<40=40>>40\nBets",
+        "model_response": "Let's break it down step by step:\n\n1. Let's say Donovan's part took x minutes.\n2. Since Betsy's part",
+        "correct": true
+      },
+      {
+        "example_id": "gsm8k_44",
+        "prompt": "Shania is designing her own dress, and decides to make it a longer dress by extending the dress by 5",
+        "expected": "Without the lace trim, the dress is 140cm full length \u2013 20cm lace trim = <<140-20=120>>120cm.\nLet's ",
+        "model_response": "Let's break down the problem step by step.\n\n1. The final design is 140cm long.\n2. Shania added 20cm ",
+        "correct": false
+      },
+      {
+        "example_id": "gsm8k_45",
+        "prompt": "My wife wants to evenly split the check but wants me to pay an additional 20% tip on our $50 dinner ",
+        "expected": "If the total bill is $50, the total tip of 20% would be $50*20% = $<<50*20*.01=10>>10\nSimilarly, if ",
+        "model_response": "To find out how much you ended up paying, we need to calculate the total bill first, including the 2",
+        "correct": false
+      },
+      {
+        "example_id": "gsm8k_46",
+        "prompt": "Peter plans to go to the movies this week. He always gets a ticket for $7 and popcorn for $7. If he ",
+        "expected": "It costs him $14 to go to the movies because 7 + 7 = <<7+7=14>>14\nHe can go to the movies 3 times be",
+        "model_response": "To find out how many times Peter can go to the movies, we need to calculate how many times he can af",
+        "correct": true
+      },
+      {
+        "example_id": "gsm8k_47",
+        "prompt": "Every hour, Paige can bake 2 banana bread loaves in the oven.  Each banana bread loaf is cut into 8 ",
+        "expected": "From 1pm - 6pm, there are 6 - 1 = <<6-1=5>>5 hours.\nIn 5 hours, Paige baked 5 x 2 = <<5*2=10>>10 ban",
+        "model_response": "To find the total amount raised, we need to break down the problem into steps:\n\n1. Determine the tot",
+        "correct": false
+      },
+      {
+        "example_id": "gsm8k_48",
+        "prompt": "While working at the restaurant, each of the forty customers who came into the restaurant gave Rafae",
+        "expected": "The total amount of money that Rafaela received as tips from the forty customers is 40*$20 = $<<40*2",
+        "model_response": "Let's break down the problem step by step.\n\n1. Rafaela received a $20 tip from each of the 40 custom",
+        "correct": false
+      },
+      {
+        "example_id": "gsm8k_49",
+        "prompt": "After tracking his workout routine for 8 weeks, Josh discovered that he had spent 4 hours working ou",
+        "expected": "For 2 weeks, he spent 5 hours each for a total of 5*2 = <<5*2=10>>10 hours\nIn another week, he spent",
+        "model_response": "To find the total number of hours Josh spent working out, we need to break down the information give",
+        "correct": false
+      },
+      {
+        "example_id": "gsm8k_50",
+        "prompt": "After transferring to a new school, Amy made 20 more friends than Lily. If Lily made 50 friends, how",
+        "expected": "If Lily made 50 friends, Amy made 50+20 =<<50+20=70>>70 friends.\nTogether, they made 70+50 = <<70+50",
+        "model_response": "To find the total number of friends Lily and Amy have together, we need to find Amy's number of frie",
+        "correct": true
+      },
+      {
+        "example_id": "gsm8k_51",
+        "prompt": "48 people are riding a bus. On the first stop, 8 passengers get off, and 5 times as many people as t",
+        "expected": "At the first stop, 5 * 8 = <<5*8=40>>40 passengers get on the bus.\nAfter the first stop the bus has ",
+        "model_response": "To solve this problem, let's break it down step by step.\n\nInitially, there are 48 people on the bus.",
+        "correct": true
+      },
+      {
+        "example_id": "gsm8k_52",
+        "prompt": "Digimon had its 20th anniversary.  When it came out John was twice as old as Jim.  If John is 28 now",
+        "expected": "When Digimon came out John would have been 28-20=<<28-20=8>>8\nSo Jim was 8/2=<<8/2=4>>4 years old\nTh",
+        "model_response": "To find Jim's age, we need to first find out how old John was 20 years ago. \n\nJohn's current age is ",
+        "correct": true
+      },
+      {
+        "example_id": "gsm8k_53",
+        "prompt": "Valerie earns $5000 per month, 1/2 of what her brother earns. If their mother earns twice their comb",
+        "expected": "Valerie's brother earns 2 * $5000 = $<<2*5000=10000>>10000\nTheir combined salary is $5000+$10000 = $",
+        "model_response": "To find the total amount of money they all have together, let's break it down step by step.\n\n1. Vale",
+        "correct": false
+      },
+      {
+        "example_id": "gsm8k_54",
+        "prompt": "Last week the IRS received 5168 tax reports. On Monday and Tuesday they received a total of 1907 rep",
+        "expected": "Mon/Tues = 1907\nThur/Fri = 2136\nMon, Tues, Thur, Fri = 1907 + 2136 = <<1907+2136=4043>>4043\n5168 - 4",
+        "model_response": "To find out how many reports the IRS received on Wednesday, we need to subtract the total number of ",
+        "correct": true
+      },
+      {
+        "example_id": "gsm8k_55",
+        "prompt": "Two track teams are competing against each other in a 4 by 400 meter relay; a race where each compet",
+        "expected": "The first team will finish the relay in 4*55 = <<4*55=220>>220 seconds.\nOn the second team we must d",
+        "model_response": "To find the winning margin, we need to calculate the total time taken by both teams.\n\nThe well-round",
+        "correct": false
+      },
+      {
+        "example_id": "gsm8k_56",
+        "prompt": "A mechanic charges different rates to repair the tires of trucks and cars.  For each truck tire that",
+        "expected": "On Thursday the mechanic charged a total of 6*60 + 4*40 = $<<6*60+4*40=520>>520.\nOn Friday the mecha",
+        "model_response": "To find out which day had higher revenue, we need to calculate the total revenue for each day.\n\nOn T",
+        "correct": false
+      },
+      {
+        "example_id": "gsm8k_57",
+        "prompt": "Jerry is rolling a six-sided die. How much more likely is it (expressed as a percentage) that he rol",
+        "expected": "There are 3 numbers greater than 3 on the dice, so the chances of rolling one of them are 3 / 6 = 50",
+        "model_response": "To solve this problem, we need to calculate the probabilities of both events and then find the diffe",
+        "correct": false
+      },
+      {
+        "example_id": "gsm8k_58",
+        "prompt": "Janet takes two bus trips five days a week. If each bus trip costs her $2.20, how much would she sav",
+        "expected": "First find the total number of trips Janet takes during the week: 2 trips/day * 5 days/week = <<2*5=",
+        "model_response": "To find out how much Janet would save by buying a weekly bus pass, we need to calculate the cost of ",
+        "correct": true
+      },
+      {
+        "example_id": "gsm8k_59",
+        "prompt": "Gary likes to walk around the edge of the local park, which is a rectangle that measures 1.5 miles b",
+        "expected": "First find the length of the two long sides of the park: 6 miles * 2 = <<6*2=12>>12 miles\nThen find ",
+        "model_response": "To find out how many hours Gary spends walking, we need to first calculate the total distance he wal",
+        "correct": false
+      },
+      {
+        "example_id": "gsm8k_60",
+        "prompt": "Tom's restaurant gets 6 reservations a night.  They normally order 2 meals that cost $5 each and a $",
+        "expected": "The meals cost 2*5=$<<2*5=10>>10 per table\nSo each table pays 10+5=$<<10+5=15>>15 a night\nSo they ma",
+        "model_response": "To find out how much Tom's restaurant makes in a week, we need to calculate their daily revenue and ",
+        "correct": true
+      },
+      {
+        "example_id": "gsm8k_61",
+        "prompt": "Marin and his neighbor Nancy each eat 4 apples a day. How many apples do they eat in 30 days?",
+        "expected": "In one day, Marin and Nancy eat 4 + 1 = <<4+1=5>>5 apples.\nIn 30 days, they eat 30 * 5 = <<30*5=150>",
+        "model_response": "To find the total number of apples they eat in 30 days, we need to follow these steps:\n\n1. Calculate",
+        "correct": false
+      },
+      {
+        "example_id": "gsm8k_62",
+        "prompt": "Cody and Trevor had 12 sandwiches. Cody ate a third of the sandwiches, and Trevor ate a quarter of t",
+        "expected": "Cody ate 12/3=<<12/3=4>>4 sandwiches.\nTrevor ate 12/4=<<12/4=3>>3 sandwiches.\nCody and Trevor ate 4+",
+        "model_response": "To find out how many sandwiches are left, we need to calculate how many sandwiches Cody and Trevor a",
+        "correct": true
+      },
+      {
+        "example_id": "gsm8k_63",
+        "prompt": "Greta\u2019s paycheck is $2400.00. She puts 50% of her pay into her retirement account. She then uses 20%",
+        "expected": "Her paycheck is $2400.00 and she puts 50% into her retirement so that\u2019s 2400*.50 = $<<2400*.50=1200.",
+        "model_response": "To find out how much money Greta has left to spend, we need to follow these steps:\n\n1. Calculate 50%",
+        "correct": true
+      },
+      {
+        "example_id": "gsm8k_64",
+        "prompt": "Jon's car needs a tune-up every 1000 miles.  He drives 100 miles a day for a 30 day month.  How many",
+        "expected": "He drives 100*30=<<100*30=3000>>3000 miles\nSo he needs 3000/1000=<<3000/1000=3>>3 tune-ups\n#### 3",
+        "model_response": "To find out how many tune-ups Jon needs in a 30-day month, we first need to calculate the total mile",
+        "correct": true
+      },
+      {
+        "example_id": "gsm8k_65",
+        "prompt": "One meatball sub sandwich contains 4 meatballs.  Sidney ordered 3 less than ten meatball sub sandwic",
+        "expected": "3 less than ten meatball sub sandwiches is 10-3=<<10-3=7>>7 sub sandwiches.\nAfter Mark ate 4 of Sidn",
+        "model_response": "Let's break down the problem step by step.\n\n1. Sidney ordered 3 less than ten meatball sub sandwiche",
+        "correct": false
+      },
+      {
+        "example_id": "gsm8k_66",
+        "prompt": "Two girls each got 1/6 of the 24 liters of water. Then a boy got 6 liters of water. How many liters ",
+        "expected": "Each of the girls got 24 x 1/6 = <<24*1/6=4>>4 liters of water.\nSo the two girls got a total of 4 x ",
+        "model_response": "To find out how many liters of water were left, let's break down the problem step by step.\n\n1. Two g",
+        "correct": true
+      },
+      {
+        "example_id": "gsm8k_67",
+        "prompt": "Charlie wants to sell beeswax candles.  For every pound of beeswax, he can make 10 tapered candles. ",
+        "expected": "1 pound of beeswax and the wick make 10 candles and he wants to make 20 candles so he needs 20/10 = ",
+        "model_response": "To find Charlie's net profit, we need to calculate the total revenue and the total cost.\n\n1. Total r",
+        "correct": true
+      },
+      {
+        "example_id": "gsm8k_68",
+        "prompt": "Alice has 6 more books than Steven. Clara has two times as many books as Steven. If Clara has 20 boo",
+        "expected": "Steven has 20/2 = <<20/2=10>>10 books\nAlice has 10+6 = <<10+6=16>>16 books\nClara has 20-16 = <<20-16",
+        "model_response": "To solve this problem, let's break it down step by step.\n\n1. Clara has 20 books and she has two time",
+        "correct": true
+      },
+      {
+        "example_id": "gsm8k_69",
+        "prompt": "Rose bought five dozens of eggs for $2.40 a dozen. She will sell it for $1 for 3 eggs. How much will",
+        "expected": "Rose bought five dozens of eggs for $2.40 x 5 = $<<2.40*5=12>>12.\nFive dozens of eggs is equal to 12",
+        "model_response": "To find Rose's profit, we need to calculate the total cost and total revenue.\n\nStep 1: Calculate the",
+        "correct": false
+      },
+      {
+        "example_id": "gsm8k_70",
+        "prompt": "John just started watching a new show.  Each episode is 20 minutes long, and there are half as many ",
+        "expected": "Since there are half as many episodes as the number of minutes per episode, we perform 20/2=<<20/2=1",
+        "model_response": "Let's break it down step by step.\n\n1. Each episode is 20 minutes long.\n2. There are half as many epi",
+        "correct": true
+      },
+      {
+        "example_id": "gsm8k_71",
+        "prompt": "Dax went to their farm to pick some apples and found half as many bugs as ants in the garden. If the",
+        "expected": "If there were 50 ants, the total number of bugs in the garden is 1 bug/2 ants * 50 ants = 25 bugs\nTh",
+        "model_response": "To find the total number of insects in the garden, we need to first find the number of bugs. \n\nSince",
+        "correct": true
+      },
+      {
+        "example_id": "gsm8k_72",
+        "prompt": "Nik has 200 crayons. He wants to separate them into groups of 8 and put them into boxes.  Each box w",
+        "expected": "First find how many boxes Nik needs. 200 crayons / 8 crayons per box = <<200/8=25>>25 boxes.\n25 boxe",
+        "model_response": "To find the total weight of the crayons and the boxes, we need to calculate the total weight of the ",
+        "correct": false
+      },
+      {
+        "example_id": "gsm8k_73",
+        "prompt": "Jake is shopping at a clothing store. The store has a buy one get one 50% off deal on T-shirts. Jake",
+        "expected": "The cost of a T-shirt after 50% is taken off of the original price is $8 * 0.50 = $<<8*0.50=4>>4\nThe",
+        "model_response": "Let's break down the problem step by step.\n\n**Step 1: Calculate the cost of the T-shirts**\n\n- The or",
+        "correct": false
+      },
+      {
+        "example_id": "gsm8k_74",
+        "prompt": "Steve decides to start eating more tomatoes and decides to grows his own cherry tomatoes.  He eats t",
+        "expected": "His girlfriend eats 6/2=<<6/2=3>>3 tomatoes per day\nSo together they eat 6+3=<<6+3=9>>9 tomatoes a d",
+        "model_response": "To find out how many vines Steve needs, we need to calculate how many tomatoes he eats per week and ",
+        "correct": false
+      },
+      {
+        "example_id": "gsm8k_75",
+        "prompt": "Grandpa loves to eat jelly beans, but how many jelly beans he can eat depends on the size of the bea",
+        "expected": "If Grandpa can eat twice as many medium beans as large beans, then eating 75 large beans is the same",
+        "model_response": "To find out how many small beans Grandpa can eat, let's break it down step by step.\n\n1. It takes 75 ",
+        "correct": true
+      },
+      {
+        "example_id": "gsm8k_76",
+        "prompt": "Lisa and Peter are selling chocolate bars door to door. Lisa sold three and a half boxes of chocolat",
+        "expected": "Let B stand for the number of chocolate bars in a box.\nLisa sold 3 1/2 * B bars.\nPeter sold 4 1/2 * ",
+        "model_response": "To find out how many chocolate bars are in a box, we need to follow these steps:\n\n1. First, let's ad",
+        "correct": true
+      },
+      {
+        "example_id": "gsm8k_77",
+        "prompt": "For his 30th birthday, Elvira chose a new computer with many accessories as a gift. She has a budget",
+        "expected": "First, let\u2019s look at the total cost of computer equipment: 1090 + 157 + 74 + 102 = <<1090+157+74+102",
+        "model_response": "To determine how much money Elvira will have left for her clothing, we need to calculate the total c",
+        "correct": true
+      },
+      {
+        "example_id": "gsm8k_78",
+        "prompt": "In a set of magicians cards, there are 15 red cards, and 60% more green cards. Yellow cards are as m",
+        "expected": "There are 60/100 * 15 = <<60/100*15=9>>9 more green cards than red cards.\nWhich means there are 15 +",
+        "model_response": "To find the total number of cards of all mentioned colors, we need to calculate the number of green ",
+        "correct": true
+      },
+      {
+        "example_id": "gsm8k_79",
+        "prompt": "Sandy wants to lose as much weight as Joey does but needs 4 weeks to lose the same amount of weight ",
+        "expected": "Joey loses 8 pounds / 4 weeks = <<8/4=2>>2 pounds per week.\nIn order to match Joey, Sandy should los",
+        "model_response": "To solve this problem, let's break it down step by step:\n\n1. Joey loses 8 pounds in 4 weeks. \n2. San",
+        "correct": false
+      },
+      {
+        "example_id": "gsm8k_80",
+        "prompt": "Brinley is in Mr. Bert's math class. Mr. Bert gives six tests each semester. He allows the students ",
+        "expected": "First, identify the lowest score, which is 71, and remove it.\nSince Brinley wants a score of 93, we ",
+        "model_response": "To find the score Brinley needs on the sixth test, we need to follow these steps:\n\n1. First, let's f",
+        "correct": false
+      },
+      {
+        "example_id": "gsm8k_81",
+        "prompt": "Patricia has 30 roses. She gave 24 roses to her mother. She bought 15 more roses.  How many roses di",
+        "expected": "Patricia had 30 - 24 = <<30-24=6>>6 roses left after she gave 24 roses to her mother.\nTherefore, she",
+        "model_response": "Let's break it down step by step:\n\n1. Patricia initially had 30 roses.\n2. She gave 24 roses to her m",
+        "correct": true
+      },
+      {
+        "example_id": "gsm8k_82",
+        "prompt": "John decides to take up an odd hobby of speed talking.  His normally speaking speed is 150 WPM.  Aft",
+        "expected": "He can speak 150*2.5=<<150*2.5=375>>375 words per minute\nHe wants to say 450*10=<<450*10=4500>>4500 ",
+        "model_response": "To find the time it would take John to speak 10 pages, we need to follow these steps:\n\n1. First, we ",
+        "correct": true
+      },
+      {
+        "example_id": "gsm8k_83",
+        "prompt": "Mrs. Harrington bought 12 boxes of oranges at the market. She gave her mom and her sister 2 boxes of",
+        "expected": "Mrs. Harrington gave a total of 2 x 2 = <<2*2=4>>4 boxes of oranges to her mom and sister.\nShe then ",
+        "model_response": "To find out how many oranges Mrs. Harrington sold, we need to follow the steps:\n\n1. First, let's fin",
+        "correct": false
+      },
+      {
+        "example_id": "gsm8k_84",
+        "prompt": "Ara joined the school basketball team four years ago. She has been playing 40 games every year. If h",
+        "expected": "Forty games every year translates to 40*4 = <<40*4=160>>160 games in four years.\nIf Ara scores 21 po",
+        "model_response": "To find the total number of points Ara has scored in four years, we need to follow these steps:\n\n1. ",
+        "correct": true
+      },
+      {
+        "example_id": "gsm8k_85",
+        "prompt": "Carver just turned 45 years old, which makes him 5 years less than twice the age of his son.  How ol",
+        "expected": "Let x be the age of Carver's son.\nSince Carver's age (45) is 5 years less than twice the age of his ",
+        "model_response": "To find the son's age, let's break it down step by step.\n\nLet the son's age be 'x' years.\n\nAccording",
+        "correct": true
+      },
+      {
+        "example_id": "gsm8k_86",
+        "prompt": "Gerald works at a daycare that pays him $30 every day. He worked for an entire week and spent a tota",
+        "expected": "He earns $30 daily for a week (7 days) for a total earnings of $30*7 = $<<30*7=210>>210\nHe spent $10",
+        "model_response": "To find out how much Gerald has left, we need to calculate how much he earned in a week and then sub",
+        "correct": true
+      },
+      {
+        "example_id": "gsm8k_87",
+        "prompt": "Carrie is planning the caroling schedule. The choir plans to sing \"Deck the Halls\" twice and \"Jingle",
+        "expected": "First find the total time the choir spends singing \"Deck the Halls\": 2 * 150 seconds = <<2*150=300>>",
+        "model_response": "Let's break it down step by step:\n\n1. The choir plans to sing \"Deck the Halls\" twice. This means the",
+        "correct": true
+      },
+      {
+        "example_id": "gsm8k_88",
+        "prompt": "Anna is trying to buy books for her local library. She had a budget of $16, and she has already spen",
+        "expected": "Anna had already spent some money, so she started the day with $16 \u2013 $4 = $<<16-4=12>>12.\nShe has mo",
+        "model_response": "Let's break down the problem step by step.\n\n1. Anna had a budget of $16 and has already spent $4, so",
+        "correct": false
+      },
+      {
+        "example_id": "gsm8k_89",
+        "prompt": "Linus works for a trading company. He buys a mobile device for $20 and sells it for twice the amount",
+        "expected": "The total cost for the devices he bought on Monday is 2*20= <<2*20=40>>40\nThe total cost for the dev",
+        "model_response": "To find the total profit, we need to calculate the profit from each device and then add them up.\n\n1.",
+        "correct": true
+      },
+      {
+        "example_id": "gsm8k_90",
+        "prompt": "Ricardo grows tomatoes and eggplants in his garden. Each tomato plant yields 22 tomatoes while each ",
+        "expected": "Ricardo can get 22 x 5 = <<22*5=110>>110 tomatoes.\nHe can get 4 x 8 = <<4*8=32>>32 eggplants.\nTheref",
+        "model_response": "To find the total number of fruits, we need to calculate the number of tomatoes and eggplants separa",
+        "correct": true
+      },
+      {
+        "example_id": "gsm8k_91",
+        "prompt": "Uriah's book bag is getting too heavy for him. He needs to remove 15 pounds from it. His comic books",
+        "expected": "30 comic books weigh 7.5 pounds because 30 x .25 = <<30*.25=7.5>>7.5\nHe needs to remove 7.5 more pou",
+        "model_response": "To find out how many toys Uriah needs to remove, we need to follow these steps:\n\n1. First, let's cal",
+        "correct": false
+      },
+      {
+        "example_id": "gsm8k_92",
+        "prompt": "Jon runs a triathlon.  It takes him 40 minutes for the swim, an hour and 20 minutes for the bike rid",
+        "expected": "Jon did the bike ride in 60+20=<<60+20=80>>80 minutes\nSo his total time was 40+80+50=<<40+80+50=170>",
+        "model_response": "To find the time it took James to do the run, we need to first calculate the total time it took Jame",
+        "correct": false
+      },
+      {
+        "example_id": "gsm8k_93",
+        "prompt": "4 adults and 8 children are to share 8 packets of chocolate bars. Each packet contains 5 chocolate b",
+        "expected": "Each packet contains 5 chocolate bars so 8 packets contain a total of 8*5 = <<8*5=40>>40 bars\nEach a",
+        "model_response": "To find out how many chocolate bars each child will get, we need to follow these steps:\n\n1. Calculat",
+        "correct": false
+      },
+      {
+        "example_id": "gsm8k_94",
+        "prompt": "Bob has a certain number of marbles. If he receives 2 dozen more marbles, he will have 60 marbles. I",
+        "expected": "Let B be the number of marbles Bob starts with.\n2 dozen marbles is 2 * 12 = <<2*12=24>>24 marbles.\nS",
+        "model_response": "To find out how many marbles Bob has, let's break down the problem step by step.\n\n1. If Bob receives",
+        "correct": true
+      },
+      {
+        "example_id": "gsm8k_95",
+        "prompt": "9 out of 10 cheerleaders are 64\" tall.  The 10th cheerleader is 60\" tall.  If they build a human pyr",
+        "expected": "All but one cheerleader is 64\" tall and these cheerleaders make up the bottom 3 layers of the pyrami",
+        "model_response": "To find the total height of the human pyramid, we need to calculate the height of each level and add",
+        "correct": false
+      },
+      {
+        "example_id": "gsm8k_96",
+        "prompt": "There are 36 penguins sunbathing in the snow.  One-third of them jump in and swim in the ocean.  Ano",
+        "expected": "This many penguins are swimming: 36/3 = <<36/3=12>>12 penguins.\nThis many penguins are eating their ",
+        "model_response": "To find the number of penguins left sunbathing, we need to determine how many penguins are no longer",
+        "correct": true
+      },
+      {
+        "example_id": "gsm8k_97",
+        "prompt": "A wooden bridge can carry no more than 5000 pounds. A delivery truck filled with identical boxes, ea",
+        "expected": "The boxes can weigh up to 5000 pounds - 3755 pounds = <<5000-3755=1245>>1245 pounds in total.\nThere ",
+        "model_response": "To find the maximum number of boxes that can be loaded onto the truck, we need to follow these steps",
+        "correct": true
+      },
+      {
+        "example_id": "gsm8k_98",
+        "prompt": "Melissa works as a pet groomer. This week, she has 8 dogs that need to be bathed, 5 cats that need t",
+        "expected": "Melissa has 8 + 5 + 3 + 12 = <<8+5+3+12=28>>28 animals to groom over the next week.\nTherefore, She w",
+        "model_response": "To find out how many animals Melissa will groom each day, we need to calculate the total number of a",
+        "correct": true
+      },
+      {
+        "example_id": "gsm8k_99",
+        "prompt": "To make 1 liter of juice, Sam needs 5 kilograms of oranges. Each kilogram of oranges costs $3. How m",
+        "expected": "To make 4 liters of juice, Sam needs 4 * 5 = <<4*5=20>>20 kilograms of oranges.\nIf one kilogram of o",
+        "model_response": "To find out how much money Sam needs to spend, we need to break down the problem into steps.\n\nStep 1",
+        "correct": true
+      },
+      {
+        "example_id": "gsm8k_100",
+        "prompt": "A bag of buttons had 21 buttons in it. Seven buttons had two holes and the rest had four holes. How ",
+        "expected": "There were 21 - 7 = <<21-7=14>>14 buttons with four holes.\nThe four-holed buttons had 14 * 4 = <<14*",
+        "model_response": "To find the total number of holes in the buttons, we need to calculate the number of holes in the bu",
+        "correct": true
+      },
+      {
+        "example_id": "gsm8k_101",
+        "prompt": "Wendy is five times as old as Colin will be seven years from now. In 25 years, Colin will be a third",
+        "expected": "Let x be Colin's age now.\n(x+7)*5=(x+25)*3\n5*x+35=3*x+75\n2*x=40\nx=<<20=20>>20\n#### 20",
+        "model_response": "Let's break down the problem step by step.\n\n1. Let Wendy's current age be W and Colin's current age ",
+        "correct": false
+      },
+      {
+        "example_id": "gsm8k_102",
+        "prompt": "Teresa sells large stuffed animals for three times the price of small stuffed animals. Today, she so",
+        "expected": "Let A be the number of large stuffed animals Teresa sold.\nThus, she sold 2A small stuffed animals.\nL",
+        "model_response": "Let's break down the problem step by step.\n\n1. Let's assume the number of large stuffed animals sold",
+        "correct": false
+      },
+      {
+        "example_id": "gsm8k_103",
+        "prompt": "A loaf of bread at the bakery costs $2. Bagels cost $1 each. How much more do 3 loaves of bread cost",
+        "expected": "3 loaves of bread cost 3 * $2 = $<<3*2=6>>6.\n2 bagels cost 2 * $1 = $<<2*1=2>>2.\nThe loaves of bread",
+        "model_response": "To find the difference in cost, we need to calculate the cost of 3 loaves of bread and 2 bagels sepa",
+        "correct": true
+      },
+      {
+        "example_id": "gsm8k_104",
+        "prompt": "Ophelia and Jenna are living in the same apartment building. They each have 2 fewer sofas than chair",
+        "expected": "If Ophelia has 20 sofas and 2 fewer sofas than chairs, she has 20+2 = <<20+2=22>>22 chairs.\nJenna ha",
+        "model_response": "To solve this problem, let's break it down into steps.\n\nStep 1: We know Ophelia has 20 sofas. Since ",
+        "correct": false
+      },
+      {
+        "example_id": "gsm8k_105",
+        "prompt": "Tom found 214 seashells, Nancy found 432 seashells, and Benny found 86 seashells on the beach. When ",
+        "expected": "Together they found 214 + 432 + 86 = <<214+432+86=732>>732 seashells before cleaning.\nAfter cleaning",
+        "model_response": "To find the total number of good seashells, we need to add the number of seashells found by Tom, Nan",
+        "correct": true
+      },
+      {
+        "example_id": "gsm8k_106",
+        "prompt": "At the Burger Palace restaurant, there is an enormous jar containing red, blue and green jelly beans",
+        "expected": "If the total number of jelly beans is 4500, there must be 1500 blue jelly beans\n4500/3= <<4500/3=150",
+        "model_response": "To solve this problem, let's break it down step by step.\n\n1. Let's assume the number of blue jelly b",
+        "correct": false
+      },
+      {
+        "example_id": "gsm8k_107",
+        "prompt": "May is getting her hair cut and colored. It costs $40 for the color and $30 per inch of haircut. If ",
+        "expected": "She had 2 inches cut because 10-8=<<10-8=2>>2\nIt cost $60 for the cut because 2 x 30 =<<2*30=60>>60\n",
+        "model_response": "To find the total cost, we need to calculate the cost of the haircut and the cost of the color separ",
+        "correct": true
+      },
+      {
+        "example_id": "gsm8k_108",
+        "prompt": "Coach brought one bag filled with basketballs to practice and dumped them all out onto the gym floor",
+        "expected": "Since Jordan carried twice as many balls as Jason, Jordan carried 2*2=<<2*2=4>>4 balls.\nSince Jason ",
+        "model_response": "To find the total number of balls, we need to determine how many balls each boy carried and then add",
+        "correct": true
+      },
+      {
+        "example_id": "gsm8k_109",
+        "prompt": "Ellen and her sister, Lani, went to the mall to buy presents for their mom. Ellen bought a pair of l",
+        "expected": "Ellen spent $100 + $5 = $<<100+5=105>>105.\nTwo bathrobes cost 2 x $100 = $<<2*100=200>>200.\nSo, Lani",
+        "model_response": "To find out how much Ellen and Lani spent in total, we need to calculate the amount each of them spe",
+        "correct": true
+      },
+      {
+        "example_id": "gsm8k_110",
+        "prompt": "Kimberly bought 8 packages of cat food and 6 packages of dog food. Each package of cat food containe",
+        "expected": "The number of cat food tins that Kimberley has bought is 8 \u00d7 11 = <<8*11=88>>88.\nWhilst the number o",
+        "model_response": "To find out how many more tins of cat food than dog food Kimberly bought, we need to calculate the t",
+        "correct": false
+      },
+      {
+        "example_id": "gsm8k_111",
+        "prompt": "Watson works a 10-hour shift each day, five days a week. He earns $10 per hour and gets a $300 bonus",
+        "expected": "In a day, Watson makes 10 * 10 = $<<10*10=100>>100\nIf he works five days a week, the total number of",
+        "model_response": "To calculate how much money Watson made in April, we need to break it down into smaller steps.\n\nStep",
+        "correct": false
+      },
+      {
+        "example_id": "gsm8k_112",
+        "prompt": "A cat eats nine sausages in 30 minutes. A dog can eat the same number of sausages in 2/3 the amount ",
+        "expected": "If the cat takes 30 minutes to eat the sausages, the dog takes 2/3*30 = <<30*2/3=20>>20 minutes.\nThe",
+        "model_response": "To find the average time the two take to eat the sausages, we need to first find the time it takes f",
+        "correct": true
+      },
+      {
+        "example_id": "gsm8k_113",
+        "prompt": "James runs 12 miles a day for 5 days a week.  If he runs 10 miles an hour how many hours does he run",
+        "expected": "He runs 5*12=<<5*12=60>>60 miles a week\nThat means he runs 60/10=<<60/10=6>>6 hours a week\n#### 6",
+        "model_response": "To find out how many hours James runs a week, we need to follow these steps:\n\n1. First, we need to f",
+        "correct": true
+      },
+      {
+        "example_id": "gsm8k_114",
+        "prompt": "There are 40 pupils in a class. Half of the class likes blue. One-fourth of the remaining likes gree",
+        "expected": "There are 40/2 = <<40/2=20>>20 pupils who like blue.\nSo, there are now 40 - 20 = <<40-20=20>>20 pupi",
+        "model_response": "Let's break down the problem step by step:\n\n1. Half of the class likes blue: \n   Total pupils = 40\n ",
+        "correct": true
+      },
+      {
+        "example_id": "gsm8k_115",
+        "prompt": "Dominick went to his team's changing room and saw half as many robots as helmets and half as many he",
+        "expected": "If the number of helmets was 20, there were 2 footballs/helmet * 20 helmets = <<20*2=40>>40 football",
+        "model_response": "To find the total number of items Dominick saw, we need to calculate the number of robots and footba",
+        "correct": true
+      },
+      {
+        "example_id": "gsm8k_116",
+        "prompt": "A shop sells school supplies. One notebook is sold at $1.50 each, a pen at $0.25 each, a calculator ",
+        "expected": "Five notebooks cost $5 x 1.50 = $<<5*1.50=7.50>>7.50\nTwo pens cost 2 x $0.25 = $<<2*0.25=0.50>>0.50.",
+        "model_response": "To find the total amount Daniel has to spend, we need to calculate the cost of all the items he want",
+        "correct": true
+      },
+      {
+        "example_id": "gsm8k_117",
+        "prompt": "A singer has 50 microphones that he wants to arrange in pairs on a stage. While making the arrangeme",
+        "expected": "The number of microphones that were not able to find space on the stage is 20/100*50 = <<20/100*50=1",
+        "model_response": "To find the number of pairs of microphones the singer was able to arrange, we need to follow these s",
+        "correct": false
+      },
+      {
+        "example_id": "gsm8k_118",
+        "prompt": "To raise money for their class fund, each of the 30 students from one class sold lollipops that cost",
+        "expected": "The class got $0.8 - $0.5 = $<<0.8-0.5=0.3>>0.3 profit from each lollipop.\nSo each student raised $0",
+        "model_response": "To find the total profit made by the class, we need to follow these steps:\n\n1. Calculate the total n",
+        "correct": false
+      },
+      {
+        "example_id": "gsm8k_119",
+        "prompt": "There are 10 quarts of tea left from the party. Four students each drank 1.5 quarts of tea and 16 st",
+        "expected": "4 students drank 1.5 quarts = 4 * 1.5 = <<4*1.5=6>>6 quarts\n16 students drank 2 quarts = 16 * 2 = <<",
+        "model_response": "To find the total amount of tea at the beginning of the party, we need to calculate the total amount",
+        "correct": false
+      },
+      {
+        "example_id": "gsm8k_120",
+        "prompt": "Mrs. Tatiana owns a grocery store that sells different fruits and vegetables, which includes carrots",
+        "expected": "In the first year, the price of carrots increases by 5/100*120 = $<<5/100*120=6>>6\nAfter 3 years, th",
+        "model_response": "To find the price of carrots after three years, we need to calculate the price increase each year an",
+        "correct": true
+      },
+      {
+        "example_id": "gsm8k_121",
+        "prompt": "James buys a plane.  The plane cost $150,000.  He pays $5000 a month to rent a hanger to keep it in.",
+        "expected": "The fuel cost 5000*2=$<<5000*2=10000>>10000 per month\nWith the hanger that means he pays 10000+5000=",
+        "model_response": "To find out how much it cost James to get and maintain the plane for the first year, we need to brea",
+        "correct": false
+      },
+      {
+        "example_id": "gsm8k_122",
+        "prompt": "John collects garbage from 3 different apartment complexes.  The first two have 200 apartments each ",
+        "expected": "The first two complexes have 200+200=<<200+200=400>>400 apartments\nThe third one has 400*.6=<<400*.6",
+        "model_response": "Let's break down the problem step by step:\n\n1. The first two apartment complexes have 200 apartments",
+        "correct": false
+      },
+      {
+        "example_id": "gsm8k_123",
+        "prompt": "Shiela is required to submit a 15-page research paper. She already finished writing 1/3 of the paper",
+        "expected": "Shiela has already written one third of the paper which is 15 pages x 1/3 = <<15*1/3=5>>5 pages.\nSo,",
+        "model_response": "To find out how many pages Shiela has left to write, we need to calculate 1/3 of the total pages and",
+        "correct": true
+      },
+      {
+        "example_id": "gsm8k_124",
+        "prompt": "Micheal loves riding a bike. He rode it at least 5 times a week and makes 25 kilometers each time. H",
+        "expected": "In the first part, Micheal did 5 * 25 = <<5*25=125>>125 kilometers every week.\nHe did that for four ",
+        "model_response": "To find the total number of kilometers Michael rode his bike, we'll break it down into two parts: \n\n",
+        "correct": false
+      },
+      {
+        "example_id": "gsm8k_125",
+        "prompt": "Arianna plants a garden that has 10 rows of flowers with 20 flowers in each row. Currently, only 4/5",
+        "expected": "Arianna planted 10 x 20 = <<10*20=200>>200 flowers in her garden.\nOut of the 200, 200 x 4/5 = <<200*",
+        "model_response": "To find the total number of flowers that have bloomed, we need to follow these steps:\n\n1. First, we ",
+        "correct": true
+      },
+      {
+        "example_id": "gsm8k_126",
+        "prompt": "Mulan has $40. Her father gave her $100. She buys two pairs of jeans at $30 each and a bag for $20. ",
+        "expected": "Mulan has a total of $40 + $100 = $<<40+100=140>>140.\nTwo pairs of jeans cost 2 x $30 = $<<2*30=60>>",
+        "model_response": "To find out how much money Mulan has left, we need to follow the steps:\n\n1. Mulan starts with $40.\n2",
+        "correct": true
+      },
+      {
+        "example_id": "gsm8k_127",
+        "prompt": "Mel uses a 900-watt air conditioner for 8 hours a day. This means that each hour the AC uses 900 wat",
+        "expected": "An air conditioner uses 900 x 8 = <<900*8=7200>>7200 watts for 8 hours a day.\nAn air conditioner use",
+        "model_response": "To find out how much energy Mel saves, we need to calculate the original energy consumption and the ",
+        "correct": false
+      },
+      {
+        "example_id": "gsm8k_128",
+        "prompt": "Andy plants 90 geraniums and 40 fewer petunias that geraniums. How many flowers does he plant total?",
+        "expected": "First find the number of petunias Andy plants: 90 flowers - 40 = <<90-40=50>>50 flowers\nThen add the",
+        "model_response": "To find the total number of flowers Andy planted, we need to find the number of petunias first.\n\nSin",
+        "correct": true
+      },
+      {
+        "example_id": "gsm8k_129",
+        "prompt": "Colby works for a manufacturing company in the packaging division.  He gets paid $0.20 for every pac",
+        "expected": "Ten less than fifty is 50-10=<<50-10=40>>40 packages per hour.\nAt $0.20 per completed package. if he",
+        "model_response": "To find out how much Colby earns in a typical eight-hour workday, we need to follow these steps:\n\n1.",
+        "correct": true
+      },
+      {
+        "example_id": "gsm8k_130",
+        "prompt": "Brittany and her mom go to the museum. The cost of admission is $12 for adults and $10 for children.",
+        "expected": "The total cost of the tickets is 12+10=<<12+10=22>>22 dollars.\nBrittany's mom gave the cashier 22+8=",
+        "model_response": "To find out how much money Brittany's mom gave the cashier, we need to know the total cost of the ti",
+        "correct": true
+      },
+      {
+        "example_id": "gsm8k_131",
+        "prompt": "A company sold 4000 gallons of milk in jars to Mr. Marcellus' store at the cost of $3.5 per gallon. ",
+        "expected": "If he purchased 4000 gallons, the number of gallons expired is 2/5 * 4000 gallons = <<2/5*4000=1600>",
+        "model_response": "To calculate the refund, we need to follow these steps:\n\n1. Calculate the total cost of the milk Mr.",
+        "correct": false
+      },
+      {
+        "example_id": "gsm8k_132",
+        "prompt": "Tyler wants to buy a dictionary that costs $18, a dinosaur book that costs $13, and a children's coo",
+        "expected": "Tyler wants to purchase books that cost $18 + $13 + $8 = $<<18+13+8=39>>39.\nTyler needs $39 and curr",
+        "model_response": "To find out how many hours Tyler needs to work, we need to follow these steps:\n\n1. Calculate the tot",
+        "correct": true
+      },
+      {
+        "example_id": "gsm8k_133",
+        "prompt": "Sarah has 9 books and Joseph had twice the number of Sarah\u2019s books, but he lost 2 of them. How many ",
+        "expected": "Joseph used to have 9 books * 2 = <<9*2=18>>18 books.\nAfter he lost 2 books he remained with 18 book",
+        "model_response": "To solve this problem, let's break it down into steps:\n\n1. Sarah has 9 books.\n2. Joseph has twice th",
+        "correct": true
+      },
+      {
+        "example_id": "gsm8k_134",
+        "prompt": "Brianne and Ashley make greek orange pie. Ashley brought five boxes with ten oranges in each box, wh",
+        "expected": "Ashley brought 5 x 10 = <<5*10=50>>50 oranges.\nBrianne brought 50 + 20 = <<50+20=70>>70 oranges.\nThu",
+        "model_response": "Let's break down the problem step by step:\n\n1. Ashley brought 5 boxes with 10 oranges in each box. S",
+        "correct": true
+      },
+      {
+        "example_id": "gsm8k_135",
+        "prompt": "Becky, Jake, and Silvia shared 4 pizzas. Each pizza had 8 slices. Becky ate 3 more slices than Jake ",
+        "expected": "Jake ate 10-3 = <<10-3=7>>7 slices of pizza.\nSilvia ate 7*2 = <<7*2=14>>14 slices of pizza.\nJake, Si",
+        "model_response": "To find the total number of slices they ate, we need to determine how many slices each person ate.\n\n",
+        "correct": true
+      },
+      {
+        "example_id": "gsm8k_136",
+        "prompt": "There are 6 trees in Chris's yard.  Ferdinand has half the number of trees that Chris has.  Harry ha",
+        "expected": "Ferdinand:6/2=<<6/2=3>>3 trees\nHarry:5+2(3)=5+6=11 trees\n11-3=<<11-3=8>>8 trees\n#### 8",
+        "model_response": "To find the answer, let's break it down step by step:\n\n1. Chris has 6 trees.\n2. Ferdinand has half t",
+        "correct": true
+      },
+      {
+        "example_id": "gsm8k_137",
+        "prompt": "A tomato vendor decides to switch who he buys his tomatoes for.  He sells 500 tomatoes a day.  He us",
+        "expected": "He buys 500*7=<<500*7=3500>>3500\nHe used to pay 3500*.5=$<<3500*.5=1750>>1750\nHe now pays 3500*.4=$<",
+        "model_response": "To find out how much money the tomato vendor saves a week, we need to calculate the daily savings an",
+        "correct": true
+      },
+      {
+        "example_id": "gsm8k_138",
+        "prompt": "The great dragon, Perg, sat high atop mount Farbo, breathing fire upon anything within a distance of",
+        "expected": "With the gemstone, Polly could throw the javelin 3 times farther than 400 feet, for a distance of 3*",
+        "model_response": "To solve this problem, let's break it down step by step.\n\n1. When Polly holds the sapphire gemstone,",
+        "correct": true
+      },
+      {
+        "example_id": "gsm8k_139",
+        "prompt": "Mario needs to buy snowshoes for his 6 sled dogs.  Assuming his dogs each has four legs and each pai",
+        "expected": "Dogs have 4 legs and a pair is 2 legs so each dog has 4/2 = <<4/2=2>>2 pair of legs\nThere are 6 dogs",
+        "model_response": "To find the total cost of snowshoes for Mario's dogs, we need to follow these steps:\n\n1. Determine t",
+        "correct": false
+      },
+      {
+        "example_id": "gsm8k_140",
+        "prompt": "An airport has only 2 planes that fly multiple times a day. Each day, the first plane goes to Greece",
+        "expected": "The second plane flies half as much as the first, so the first plane makes 44 flights * 2 = <<44*2=8",
+        "model_response": "To solve this problem, let's break it down into steps.\n\nStep 1: Let's assume the total number of fli",
+        "correct": false
+      },
+      {
+        "example_id": "gsm8k_141",
+        "prompt": "Julia and Nadine were given the same amount of allowance by their mother. The two girls decided to c",
+        "expected": "There are 12/2 = <<12/2=6>>6 pairs of balloons in 1 dozen.\nThe cost for buying a dozen balloons was ",
+        "model_response": "To solve this problem, let's break it down step by step.\n\n1. First, let's find out how much they spe",
+        "correct": true
+      },
+      {
+        "example_id": "gsm8k_142",
+        "prompt": "John has 3 boxes.  Each box is 5 inches by 6 inches by 4 inches.  The walls are 1 inch thick.  What ",
+        "expected": "The walls subtract 2*1=<<2*1=2>>2 inches from each dimension\nSo each box has 5-2=<<5-2=3>>3 inch wid",
+        "model_response": "To find the total inner volume of all 3 boxes, we need to first find the inner volume of one box and",
+        "correct": true
+      },
+      {
+        "example_id": "gsm8k_143",
+        "prompt": "Travis had 61 apps on his tablet. He deleted 9 apps he didn't use anymore and downloaded 18 more. Ho",
+        "expected": "Travis had 61 - 9 = <<61-9=52>>52 apps after deleting the ones he didn't use.\nAfter downloading some",
+        "model_response": "Let's break down the problem step by step:\n\n1. Travis started with 61 apps on his tablet.\n2. He dele",
+        "correct": true
+      },
+      {
+        "example_id": "gsm8k_144",
+        "prompt": "Mike needed a new pair of jeans.  When he got to the mall he saw that his favorite jeans were advert",
+        "expected": "The jeans cost $40 and are sale for 25% off so 40 * .25 = $<<40*.25=10.00>>10.00 discount\nTake the o",
+        "model_response": "Let's break down the problem step by step.\n\n1. First, we need to find the discount amount. The origi",
+        "correct": true
+      },
+      {
+        "example_id": "gsm8k_145",
+        "prompt": "The Doubtfire sisters are driving home with 7 kittens adopted from the local animal shelter when the",
+        "expected": "Patchy has just had 3 * 7 = <<3*7=21>>21 kittens\nSince Trixie's kittens are 12, both cats have 21 +1",
+        "model_response": "To find the total number of kittens the Doubtfire family now has, we need to calculate the number of",
+        "correct": true
+      },
+      {
+        "example_id": "gsm8k_146",
+        "prompt": "Jayden had $70 from selling pictures he took as a hobby.  His sister Ava gave him half of her $90 al",
+        "expected": "Ava gave $90/2 = $<<90/2=45>>45 to Jayden.\nJayden now has $70 + $45 = $<<70+45=115>>115\nSo, Jayden n",
+        "model_response": "To find out how much more Jayden needs to buy the camera, we need to follow these steps:\n\n1. First, ",
+        "correct": true
+      },
+      {
+        "example_id": "gsm8k_147",
+        "prompt": "If John scored 100 on his first 3 tests and an 80 on his 4th, what was his average score across the ",
+        "expected": "100+100+100+80=<<100+100+100+80=380>>380 total score across 4 tests\n380 total score / 4 tests = <<38",
+        "model_response": "To find the average score, we need to add up all the scores and then divide by the number of tests.\n",
+        "correct": true
+      },
+      {
+        "example_id": "gsm8k_148",
+        "prompt": "Lauren is a cartoonist.  She can draw 5 large-sized picture scenes per day, or she can draw 6 medium",
+        "expected": "At 5 small-sized picture scenes per day, 45 small-sized scenes will take 45/5 = <<45/5=9>>9 days.\nAt",
+        "model_response": "To find out how many days it will take for Lauren to complete the project, we need to calculate the ",
+        "correct": false
+      },
+      {
+        "example_id": "gsm8k_149",
+        "prompt": "A bird decides to leave her summer home in the north and travel to her winter home in the south.  To",
+        "expected": "Flying for 10 hours at a speed of 30 miles per hour, the bird travels 10*30=<<10*30=300>>300 miles i",
+        "model_response": "To find the distance between the bird's northern and southern homes, we need to calculate the total ",
+        "correct": false
+      },
+      {
+        "example_id": "gsm8k_150",
+        "prompt": "Twenty dozen cups cost $1200 less than the total cost of half a dozen plates sold at $6000 each. Cal",
+        "expected": "Since a dozen has 12 items, half a dozen plates are 12/2 = <<6=6>>6\nHalf a dozen plates sold at $600",
+        "model_response": "To find the total cost of buying each cup, let's break down the problem step by step.\n\n1. First, we ",
+        "correct": false
+      },
+      {
+        "example_id": "gsm8k_151",
+        "prompt": "While playing with her friends in their school playground, Katelyn saw 50 fairies flying above the n",
+        "expected": "Katelyn's friend saw 1/2*50 = <<1/2*50=25>>25, half as many fairies as Katelyn initially saw\nThe tot",
+        "model_response": "To find out how many fairies are remaining, let's break down the information step by step.\n\n1. Katel",
+        "correct": true
+      },
+      {
+        "example_id": "gsm8k_152",
+        "prompt": "Brittany's quilted comforter has many 1-foot by 1-foot colored squares. The comforter had 14 red squ",
+        "expected": "With 4 more blue than red squares, the comforter has 14+4=<<14+4=18>>18 blue squares.\nWith 6 more gr",
+        "model_response": "To find the total square feet of the comforter, we need to calculate the total number of squares and",
+        "correct": true
+      },
+      {
+        "example_id": "gsm8k_153",
+        "prompt": "Alicia's clothes have to be sent to the dry cleaners weekly.  Her weekly drop-off includes 5 blouses",
+        "expected": "The blouses cost $5.00 each to dry clean and she has 5 so that's 5*5 = $<<5*5=25.00>>25.00\nThe one s",
+        "model_response": "To find out how much Alicia spends on dry-cleaning in 5 weeks, we need to calculate the total cost f",
+        "correct": true
+      },
+      {
+        "example_id": "gsm8k_154",
+        "prompt": "The population of porcupines in a park is 50. The number of female porcupines is 3/5 of the total po",
+        "expected": "The number of female porcupines in the park is 3/5*50 = <<3/5*50=30>>30.\nIn a month, the 30 female p",
+        "model_response": "To find the number of female porcupines, we need to calculate 3/5 of the total population.\n\nTotal po",
+        "correct": true
+      },
+      {
+        "example_id": "gsm8k_155",
+        "prompt": "Olivia uploaded 72 pictures to Facebook.  She put the same number of the pics into 8 albums.  3 of t",
+        "expected": "Olivia had 72 pictures / 8 albums = <<72/8=9>>9 picture per album.\nOlivia had 3 selfie albums * 9 pi",
+        "model_response": "Let's break down the information step by step.\n\n1. Olivia uploaded 72 pictures to Facebook.\n2. She p",
+        "correct": false
+      },
+      {
+        "example_id": "gsm8k_156",
+        "prompt": "Dean has 30 marbles. He gives 1/5  of them to Jamie and gives 10 to Donald. How many marbles are lef",
+        "expected": "Dean gives 30 x 1/5 = <<30*1/5=6>>6 marbles to Jamie.\nHe gives a total of 6 + 10 = <<6+10=16>>16 mar",
+        "model_response": "To find out how many marbles are left for Dean, we need to follow the steps below:\n\n1. Calculate 1/5",
+        "correct": true
+      },
+      {
+        "example_id": "gsm8k_157",
+        "prompt": "Joe has $50 to buy an outfit for his new field trip. There is a 30% off sale at the clothing store. ",
+        "expected": "The price of the two clothing items totals 35 + 25 = <<35+25=60>>60 dollars before discount.\nThe tot",
+        "model_response": "To find out how much money Joe will have left after the purchase, we need to calculate the total cos",
+        "correct": false
+      },
+      {
+        "example_id": "gsm8k_158",
+        "prompt": "Goldy bought 20 sacks of rice and gave 3 sacks to her cousin and 4 sacks to her brother, if there ar",
+        "expected": "Goldy gave a total of 4 + 3 = <<4+3=7>>7 sacks of rice to his brother and cousin.\nTherefore she gave",
+        "model_response": "Let's break down the problem step by step:\n\n1. Goldy bought 20 sacks of rice.\n2. She gave 3 sacks to",
+        "correct": true
+      },
+      {
+        "example_id": "gsm8k_159",
+        "prompt": "Grace weighs 125 pounds. Alex weighs 2 pounds less than 4 times what Grace weighs. What are their co",
+        "expected": "Alex weighs 125*4-2 = <<125*4-2=498>>498.\nTheir combined weights are 125+498 = <<125+498=623>>623 po",
+        "model_response": "To find Alex's weight, we need to follow the steps:\n\n1. First, we need to find 4 times what Grace we",
+        "correct": true
+      },
+      {
+        "example_id": "gsm8k_160",
+        "prompt": "Rayna has 60 more dollars than Kassidy, and Kassidy has 3/4 times as much money as Aurelia. If Areli",
+        "expected": "Since Arelia has $120, and Kassidy has 3/4 times as much money Arelia, Kassidy has 3/4*$120 = $<<3/4",
+        "model_response": "To solve this, let's break it down step by step:\n\n1. Aurelia has $120.\n\n2. Kassidy has 3/4 times as ",
+        "correct": false
+      },
+      {
+        "example_id": "gsm8k_161",
+        "prompt": "Susan made 100 cookies for Christmas and was going to equally divide them between her 6 nephews. Bef",
+        "expected": "Subtract 4 from 100 to see how many cookies are left. 100 cookies - 4 cookies = <<100-4=96>>96 cooki",
+        "model_response": "Let's break it down step by step:\n\n1. Susan made 100 cookies.\n2. She was going to divide them equall",
+        "correct": true
+      },
+      {
+        "example_id": "gsm8k_162",
+        "prompt": "John fills a 6 foot by 4 foot pool that is 5 feet deep.  It cost $.1 per cubic foot to fill.  How mu",
+        "expected": "The pool has a base of 6*4=<<6*4=24>>24 square feet\nSo its volume was 24*5=<<24*5=120>>120 cubic fee",
+        "model_response": "To find the cost of filling the pool, we need to calculate the volume of the pool in cubic feet.\n\nTh",
+        "correct": true
+      },
+      {
+        "example_id": "gsm8k_163",
+        "prompt": "Marcus is trying to decide whether he really needs to do his homework. There's a 50% chance that tom",
+        "expected": "First find the chance that the normal teacher comes in by subtracting the odds she doesn't from 100%",
+        "model_response": "To find the percentage chance that Marcus will actually have to turn in his homework, we need to con",
+        "correct": false
+      },
+      {
+        "example_id": "gsm8k_164",
+        "prompt": "There are 6 students playing tennis and twice that number playing volleyball. There are 16 boys and ",
+        "expected": "There are 6 x 2 = <<6*2=12>>12 students playing volleyball.\nThere are 16 + 22 = <<16+22=38>>38 stude",
+        "model_response": "To find the total number of students, we need to calculate the number of students in each group and ",
+        "correct": true
+      },
+      {
+        "example_id": "gsm8k_165",
+        "prompt": "Cody eats three times as many cookies as Amir eats. If Amir eats 5 cookies,\u00a0how many cookies do both",
+        "expected": "Cody eats 5*3 = <<5*3=15>>15 cookies.\nCody and Amir eat 15+5 = <<15+5=20>>20 cookies together.\n#### ",
+        "model_response": "To find out how many cookies Cody eats, we need to multiply the number of cookies Amir eats by 3, si",
+        "correct": true
+      },
+      {
+        "example_id": "gsm8k_166",
+        "prompt": "A news website publishes an average of 20 political and weather news articles every day. Its sister ",
+        "expected": "In February, with 28 days, the political and weather publishing news website produced a total of 28*",
+        "model_response": "To find the total number of articles published by both websites in February, we need to calculate th",
+        "correct": false
+      },
+      {
+        "example_id": "gsm8k_167",
+        "prompt": "Together Lily, David, and Bodhi collected 43 insects. Lily found 7 more than David. David found half",
+        "expected": "Let B = the number of insects Bodhi collected\nDavid = B/2\nLily = B/2 + 7\nB + B + 7 = 43\n2B = <<36=36",
+        "model_response": "Let's break down the problem step by step.\n\n1. Let's say David found x insects.\n2. Since Lily found ",
+        "correct": false
+      },
+      {
+        "example_id": "gsm8k_168",
+        "prompt": "There are 27 unicorns left in the world.  One third of them are in the Scottish Highlands.  Two thir",
+        "expected": "Scottish Unicorns:27(1/3)=9\nFemale:9(2/3)=6 unicorns\n#### 6",
+        "model_response": "To find the number of female Scottish unicorns, we need to follow these steps:\n\n1. Find one third of",
+        "correct": true
+      },
+      {
+        "example_id": "gsm8k_169",
+        "prompt": "Bill is trying to dig a well in his backyard. He can dig 4 feet/hour through soil and half that fast",
+        "expected": "First find how fast Bill can dig through clay: 4 feet/hour / 2 = <<4/2=2>>2 feet/hour\nThen find how ",
+        "model_response": "To find the total time it will take Bill to dig the well, we need to calculate the time it takes to ",
+        "correct": true
+      },
+      {
+        "example_id": "gsm8k_170",
+        "prompt": "Hannah slips on a banana peel and breaks her arm. The doctor charges her $200 for the cast, $300/hou",
+        "expected": "First find the length of the visit in hours: 30 minutes / 60 minutes/hour = <<30/60=.5>>.5 hours\nThe",
+        "model_response": "To find the total cost of the doctor's visit, we need to calculate the costs of the cast, the visit,",
+        "correct": false
+      },
+      {
+        "example_id": "gsm8k_171",
+        "prompt": "Jerry has two pools, both with leaks emptying them out at 4 gallons/minute. 4 minutes ago, the big p",
+        "expected": "First find how many gallons of water flow out of the pools in 4 minutes: 4 gallons/minute * 4 minute",
+        "model_response": "Let's break down the problem step by step.\n\n1. Let's denote the amount of water in the small pool 4 ",
+        "correct": false
+      },
+      {
+        "example_id": "gsm8k_172",
+        "prompt": "John buys milk for 2 dollars, eggs for 3 dollars, light bulbs for 3 dollars, cups for 3 dollars, and",
+        "expected": "The foodstuff cost 2+3=$<<2+3=5>>5\nThe nonfood stuff comes out to 3+3+4=$<<3+3+4=10>>10\nTax on the n",
+        "model_response": "To find the total cost, we need to calculate the cost of food items and nonfood items separately, th",
+        "correct": false
+      },
+      {
+        "example_id": "gsm8k_173",
+        "prompt": "A juggler can juggle 16 balls.  Half of the balls are golf balls, and half of the golf balls are blu",
+        "expected": "Golf Balls:16/2=<<16/2=8>>8\nBlue Golf Balls:8/2=<<8/2=4>>4 balls\n#### 4",
+        "model_response": "To find out how many blue golf balls there are, let's break it down step by step.\n\n1. The juggler ca",
+        "correct": true
+      },
+      {
+        "example_id": "gsm8k_174",
+        "prompt": "There are forty apples in one box. Uncle Franky ordered two boxes of apples. He is planning to pack ",
+        "expected": "There are 2 x 40 = <<2*40=80>>80 apples in two boxes.\nTherefore, Uncle Franky makes 80/8 = <<80/8=10",
+        "model_response": "Let's break it down step by step:\n\n1. There are 40 apples in one box.\n2. Uncle Franky ordered two bo",
+        "correct": true
+      },
+      {
+        "example_id": "gsm8k_175",
+        "prompt": "Charlie had 10 stickers. He bought 21 stickers from a store in the mall and got 23 stickers for his ",
+        "expected": "The total number of stickers is 10 + 21 + 23 = <<10+21+23=54>>54.\nThe number of stickers given away ",
+        "model_response": "To find out how many stickers Charlie has left, we need to follow the steps of what happened to his ",
+        "correct": true
+      },
+      {
+        "example_id": "gsm8k_176",
+        "prompt": "John and Jack have 30 minutes to walk to school together. It takes them 6 minutes to get to the corn",
+        "expected": "John and Jack arrive at the library with 30 - 6 = <<30-6=24>>24 minutes left to reach the fire stati",
+        "model_response": "To find out how much longer they have to get to school without being late, we need to calculate the ",
+        "correct": true
+      },
+      {
+        "example_id": "gsm8k_177",
+        "prompt": "Jay is making snowballs to prepare for a snowball fight with his sister. He can build 20 snowballs i",
+        "expected": "Every hour, Jay makes 20 snowballs.\nAt the same time, each hour 2 * 60/15 = <<2*60/15=8>>8 snowballs",
+        "model_response": "To find out how long it will take for Jay to have 60 snowballs, we need to consider both the number ",
+        "correct": false
+      },
+      {
+        "example_id": "gsm8k_178",
+        "prompt": "Regina wrote 9 novels last year. If this is 3 quarters of the number of novels she has written this ",
+        "expected": "Number of novels she wrote last year = (3/4)*number of novels she wrote this year\n9 = (3/4)*number o",
+        "model_response": "Let's break this down step by step.\n\n1. Regina wrote 9 novels last year.\n2. This is 3 quarters of th",
+        "correct": true
+      },
+      {
+        "example_id": "gsm8k_179",
+        "prompt": "To heat during the winter, Ali ordered 850 kilos of coal. The coal is delivered in 50 kg bags, costi",
+        "expected": "The number of bags Ali ordered is 850 kg/ 50 kg/bag = <<850/50=17>>17 bags\nThe total order cost is 1",
+        "model_response": "To find the total cost of Ali's order, we need to calculate the total number of 50 kg bags and multi",
+        "correct": true
+      },
+      {
+        "example_id": "gsm8k_180",
+        "prompt": "Two thirds of Jana's puppies are Pomeranians. One third of the Pomeranians are girls. If there are 6",
+        "expected": "Jana has 6*3=<<6*3=18>>18 Pomeranians.\nJana has 18/2*3=<<18/2*3=27>>27 puppies.\n#### 27",
+        "model_response": "To find the total number of puppies Jana has, we need to work backwards from the information given.\n",
+        "correct": false
+      },
+      {
+        "example_id": "gsm8k_181",
+        "prompt": "Mason needs 30 ounces of sugar to make a batch of suckers and 70 ounces of sugar to make a batch of ",
+        "expected": "First find the total sugar needed for the suckers: 30 ounces/batch * 8 batches = <<30*8=240>>240 oun",
+        "model_response": "To find out how much sugar Mason needs, we need to calculate the total amount of sugar required for ",
+        "correct": true
+      },
+      {
+        "example_id": "gsm8k_182",
+        "prompt": "Sam sells bread. He has a target of selling 120 crates of bread in a week. One week he was closed on",
+        "expected": "During the whole week Sam sold 15 + 12 + 18 + 20 = <<15+12+18+20=65>>65 crates.\nSam was off his targ",
+        "model_response": "Let's break down the problem step by step:\n\n1. Sam's target is 120 crates in a week.\n2. He was close",
+        "correct": false
+      },
+      {
+        "example_id": "gsm8k_183",
+        "prompt": "Suzanne sold 80 cookies for $1 each and 60 cupcakes for $4 each. She gave her two sisters $10 each f",
+        "expected": "Suzzane's revenue from the cookies is 80 x $1 = $<<80*1=80>>80.\nHer revenue from the cupcakes is 60 ",
+        "model_response": "To find out how much money Suzanne has left, we need to calculate her total earnings and then subtra",
+        "correct": false
+      },
+      {
+        "example_id": "gsm8k_184",
+        "prompt": "A phone tree is used to contact families and relatives of Ali's deceased coworker. Ali decided to ca",
+        "expected": "In the first round, there are 3 families called.\nIn the second round, there are 3 x 3 = <<3*3=9>>9 f",
+        "model_response": "To find the number of families notified during the fourth round of calls, we need to understand the ",
+        "correct": true
+      },
+      {
+        "example_id": "gsm8k_185",
+        "prompt": "Pamela reapplies an ounce of sunscreen every hour she's outside.  Her sunscreen comes in 8-ounce bot",
+        "expected": "She will be outside 4 hours a day for 8 days so that's 4*8 = <<4*8=32>>32 hours\nShe applies 1 ounce ",
+        "model_response": "To find out how many bottles of sunscreen Pamela will need, we need to calculate the total amount of",
+        "correct": true
+      },
+      {
+        "example_id": "gsm8k_186",
+        "prompt": "A shoe store was having a weekend sale on a brand of popular tennis shoes. On Friday the store sold ",
+        "expected": "On Saturday 14*2=<<14*2=28>>28 shoes were sold\nOn Sunday 28/2=<<28/2=14>>14 shoes were sold\nBefore t",
+        "model_response": "Let's break down the problem step by step.\n\n1. On Friday, the store sold 14 pairs of tennis shoes.\n\n",
+        "correct": false
+      },
+      {
+        "example_id": "gsm8k_187",
+        "prompt": "While Joanne is gathering apples from her family\u2019s orchard, her sister comes outside to help her. Jo",
+        "expected": "Joanna gathered 30 apples / 2 = <<30/2=15>>15 apples from the shortest trees.\nHer sister gathered 30",
+        "model_response": "To solve this problem, let's break it down into steps.\n\nStep 1: Let's denote the number of apples Jo",
+        "correct": false
+      },
+      {
+        "example_id": "gsm8k_188",
+        "prompt": "Zoey and Sydney are having a watermelon seed spitting contest. Whoever spits their seeds the most to",
+        "expected": "Zoey spits a total distance of 400 feet because 40 x 10 = <<40*10=400>>400\nSydney spits a total dist",
+        "model_response": "To find the average total distance spat, we need to calculate the total distance spat by each person",
+        "correct": false
+      },
+      {
+        "example_id": "gsm8k_189",
+        "prompt": "John decides to build a program capable of identifying cancer cells.  He gets initial funding of $10",
+        "expected": "The research ended up taking 5*10=<<5*10=50>>50 months\nSo he paid for expensive research for 50-5=<<",
+        "model_response": "To find the total cost of John's research, we need to break it down into steps.\n\n1. Initial funding ",
+        "correct": false
+      },
+      {
+        "example_id": "gsm8k_190",
+        "prompt": "Rozanne is making eggnog for her family. She uses 4 dozen eggs that were in cases and another 2 eggs",
+        "expected": "As a dozen is equivalent to 12 eggs, Rozanne has 4 dozen eggs * 12 = <<4*12=48>>48 eggs in cases.\nSh",
+        "model_response": "To find out how many trays Rozanne can put out, we need to calculate the total number of eggs she us",
+        "correct": true
+      },
+      {
+        "example_id": "gsm8k_191",
+        "prompt": "The Hortex company produces bottled carrot juices. Every day it can produce 4200 bottles of these ju",
+        "expected": "Each juice covers only 20% of the daily energy demand, so to cover 100%, one person would need 100 /",
+        "model_response": "To find the total number of bottles needed to satisfy 100% of the daily energy needs of 2300 people,",
+        "correct": false
+      },
+      {
+        "example_id": "gsm8k_192",
+        "prompt": "Greg has an alarm set to ring three times a day as a reminder. When the alarm goes off, it continues",
+        "expected": "The second time Greg\u2019s alarm went off, it rang three times as long as the first, so it rang 3 * 4 = ",
+        "model_response": "To find the total number of times the alarm rang, we need to calculate the number of times it rang e",
+        "correct": true
+      },
+      {
+        "example_id": "gsm8k_193",
+        "prompt": "There are 10000 gallons of water in a pool. Using a water pump, Anthony and his father fill a tank w",
+        "expected": "The water pump takes 1/2 *10000 = <<5000=5000>>5000 gallons of the pool's water into the tank.\nIf 50",
+        "model_response": "To solve this problem, let's break it down into steps.\n\nStep 1: Calculate the amount of water in the",
+        "correct": true
+      },
+      {
+        "example_id": "gsm8k_194",
+        "prompt": "Stetson made a bet with Alec that he would give up $10 for each orange he eats. While at the farm, S",
+        "expected": "If they picked 60 oranges and Stetson ate 2/5 of them, he ate 2/5*60 = <<60*2/5=24>>24 oranges.\nIf h",
+        "model_response": "To find the total amount of money Stetson gave up, we need to follow these steps:\n\n1. Calculate the ",
+        "correct": true
+      },
+      {
+        "example_id": "gsm8k_195",
+        "prompt": "Benny saw a 10-foot shark with 2 6-inch remoras attached to it. What percentage of the shark's body ",
+        "expected": "First, find the combined length of the remoras in inches: 6 inches/remora * 2 remoras = <<6*2=12>>12",
+        "model_response": "To find the combined length of the remoras, we need to convert their individual lengths to feet and ",
+        "correct": true
+      },
+      {
+        "example_id": "gsm8k_196",
+        "prompt": "Bob spends $27000 distributed between 3 schools to buy books.  He can buy 100 books for $500.  How m",
+        "expected": "He spends 27000/3=$<<27000/3=9000>>9000\nEach book cost 500/100=$<<500/100=5>>5\nSo he can buy 9000/5=",
+        "model_response": "To find out how many books Bob can buy per school, we need to follow these steps:\n\n1. First, let's f",
+        "correct": false
+      },
+      {
+        "example_id": "gsm8k_197",
+        "prompt": "Sally buys one small pizza at $8 and one family-size pizza that costs 3 times as much as the small p",
+        "expected": "The cost of the family-size pizza is 3 x $8 = $<<3*8=24>>24.\nTherefore, Sally spends $8 + $24 = $<<8",
+        "model_response": "To find out how much Sally spent in total, we need to calculate the cost of each pizza and then add ",
+        "correct": true
+      },
+      {
+        "example_id": "gsm8k_198",
+        "prompt": "Charmaine will be 16 years old in 12 years. How old will she be 4 years from now?",
+        "expected": "Charmaine's present age is 16 - 12 = <<16-12=4>>4 years old.\nSo she will be 4 + 4 = <<4+4=8>>8 years",
+        "model_response": "To find out how old Charmaine will be 4 years from now, we need to first determine her current age.\n",
+        "correct": true
+      },
+      {
+        "example_id": "gsm8k_199",
+        "prompt": "Mark took a test yesterday that consisted of 75 questions. He completed the test at a rate of 5 ques",
+        "expected": "Questions Mark completed in yesterday\u2019s test: 5*8 = <<5*8=40>>40.\nQuestions Mark completed in today\u2019",
+        "model_response": "To find out how many questions Mark left incomplete, we need to calculate the total number of questi",
+        "correct": false
+      }
+    ]
+  },
+  "bbh_navigate": {
+    "domain": "reasoning",
+    "accuracy": 0.7866666666666666,
+    "correct": 59,
+    "total": 75,
+    "api_calls_used": 275,
+    "details": [
+      {
+        "example_id": "bbh_navigate_0",
+        "prompt": "If you follow these instructions, do you return to the starting point? Take 8 steps. Take 1 step. Ta",
+        "expected": "No",
+        "model_response": "Let's break down the instructions step by step.\n\n1. Take 8 steps: This means you move forward 8 step",
+        "correct": true
+      },
+      {
+        "example_id": "bbh_navigate_1",
+        "prompt": "If you follow these instructions, do you return to the starting point? Always face forward. Take 8 s",
+        "expected": "Yes",
+        "model_response": "To determine if you return to the starting point, let's break down the steps:\n\n1. Take 8 steps left:",
+        "correct": true
+      },
+      {
+        "example_id": "bbh_navigate_2",
+        "prompt": "If you follow these instructions, do you return to the starting point? Always face forward. Take 10 ",
+        "expected": "No",
+        "model_response": "To determine if you return to the starting point, let's break down the steps:\n\n1. Take 10 steps back",
+        "correct": true
+      },
+      {
+        "example_id": "bbh_navigate_3",
+        "prompt": "If you follow these instructions, do you return to the starting point? Take 3 steps. Turn around. Ta",
+        "expected": "Yes",
+        "model_response": "To determine if you return to the starting point, let's break down the instructions step by step:\n\n1",
+        "correct": false
+      },
+      {
+        "example_id": "bbh_navigate_4",
+        "prompt": "If you follow these instructions, do you return to the starting point? Always face forward. Take 7 s",
+        "expected": "No",
+        "model_response": "Let's break down the instructions step by step:\n\n1. Take 7 steps right: You move 7 steps to the righ",
+        "correct": true
+      },
+      {
+        "example_id": "bbh_navigate_5",
+        "prompt": "If you follow these instructions, do you return to the starting point? Always face forward. Take 8 s",
+        "expected": "No",
+        "model_response": "Let's break down the instructions step by step:\n\n1. Take 8 steps left: You will be 8 steps away from",
+        "correct": true
+      },
+      {
+        "example_id": "bbh_navigate_6",
+        "prompt": "If you follow these instructions, do you return to the starting point? Always face forward. Take 6 s",
+        "expected": "No",
+        "model_response": "To determine if you return to the starting point, let's break down the instructions step by step:\n\n1",
+        "correct": true
+      },
+      {
+        "example_id": "bbh_navigate_7",
+        "prompt": "If you follow these instructions, do you return to the starting point? Take 5 steps. Turn around. Ta",
+        "expected": "Yes",
+        "model_response": "Let's break down the instructions step by step:\n\n1. Take 5 steps: You move forward 5 steps.\n2. Turn ",
+        "correct": false
+      },
+      {
+        "example_id": "bbh_navigate_8",
+        "prompt": "If you follow these instructions, do you return to the starting point? Take 7 steps. Turn around. Ta",
+        "expected": "Yes",
+        "model_response": "To determine if you return to the starting point, let's break down the instructions step by step.\n\n1",
+        "correct": true
+      },
+      {
+        "example_id": "bbh_navigate_9",
+        "prompt": "If you follow these instructions, do you return to the starting point? Always face forward. Take 9 s",
+        "expected": "Yes",
+        "model_response": "Let's break down the instructions step by step:\n\n1. Take 9 steps backward: You are now 9 steps away ",
+        "correct": true
+      },
+      {
+        "example_id": "bbh_navigate_10",
+        "prompt": "If you follow these instructions, do you return to the starting point? Take 5 steps. Take 10 steps. ",
+        "expected": "No",
+        "model_response": "Let's break it down step by step:\n\n1. You take 5 steps forward.\n2. Then you take 10 steps forward. S",
+        "correct": true
+      },
+      {
+        "example_id": "bbh_navigate_11",
+        "prompt": "If you follow these instructions, do you return to the starting point? Always face forward. Take 6 s",
+        "expected": "No",
+        "model_response": "Let's break down the instructions step by step:\n\n1. Take 6 steps backward: You move 6 steps back fro",
+        "correct": true
+      },
+      {
+        "example_id": "bbh_navigate_12",
+        "prompt": "If you follow these instructions, do you return to the starting point? Take 6 steps. Turn right. Tur",
+        "expected": "Yes",
+        "model_response": "Let's break down the instructions step by step:\n\n1. Take 6 steps: You move forward 6 steps.\n2. Turn ",
+        "correct": true
+      },
+      {
+        "example_id": "bbh_navigate_13",
+        "prompt": "If you follow these instructions, do you return to the starting point? Always face forward. Take 4 s",
+        "expected": "No",
+        "model_response": "To determine if you return to the starting point, let's break down the steps:\n\n1. Take 4 steps forwa",
+        "correct": true
+      },
+      {
+        "example_id": "bbh_navigate_14",
+        "prompt": "If you follow these instructions, do you return to the starting point? Take 2 steps. Turn right. Tak",
+        "expected": "No",
+        "model_response": "To determine if you return to the starting point, let's break down the steps:\n\n1. Take 2 steps.\n2. T",
+        "correct": true
+      },
+      {
+        "example_id": "bbh_navigate_15",
+        "prompt": "If you follow these instructions, do you return to the starting point? Take 6 steps. Turn left. Turn",
+        "expected": "Yes",
+        "model_response": "To determine if you return to the starting point, let's break down the instructions step by step:\n\n1",
+        "correct": false
+      },
+      {
+        "example_id": "bbh_navigate_16",
+        "prompt": "If you follow these instructions, do you return to the starting point? Take 2 steps. Take 10 steps. ",
+        "expected": "No",
+        "model_response": "Let's break down the instructions step by step:\n\n1. Take 2 steps: You move forward 2 steps from the ",
+        "correct": true
+      },
+      {
+        "example_id": "bbh_navigate_17",
+        "prompt": "If you follow these instructions, do you return to the starting point? Take 3 steps. Take 6 steps. T",
+        "expected": "No",
+        "model_response": "To determine if you return to the starting point, let's analyze the instructions step by step:\n\n1. T",
+        "correct": true
+      },
+      {
+        "example_id": "bbh_navigate_18",
+        "prompt": "If you follow these instructions, do you return to the starting point? Always face forward. Take 1 s",
+        "expected": "Yes",
+        "model_response": "Let's break down the instructions step by step:\n\n1. You start at the starting point.\n2. Take 1 step ",
+        "correct": true
+      },
+      {
+        "example_id": "bbh_navigate_19",
+        "prompt": "If you follow these instructions, do you return to the starting point? Always face forward. Take 6 s",
+        "expected": "Yes",
+        "model_response": "To determine if you return to the starting point, let's break down the steps:\n\n1. Take 6 steps left:",
+        "correct": true
+      },
+      {
+        "example_id": "bbh_navigate_20",
+        "prompt": "If you follow these instructions, do you return to the starting point? Turn left. Turn right. Take 8",
+        "expected": "Yes",
+        "model_response": "To determine if you return to the starting point, let's break down the instructions step by step:\n\n1",
+        "correct": false
+      },
+      {
+        "example_id": "bbh_navigate_21",
+        "prompt": "If you follow these instructions, do you return to the starting point? Turn left. Take 9 steps. Take",
+        "expected": "No",
+        "model_response": "Let's break it down step by step:\n\n1. You turn left, which means you're moving in a new direction.\n2",
+        "correct": true
+      },
+      {
+        "example_id": "bbh_navigate_22",
+        "prompt": "If you follow these instructions, do you return to the starting point? Always face forward. Take 2 s",
+        "expected": "No",
+        "model_response": "Let's break down the instructions step by step:\n\n1. You start by facing forward.\n2. You take 2 steps",
+        "correct": true
+      },
+      {
+        "example_id": "bbh_navigate_23",
+        "prompt": "If you follow these instructions, do you return to the starting point? Always face forward. Take 9 s",
+        "expected": "No",
+        "model_response": "To solve this, let's break down the steps:\n\n1. Take 9 steps right: You are now 9 steps away from the",
+        "correct": true
+      },
+      {
+        "example_id": "bbh_navigate_24",
+        "prompt": "If you follow these instructions, do you return to the starting point? Take 9 steps. Turn around. Ta",
+        "expected": "Yes",
+        "model_response": "To solve this, let's break down the instructions step by step:\n\n1. Take 9 steps: This means you move",
+        "correct": false
+      },
+      {
+        "example_id": "bbh_navigate_25",
+        "prompt": "If you follow these instructions, do you return to the starting point? Always face forward. Take 2 s",
+        "expected": "Yes",
+        "model_response": "Let's break down the steps:\n\n1. Take 2 steps backward: You are now 2 steps away from the starting po",
+        "correct": true
+      },
+      {
+        "example_id": "bbh_navigate_26",
+        "prompt": "If you follow these instructions, do you return to the starting point? Always face forward. Take 10 ",
+        "expected": "No",
+        "model_response": "Let's break down the instructions step by step:\n\n1. Take 10 steps left: You are now 10 steps away fr",
+        "correct": true
+      },
+      {
+        "example_id": "bbh_navigate_27",
+        "prompt": "If you follow these instructions, do you return to the starting point? Take 1 step. Take 8 steps. Tu",
+        "expected": "No",
+        "model_response": "Let's break it down step by step:\n\n1. You take 1 step forward.\n2. Then you take 8 steps forward, mak",
+        "correct": true
+      },
+      {
+        "example_id": "bbh_navigate_28",
+        "prompt": "If you follow these instructions, do you return to the starting point? Take 3 steps. Take 10 steps. ",
+        "expected": "No",
+        "model_response": "Let's break it down step by step:\n\n1. Take 3 steps: You move 3 steps forward from the starting point",
+        "correct": true
+      },
+      {
+        "example_id": "bbh_navigate_29",
+        "prompt": "If you follow these instructions, do you return to the starting point? Always face forward. Take 2 s",
+        "expected": "Yes",
+        "model_response": "Let's analyze the instructions step by step:\n\n1. Always face forward: This means you're moving in th",
+        "correct": true
+      },
+      {
+        "example_id": "bbh_navigate_30",
+        "prompt": "If you follow these instructions, do you return to the starting point? Always face forward. Take 3 s",
+        "expected": "Yes",
+        "model_response": "To determine if you return to the starting point, let's break down the steps:\n\n1. Take 3 steps right",
+        "correct": true
+      },
+      {
+        "example_id": "bbh_navigate_31",
+        "prompt": "If you follow these instructions, do you return to the starting point? Always face forward. Take 3 s",
+        "expected": "No",
+        "model_response": "Let's break down the instructions step by step:\n\n1. You start facing forward.\n2. Take 3 steps right:",
+        "correct": true
+      },
+      {
+        "example_id": "bbh_navigate_32",
+        "prompt": "If you follow these instructions, do you return to the starting point? Always face forward. Take 5 s",
+        "expected": "Yes",
+        "model_response": "Let's break down the steps:\n\n1. Take 5 steps backward: You are now 5 steps away from the starting po",
+        "correct": true
+      },
+      {
+        "example_id": "bbh_navigate_33",
+        "prompt": "If you follow these instructions, do you return to the starting point? Turn left. Turn around. Take ",
+        "expected": "No",
+        "model_response": "Let's break down the instructions step by step:\n\n1. Turn left: You turn left, but you don't know the",
+        "correct": true
+      },
+      {
+        "example_id": "bbh_navigate_34",
+        "prompt": "If you follow these instructions, do you return to the starting point? Always face forward. Take 8 s",
+        "expected": "Yes",
+        "model_response": "To determine if you return to the starting point, let's break down the steps:\n\n1. Take 8 steps left:",
+        "correct": false
+      },
+      {
+        "example_id": "bbh_navigate_35",
+        "prompt": "If you follow these instructions, do you return to the starting point? Take 8 steps. Take 9 steps. T",
+        "expected": "Yes",
+        "model_response": "To determine if you return to the starting point, let's break down the instructions step by step.\n\n1",
+        "correct": true
+      },
+      {
+        "example_id": "bbh_navigate_36",
+        "prompt": "If you follow these instructions, do you return to the starting point? Always face forward. Take 10 ",
+        "expected": "Yes",
+        "model_response": "Let's break down the instructions step by step.\n\n1. You start by taking 10 steps to the left. This m",
+        "correct": true
+      },
+      {
+        "example_id": "bbh_navigate_37",
+        "prompt": "If you follow these instructions, do you return to the starting point? Always face forward. Take 10 ",
+        "expected": "No",
+        "model_response": "To determine if you return to the starting point, let's break down the steps:\n\n1. Take 10 steps left",
+        "correct": true
+      },
+      {
+        "example_id": "bbh_navigate_38",
+        "prompt": "If you follow these instructions, do you return to the starting point? Take 6 steps. Turn around. Ta",
+        "expected": "No",
+        "model_response": "Let's break down the instructions step by step:\n\n1. Take 6 steps: \n   - You move forward 6 steps fro",
+        "correct": true
+      },
+      {
+        "example_id": "bbh_navigate_39",
+        "prompt": "If you follow these instructions, do you return to the starting point? Always face forward. Take 6 s",
+        "expected": "Yes",
+        "model_response": "To determine if you return to the starting point, let's break down the steps:\n\n1. Take 6 steps forwa",
+        "correct": true
+      },
+      {
+        "example_id": "bbh_navigate_40",
+        "prompt": "If you follow these instructions, do you return to the starting point? Take 7 steps. Take 8 steps. T",
+        "expected": "No",
+        "model_response": "Let's break it down step by step:\n\n1. Take 7 steps: You move forward 7 steps.\n2. Take 8 steps: You m",
+        "correct": true
+      },
+      {
+        "example_id": "bbh_navigate_41",
+        "prompt": "If you follow these instructions, do you return to the starting point? Always face forward. Take 10 ",
+        "expected": "Yes",
+        "model_response": "To determine if you return to the starting point, let's break down the steps:\n\n1. Take 10 steps left",
+        "correct": true
+      },
+      {
+        "example_id": "bbh_navigate_42",
+        "prompt": "If you follow these instructions, do you return to the starting point? Take 9 steps. Turn left. Turn",
+        "expected": "Yes",
+        "model_response": "To determine if you return to the starting point, let's break down the instructions step by step:\n\n1",
+        "correct": false
+      },
+      {
+        "example_id": "bbh_navigate_43",
+        "prompt": "If you follow these instructions, do you return to the starting point? Always face forward. Take 5 s",
+        "expected": "Yes",
+        "model_response": "To determine if you return to the starting point, let's break down the steps:\n\n1. Take 5 steps right",
+        "correct": false
+      },
+      {
+        "example_id": "bbh_navigate_44",
+        "prompt": "If you follow these instructions, do you return to the starting point? Turn around. Take 2 steps. Ta",
+        "expected": "Yes",
+        "model_response": "Let's break down the instructions step by step:\n\n1. Turn around: You are now facing the opposite dir",
+        "correct": true
+      },
+      {
+        "example_id": "bbh_navigate_45",
+        "prompt": "If you follow these instructions, do you return to the starting point? Take 6 steps. Take 2 steps. T",
+        "expected": "No",
+        "model_response": "To determine if you return to the starting point, let's break down the instructions step by step:\n\n1",
+        "correct": false
+      },
+      {
+        "example_id": "bbh_navigate_46",
+        "prompt": "If you follow these instructions, do you return to the starting point? Take 2 steps. Take 1 step. Ta",
+        "expected": "No",
+        "model_response": "Let's break down the instructions step by step:\n\n1. Take 2 steps: You are now 2 steps away from the ",
+        "correct": true
+      },
+      {
+        "example_id": "bbh_navigate_47",
+        "prompt": "If you follow these instructions, do you return to the starting point? Take 7 steps. Turn around. Ta",
+        "expected": "Yes",
+        "model_response": "To determine if you return to the starting point, let's break down the instructions step by step.\n\n1",
+        "correct": true
+      },
+      {
+        "example_id": "bbh_navigate_48",
+        "prompt": "If you follow these instructions, do you return to the starting point? Take 10 steps. Take 7 steps. ",
+        "expected": "Yes",
+        "model_response": "To determine if you return to the starting point, let's analyze the instructions step by step.\n\n1. T",
+        "correct": false
+      },
+      {
+        "example_id": "bbh_navigate_49",
+        "prompt": "If you follow these instructions, do you return to the starting point? Take 1 step. Take 5 steps. Ta",
+        "expected": "No",
+        "model_response": "To determine if you return to the starting point, let's break down the steps:\n\n1. Take 1 step: You a",
+        "correct": true
+      },
+      {
+        "example_id": "bbh_navigate_50",
+        "prompt": "If you follow these instructions, do you return to the starting point? Always face forward. Take 4 s",
+        "expected": "No",
+        "model_response": "Let's break it down step by step:\n\n1. You start facing forward.\n2. Take 4 steps left: You are now fa",
+        "correct": true
+      },
+      {
+        "example_id": "bbh_navigate_51",
+        "prompt": "If you follow these instructions, do you return to the starting point? Always face forward. Take 10 ",
+        "expected": "No",
+        "model_response": "To determine if you return to the starting point, let's break down the steps:\n\n1. Take 10 steps righ",
+        "correct": true
+      },
+      {
+        "example_id": "bbh_navigate_52",
+        "prompt": "If you follow these instructions, do you return to the starting point? Always face forward. Take 8 s",
+        "expected": "No",
+        "model_response": "To determine if you return to the starting point, let's break down the instructions step by step:\n\n1",
+        "correct": true
+      },
+      {
+        "example_id": "bbh_navigate_53",
+        "prompt": "If you follow these instructions, do you return to the starting point? Always face forward. Take 5 s",
+        "expected": "Yes",
+        "model_response": "To solve this, let's break down the steps:\n\n1. Take 5 steps left: You'll be 5 steps away from the st",
+        "correct": false
+      },
+      {
+        "example_id": "bbh_navigate_54",
+        "prompt": "If you follow these instructions, do you return to the starting point? Always face forward. Take 9 s",
+        "expected": "No",
+        "model_response": "Let's break down the instructions step by step:\n\n1. You start facing forward.\n2. You take 9 steps to",
+        "correct": true
+      },
+      {
+        "example_id": "bbh_navigate_55",
+        "prompt": "If you follow these instructions, do you return to the starting point? Take 7 steps. Turn right. Tur",
+        "expected": "No",
+        "model_response": "Let's break down the instructions step by step:\n\n1. Take 7 steps.\n2. Turn right.\n3. This means you a",
+        "correct": true
+      },
+      {
+        "example_id": "bbh_navigate_56",
+        "prompt": "If you follow these instructions, do you return to the starting point? Always face forward. Take 6 s",
+        "expected": "Yes",
+        "model_response": "To determine if you return to the starting point, let's break down the steps:\n\n1. Take 6 steps forwa",
+        "correct": false
+      },
+      {
+        "example_id": "bbh_navigate_57",
+        "prompt": "If you follow these instructions, do you return to the starting point? Take 5 steps. Take 4 steps. T",
+        "expected": "No",
+        "model_response": "To determine if you return to the starting point, let's break down the steps:\n\n1. Take 5 steps: You ",
+        "correct": true
+      },
+      {
+        "example_id": "bbh_navigate_58",
+        "prompt": "If you follow these instructions, do you return to the starting point? Take 5 steps. Take 8 steps. T",
+        "expected": "No",
+        "model_response": "To determine if you return to the starting point, let's break down the instructions step by step:\n\n1",
+        "correct": true
+      },
+      {
+        "example_id": "bbh_navigate_59",
+        "prompt": "If you follow these instructions, do you return to the starting point? Take 9 steps. Turn left. Turn",
+        "expected": "Yes",
+        "model_response": "To determine if you return to the starting point, let's break down the instructions step by step:\n\n1",
+        "correct": false
+      },
+      {
+        "example_id": "bbh_navigate_60",
+        "prompt": "If you follow these instructions, do you return to the starting point? Always face forward. Take 1 s",
+        "expected": "No",
+        "model_response": "To determine if you return to the starting point, let's break down the instructions step by step:\n\n1",
+        "correct": true
+      },
+      {
+        "example_id": "bbh_navigate_61",
+        "prompt": "If you follow these instructions, do you return to the starting point? Always face forward. Take 9 s",
+        "expected": "No",
+        "model_response": "To determine if you return to the starting point, let's break down the instructions step by step:\n\n1",
+        "correct": true
+      },
+      {
+        "example_id": "bbh_navigate_62",
+        "prompt": "If you follow these instructions, do you return to the starting point? Always face forward. Take 2 s",
+        "expected": "Yes",
+        "model_response": "To determine if you return to the starting point, let's break down the steps:\n\n1. Take 2 steps backw",
+        "correct": true
+      },
+      {
+        "example_id": "bbh_navigate_63",
+        "prompt": "If you follow these instructions, do you return to the starting point? Always face forward. Take 6 s",
+        "expected": "Yes",
+        "model_response": "Let's break down the steps:\n\n1. You take 6 steps right. This means you're now 6 steps away from the ",
+        "correct": true
+      },
+      {
+        "example_id": "bbh_navigate_64",
+        "prompt": "If you follow these instructions, do you return to the starting point? Take 10 steps. Turn left. Tur",
+        "expected": "No",
+        "model_response": "To determine if you return to the starting point, let's break down the instructions step by step:\n\n1",
+        "correct": true
+      },
+      {
+        "example_id": "bbh_navigate_65",
+        "prompt": "If you follow these instructions, do you return to the starting point? Take 10 steps. Turn around. T",
+        "expected": "Yes",
+        "model_response": "Let's break down the instructions step by step:\n\n1. Take 10 steps: You move forward 10 steps from th",
+        "correct": false
+      },
+      {
+        "example_id": "bbh_navigate_66",
+        "prompt": "If you follow these instructions, do you return to the starting point? Turn right. Take 5 steps. Tak",
+        "expected": "Yes",
+        "model_response": "Let's break down the instructions step by step:\n\n1. Turn right: This doesn't change your position re",
+        "correct": false
+      },
+      {
+        "example_id": "bbh_navigate_67",
+        "prompt": "If you follow these instructions, do you return to the starting point? Always face forward. Take 7 s",
+        "expected": "Yes",
+        "model_response": "To determine if you return to the starting point, let's break down the instructions step by step:\n\n1",
+        "correct": true
+      },
+      {
+        "example_id": "bbh_navigate_68",
+        "prompt": "If you follow these instructions, do you return to the starting point? Take 4 steps. Take 2 steps. T",
+        "expected": "No",
+        "model_response": "Let's break down the instructions step by step:\n\n1. Take 4 steps. \n   - You are now 4 steps away fro",
+        "correct": true
+      },
+      {
+        "example_id": "bbh_navigate_69",
+        "prompt": "If you follow these instructions, do you return to the starting point? Always face forward. Take 7 s",
+        "expected": "No",
+        "model_response": "Let's break down the instructions step by step:\n\n1. Take 7 steps left: You are now 7 steps away from",
+        "correct": true
+      },
+      {
+        "example_id": "bbh_navigate_70",
+        "prompt": "If you follow these instructions, do you return to the starting point? Always face forward. Take 8 s",
+        "expected": "Yes",
+        "model_response": "To determine if you return to the starting point, let's break down the instructions step by step.\n\n1",
+        "correct": true
+      },
+      {
+        "example_id": "bbh_navigate_71",
+        "prompt": "If you follow these instructions, do you return to the starting point? Always face forward. Take 8 s",
+        "expected": "No",
+        "model_response": "Let's break down the instructions step by step:\n\n1. Take 8 steps left: You are now 8 steps away from",
+        "correct": true
+      },
+      {
+        "example_id": "bbh_navigate_72",
+        "prompt": "If you follow these instructions, do you return to the starting point? Always face forward. Take 6 s",
+        "expected": "Yes",
+        "model_response": "To determine if you return to the starting point, let's break down the instructions step by step:\n\n1",
+        "correct": false
+      },
+      {
+        "example_id": "bbh_navigate_73",
+        "prompt": "If you follow these instructions, do you return to the starting point? Turn left. Take 5 steps. Turn",
+        "expected": "No",
+        "model_response": "Let's break down the instructions step by step:\n\n1. Turn left: You are now facing a different direct",
+        "correct": true
+      },
+      {
+        "example_id": "bbh_navigate_74",
+        "prompt": "If you follow these instructions, do you return to the starting point? Take 1 step. Take 7 steps. Ta",
+        "expected": "No",
+        "model_response": "To determine if you return to the starting point, let's break down the steps:\n\n1. Take 1 step: You m",
+        "correct": true
+      }
+    ]
+  },
+  "bbh_boolean": {
+    "domain": "reasoning",
+    "accuracy": 0.9866666666666667,
+    "correct": 74,
+    "total": 75,
+    "api_calls_used": 350,
+    "details": [
+      {
+        "example_id": "bbh_boolean_expressions_0",
+        "prompt": "True and not False and not not True is",
+        "expected": "True",
+        "model_response": "To solve this, let's break it down step by step:\n\n1. \"True and not False\" means we have a True state",
+        "correct": true
+      },
+      {
+        "example_id": "bbh_boolean_expressions_1",
+        "prompt": "True and not not not not not True is",
+        "expected": "False",
+        "model_response": "To solve this, let's break it down step by step.\n\n1. \"Not not not not not True\" is a series of negat",
+        "correct": true
+      },
+      {
+        "example_id": "bbh_boolean_expressions_2",
+        "prompt": "not ( ( False and True ) ) is",
+        "expected": "True",
+        "model_response": "To evaluate this expression, we need to follow the order of operations (PEMDAS):\n\n1. Evaluate the ex",
+        "correct": true
+      },
+      {
+        "example_id": "bbh_boolean_expressions_3",
+        "prompt": "( True and not True and False ) is",
+        "expected": "False",
+        "model_response": "To evaluate this expression, we need to follow the order of operations, which is parentheses, expone",
+        "correct": true
+      },
+      {
+        "example_id": "bbh_boolean_expressions_4",
+        "prompt": "False or ( not False ) and True is",
+        "expected": "True",
+        "model_response": "To evaluate the expression \"False or (not False) and True\", we need to follow the order of operation",
+        "correct": true
+      },
+      {
+        "example_id": "bbh_boolean_expressions_5",
+        "prompt": "not ( False and True ) and True is",
+        "expected": "True",
+        "model_response": "To solve this, let's break it down step by step:\n\n1. 'False and True' is a logical operation. In thi",
+        "correct": true
+      },
+      {
+        "example_id": "bbh_boolean_expressions_6",
+        "prompt": "( not False ) or ( True ) is",
+        "expected": "True",
+        "model_response": "To determine the answer, we need to evaluate the expression step by step.\n\n1. The expression is \"(no",
+        "correct": true
+      },
+      {
+        "example_id": "bbh_boolean_expressions_7",
+        "prompt": "True or not ( ( True ) ) is",
+        "expected": "True",
+        "model_response": "It looks like you're asking me to evaluate the statement \"( True )\". \n\nTo do this, let's break it do",
+        "correct": true
+      },
+      {
+        "example_id": "bbh_boolean_expressions_8",
+        "prompt": "not False and True or ( True ) is",
+        "expected": "True",
+        "model_response": "To evaluate this expression, we need to follow the order of operations (PEMDAS):\n\n1. Evaluate the in",
+        "correct": true
+      },
+      {
+        "example_id": "bbh_boolean_expressions_9",
+        "prompt": "not ( False ) and ( False ) is",
+        "expected": "False",
+        "model_response": "To solve this, let's break it down step by step:\n\n1. We have two statements: (False) and (False).\n2.",
+        "correct": true
+      },
+      {
+        "example_id": "bbh_boolean_expressions_10",
+        "prompt": "not True and False or False or True is",
+        "expected": "True",
+        "model_response": "To solve this, let's break it down step by step:\n\n1. \"not True\" is False.\n2. \"False or False\" is Fal",
+        "correct": true
+      },
+      {
+        "example_id": "bbh_boolean_expressions_11",
+        "prompt": "True and False or ( not True ) is",
+        "expected": "False",
+        "model_response": "It seems like you're asking for a response in the format of True or False, but with a twist. Based o",
+        "correct": true
+      },
+      {
+        "example_id": "bbh_boolean_expressions_12",
+        "prompt": "False or ( False ) or not True is",
+        "expected": "False",
+        "model_response": "To evaluate the expression \"False or (False) or not True\", let's break it down step by step:\n\n1. Eva",
+        "correct": true
+      },
+      {
+        "example_id": "bbh_boolean_expressions_13",
+        "prompt": "not not not not ( not False ) is",
+        "expected": "True",
+        "model_response": "To solve this, let's break it down step by step.\n\n1. The expression inside the parentheses is not Fa",
+        "correct": true
+      },
+      {
+        "example_id": "bbh_boolean_expressions_14",
+        "prompt": "( False ) and ( not False ) is",
+        "expected": "False",
+        "model_response": "To solve this, let's break it down step by step:\n\n1. (False) is a statement that is false.\n2. The no",
+        "correct": true
+      },
+      {
+        "example_id": "bbh_boolean_expressions_15",
+        "prompt": "False or False and False or not True is",
+        "expected": "False",
+        "model_response": "To evaluate this expression, we need to break it down step by step.\n\n1. \"False or False\" - This is a",
+        "correct": true
+      },
+      {
+        "example_id": "bbh_boolean_expressions_16",
+        "prompt": "not not not False and True and False is",
+        "expected": "False",
+        "model_response": "To solve this, let's break it down step by step.\n\n1. 'not not not False' can be read as 'not (not (n",
+        "correct": true
+      },
+      {
+        "example_id": "bbh_boolean_expressions_17",
+        "prompt": "not False or True and False and False is",
+        "expected": "True",
+        "model_response": "To solve this, we need to follow the order of operations for logical operations.\n\n1. 'not False or T",
+        "correct": true
+      },
+      {
+        "example_id": "bbh_boolean_expressions_18",
+        "prompt": "True and not False or False and False is",
+        "expected": "True",
+        "model_response": "To solve this, let's break it down step by step.\n\n1. True and not False is True, because \"not False\"",
+        "correct": true
+      },
+      {
+        "example_id": "bbh_boolean_expressions_19",
+        "prompt": "False and not ( not not False ) is",
+        "expected": "False",
+        "model_response": "To solve this, let's break it down step by step:\n\n1. 'False' is a statement.\n2. 'not' is a logical o",
+        "correct": true
+      },
+      {
+        "example_id": "bbh_boolean_expressions_20",
+        "prompt": "True and True and True or not False is",
+        "expected": "True",
+        "model_response": "To solve this, let's break it down step by step:\n\n1. \"True and True and True\" - Since all three stat",
+        "correct": true
+      },
+      {
+        "example_id": "bbh_boolean_expressions_21",
+        "prompt": "( False ) or not False or True is",
+        "expected": "True",
+        "model_response": "To solve this, let's break it down step by step.\n\n1. The statement \"( False ) or not False or True\" ",
+        "correct": true
+      },
+      {
+        "example_id": "bbh_boolean_expressions_22",
+        "prompt": "( True and not not not True ) is",
+        "expected": "False",
+        "model_response": "To solve this, let's break it down step by step:\n\n1. 'not not not True' means we have a 'not' operat",
+        "correct": true
+      },
+      {
+        "example_id": "bbh_boolean_expressions_23",
+        "prompt": "not True or False and True and True is",
+        "expected": "False",
+        "model_response": "To evaluate this, we need to break it down step by step.\n\n1. \"not True\" is False\n2. \"True and True\" ",
+        "correct": true
+      },
+      {
+        "example_id": "bbh_boolean_expressions_24",
+        "prompt": "not ( False ) and ( True ) is",
+        "expected": "True",
+        "model_response": "To evaluate this expression, we need to follow the order of operations:\n\n1. Evaluate the expressions",
+        "correct": true
+      },
+      {
+        "example_id": "bbh_boolean_expressions_25",
+        "prompt": "False or ( not False and False ) is",
+        "expected": "False",
+        "model_response": "To evaluate the expression, we need to follow the order of operations (PEMDAS):\n\n1. Evaluate the exp",
+        "correct": true
+      },
+      {
+        "example_id": "bbh_boolean_expressions_26",
+        "prompt": "not not not not True or not True is",
+        "expected": "True",
+        "model_response": "To evaluate this expression, we need to follow the order of operations (PEMDAS):\n\n1. Evaluate the in",
+        "correct": true
+      },
+      {
+        "example_id": "bbh_boolean_expressions_27",
+        "prompt": "not False and not not True and True is",
+        "expected": "True",
+        "model_response": "To solve this, let's break it down step by step:\n\n1. 'not False' means True, because anything is Tru",
+        "correct": true
+      },
+      {
+        "example_id": "bbh_boolean_expressions_28",
+        "prompt": "True or False and not ( True ) is",
+        "expected": "True",
+        "model_response": "It seems like you're asking me to fill in the blank. Based on the information provided, I'll assume ",
+        "correct": true
+      },
+      {
+        "example_id": "bbh_boolean_expressions_29",
+        "prompt": "( False ) or False and not True is",
+        "expected": "False",
+        "model_response": "To evaluate the given expression, we need to follow the order of operations (PEMDAS):\n\n1. Evaluate t",
+        "correct": true
+      },
+      {
+        "example_id": "bbh_boolean_expressions_30",
+        "prompt": "not True and True and False and True is",
+        "expected": "False",
+        "model_response": "To solve this, we need to evaluate the expression step by step, following the order of operations (a",
+        "correct": true
+      },
+      {
+        "example_id": "bbh_boolean_expressions_31",
+        "prompt": "False and not ( False or False ) is",
+        "expected": "False",
+        "model_response": "To solve this, let's break it down step by step:\n\n1. \"False and not ( False or False )\"\n   - The inn",
+        "correct": true
+      },
+      {
+        "example_id": "bbh_boolean_expressions_32",
+        "prompt": "( ( not False ) and False ) is",
+        "expected": "False",
+        "model_response": "To evaluate the expression, we need to follow the order of operations (PEMDAS):\n\n1. Evaluate the inn",
+        "correct": true
+      },
+      {
+        "example_id": "bbh_boolean_expressions_33",
+        "prompt": "not ( not not False ) and True is",
+        "expected": "True",
+        "model_response": "To evaluate the expression, we need to follow the order of operations (PEMDAS):\n\n1. Evaluate the inn",
+        "correct": true
+      },
+      {
+        "example_id": "bbh_boolean_expressions_34",
+        "prompt": "( False and True or not False ) is",
+        "expected": "True",
+        "model_response": "To determine the answer, let's break it down step by step:\n\n1. \"( False and True or not False )\" is ",
+        "correct": true
+      },
+      {
+        "example_id": "bbh_boolean_expressions_35",
+        "prompt": "True and False and not True or False is",
+        "expected": "False",
+        "model_response": "To solve this, let's break it down step by step:\n\n1. True and False is a combination of two statemen",
+        "correct": true
+      },
+      {
+        "example_id": "bbh_boolean_expressions_36",
+        "prompt": "False and not False or False and True is",
+        "expected": "False",
+        "model_response": "To solve this, let's break it down step by step.\n\n1. The statement is \"False and not False or False ",
+        "correct": true
+      },
+      {
+        "example_id": "bbh_boolean_expressions_37",
+        "prompt": "True and not not ( not False ) is",
+        "expected": "True",
+        "model_response": "To solve this, let's break it down step by step:\n\n1. 'not False' means the opposite of False, which ",
+        "correct": true
+      },
+      {
+        "example_id": "bbh_boolean_expressions_38",
+        "prompt": "( ( not False ) ) and True is",
+        "expected": "True",
+        "model_response": "To evaluate the expression ( ( not False ) ) and True, we need to follow the order of operations (PE",
+        "correct": true
+      },
+      {
+        "example_id": "bbh_boolean_expressions_39",
+        "prompt": "not not not not not not not True is",
+        "expected": "False",
+        "model_response": "To solve this, let's break it down step by step.\n\n1. 'not not not not not not not True' can be read ",
+        "correct": true
+      },
+      {
+        "example_id": "bbh_boolean_expressions_40",
+        "prompt": "not True and False or False and False is",
+        "expected": "False",
+        "model_response": "To solve this, let's break it down step by step.\n\n1. 'not True' means False.\n2. 'not False' means Tr",
+        "correct": true
+      },
+      {
+        "example_id": "bbh_boolean_expressions_41",
+        "prompt": "not True and not True and not True is",
+        "expected": "False",
+        "model_response": "To evaluate this expression, we need to follow the order of operations, which in this case is the lo",
+        "correct": true
+      },
+      {
+        "example_id": "bbh_boolean_expressions_42",
+        "prompt": "( not False and ( True ) ) is",
+        "expected": "True",
+        "model_response": "To evaluate this expression, we need to follow the order of operations (PEMDAS):\n\n1. Evaluate the ex",
+        "correct": true
+      },
+      {
+        "example_id": "bbh_boolean_expressions_43",
+        "prompt": "( True or not not not False ) is",
+        "expected": "True",
+        "model_response": "To answer this question, we need to break it down step by step:\n\n1. The question is asking whether \"",
+        "correct": true
+      },
+      {
+        "example_id": "bbh_boolean_expressions_44",
+        "prompt": "not ( False ) or not not False is",
+        "expected": "True",
+        "model_response": "To solve this, let's break it down step by step.\n\n1. 'not ( False )' means we first negate the value",
+        "correct": true
+      },
+      {
+        "example_id": "bbh_boolean_expressions_45",
+        "prompt": "not ( not False ) and not False is",
+        "expected": "False",
+        "model_response": "To solve this, let's break it down step by step:\n\n1. 'not False' is True because the 'not' operator ",
+        "correct": true
+      },
+      {
+        "example_id": "bbh_boolean_expressions_46",
+        "prompt": "( True and not True and True ) is",
+        "expected": "False",
+        "model_response": "To evaluate the expression \"( True and not True and True )\", let's break it down step by step:\n\n1. E",
+        "correct": true
+      },
+      {
+        "example_id": "bbh_boolean_expressions_47",
+        "prompt": "( not True and False or True ) is",
+        "expected": "True",
+        "model_response": "It seems like you're setting up a riddle. Based on the structure, I'm going to take a guess that the",
+        "correct": true
+      },
+      {
+        "example_id": "bbh_boolean_expressions_48",
+        "prompt": "not False or False or ( False ) is",
+        "expected": "True",
+        "model_response": "To solve this, let's break it down step by step:\n\n1. 'not' is a negation operator, so it will revers",
+        "correct": true
+      },
+      {
+        "example_id": "bbh_boolean_expressions_49",
+        "prompt": "( True or True or not False ) is",
+        "expected": "True",
+        "model_response": "It seems like you're asking me to categorize a statement as True, Not False, or True. However, I'm g",
+        "correct": true
+      },
+      {
+        "example_id": "bbh_boolean_expressions_50",
+        "prompt": "not ( not not not not False ) is",
+        "expected": "True",
+        "model_response": "To solve this, let's break it down step by step:\n\n1. 'not False' means we are negating the value Fal",
+        "correct": true
+      },
+      {
+        "example_id": "bbh_boolean_expressions_51",
+        "prompt": "not False and not True or not True is",
+        "expected": "False",
+        "model_response": "To solve this, let's break it down step by step.\n\n1. \"not False and not True\" \n   - \"not False\" is T",
+        "correct": true
+      },
+      {
+        "example_id": "bbh_boolean_expressions_52",
+        "prompt": "( True ) or True and not True is",
+        "expected": "True",
+        "model_response": "To evaluate this expression, we need to follow the order of operations (PEMDAS):\n\n1. Evaluate the in",
+        "correct": true
+      },
+      {
+        "example_id": "bbh_boolean_expressions_53",
+        "prompt": "not True and True and True or False is",
+        "expected": "False",
+        "model_response": "To evaluate this expression, we need to follow the order of operations (PEMDAS):\n\n1. Evaluate the 'a",
+        "correct": true
+      },
+      {
+        "example_id": "bbh_boolean_expressions_54",
+        "prompt": "( True ) and False or not False is",
+        "expected": "True",
+        "model_response": "To determine the answer, let's break it down step by step:\n\n1. \"( True ) and False\" - This part is a",
+        "correct": true
+      },
+      {
+        "example_id": "bbh_boolean_expressions_55",
+        "prompt": "not ( True ) or False or True is",
+        "expected": "True",
+        "model_response": "To determine the answer, let's break it down step by step:\n\n1. The statement is \"not ( True ) or Fal",
+        "correct": true
+      },
+      {
+        "example_id": "bbh_boolean_expressions_56",
+        "prompt": "True and not False or ( True ) is",
+        "expected": "True",
+        "model_response": "To determine the answer, let's break down the statement step by step.\n\n1. \"True and not False\" is a ",
+        "correct": true
+      },
+      {
+        "example_id": "bbh_boolean_expressions_57",
+        "prompt": "not True or ( False and True ) is",
+        "expected": "False",
+        "model_response": "To solve this, we need to follow the order of operations (PEMDAS):\n\n1. Evaluate the expression insid",
+        "correct": true
+      },
+      {
+        "example_id": "bbh_boolean_expressions_58",
+        "prompt": "False and ( False or not False ) is",
+        "expected": "False",
+        "model_response": "To solve this, let's break it down step by step:\n\n1. 'False or not False' can be simplified to 'Fals",
+        "correct": true
+      },
+      {
+        "example_id": "bbh_boolean_expressions_59",
+        "prompt": "not True or True and False or False is",
+        "expected": "False",
+        "model_response": "To solve this, let's break it down step by step.\n\n1. \"not True\" is False\n2. \"True and False\" is Fals",
+        "correct": true
+      },
+      {
+        "example_id": "bbh_boolean_expressions_60",
+        "prompt": "not False or ( True ) and True is",
+        "expected": "True",
+        "model_response": "To evaluate this expression, we need to follow the order of operations (PEMDAS):\n\n1. Evaluate the ex",
+        "correct": true
+      },
+      {
+        "example_id": "bbh_boolean_expressions_61",
+        "prompt": "False and True and ( not False ) is",
+        "expected": "False",
+        "model_response": "To solve this, let's break it down step by step:\n\n1. First, we evaluate 'False' which is False.\n2. T",
+        "correct": true
+      },
+      {
+        "example_id": "bbh_boolean_expressions_62",
+        "prompt": "False and not True and True and False is",
+        "expected": "False",
+        "model_response": "To evaluate the expression \"False and not True and True and False\", we need to follow the order of o",
+        "correct": true
+      },
+      {
+        "example_id": "bbh_boolean_expressions_63",
+        "prompt": "True and not True or False and True is",
+        "expected": "False",
+        "model_response": "To solve this, let's break it down step by step.\n\n1. We have two conditions: \n   - True and not True",
+        "correct": true
+      },
+      {
+        "example_id": "bbh_boolean_expressions_64",
+        "prompt": "not ( False or False or True ) is",
+        "expected": "False",
+        "model_response": "To solve this, let's break it down step by step.\n\n1. We have a logical expression: not ( False or Fa",
+        "correct": true
+      },
+      {
+        "example_id": "bbh_boolean_expressions_65",
+        "prompt": "False and False or True and not False is",
+        "expected": "True",
+        "model_response": "To evaluate this expression, we need to break it down step by step.\n\n1. \"False and False\" is a logic",
+        "correct": true
+      },
+      {
+        "example_id": "bbh_boolean_expressions_66",
+        "prompt": "not False or not not False and False is",
+        "expected": "True",
+        "model_response": "To solve this, let's break it down step by step.\n\n1. \"not False\" is True, because the negation of Fa",
+        "correct": true
+      },
+      {
+        "example_id": "bbh_boolean_expressions_67",
+        "prompt": "not True or not False and not False is",
+        "expected": "True",
+        "model_response": "To determine the answer, let's break it down step by step.\n\n1. \"not True\" is False\n2. \"not False\" is",
+        "correct": true
+      },
+      {
+        "example_id": "bbh_boolean_expressions_68",
+        "prompt": "False or not ( False ) or True is",
+        "expected": "True",
+        "model_response": "To determine the answer, we need more information about the question. Please provide the question, a",
+        "correct": false
+      },
+      {
+        "example_id": "bbh_boolean_expressions_69",
+        "prompt": "False or not True or False or False is",
+        "expected": "False",
+        "model_response": "To determine the answer, let's break it down step by step:\n\n1. \"False\" is a statement.\n2. \"or\" is a ",
+        "correct": true
+      },
+      {
+        "example_id": "bbh_boolean_expressions_70",
+        "prompt": "False or not True and True or True is",
+        "expected": "True",
+        "model_response": "Let's break it down step by step.\n\n1. \"False or not True\" can be simplified to \"False or False\" sinc",
+        "correct": true
+      },
+      {
+        "example_id": "bbh_boolean_expressions_71",
+        "prompt": "not False and ( False or False ) is",
+        "expected": "False",
+        "model_response": "To solve this, we need to follow the order of operations (PEMDAS):\n\n1. Evaluate the expression insid",
+        "correct": true
+      },
+      {
+        "example_id": "bbh_boolean_expressions_72",
+        "prompt": "not True and ( False or True ) is",
+        "expected": "False",
+        "model_response": "To evaluate the expression \"not True and (False or True)\", we need to follow the order of operations",
+        "correct": true
+      },
+      {
+        "example_id": "bbh_boolean_expressions_73",
+        "prompt": "True and not True or False or True is",
+        "expected": "True",
+        "model_response": "To determine the correct answer, let's break it down step by step:\n\n1. \"True and not True\" is a comb",
+        "correct": true
+      },
+      {
+        "example_id": "bbh_boolean_expressions_74",
+        "prompt": "not not True and True and not True is",
+        "expected": "False",
+        "model_response": "To solve this, let's break it down step by step:\n\n1. 'not not True' means we first negate the negati",
+        "correct": true
+      }
+    ]
+  },
+  "liar": {
+    "domain": "fact_verification",
+    "accuracy": 0.06,
+    "correct": 6,
+    "total": 100,
+    "api_calls_used": 450,
+    "details": [
+      {
+        "example_id": "liar_0",
+        "prompt": "\"I'm prolife. I'm not going to apologize for becoming prolife. Ronald Reagan followed that same cour",
+        "expected": "false",
+        "model_response": "It seems like the speaker is expressing their strong stance on being pro-life and is drawing paralle",
+        "correct": false
+      },
+      {
+        "example_id": "liar_1",
+        "prompt": "If the Republicans were the majority, (Rep. Barton) would have actually the gavel and the chairmansh",
+        "expected": "false",
+        "model_response": "If the Republicans were the majority, Rep. Barton would have had the power and authority of the gave",
+        "correct": false
+      },
+      {
+        "example_id": "liar_2",
+        "prompt": "Spanish was the first European language spoken in this country.",
+        "expected": "true",
+        "model_response": "To answer this question, we need to identify a country where Spanish was the first European language",
+        "correct": false
+      },
+      {
+        "example_id": "liar_3",
+        "prompt": "Says stories about his birth certificate drowned out media coverage of the Republican and White Hous",
+        "expected": "false",
+        "model_response": "To answer the question, we need to identify the subject of the sentence. The subject is \"Says storie",
+        "correct": false
+      },
+      {
+        "example_id": "liar_4",
+        "prompt": "Big rooftop solars plan forces Nevada families who dont have solar panels to pay higher power bills ",
+        "expected": "false",
+        "model_response": "To address this issue, let's break it down step by step.\n\n1. **Understanding the Problem**: The curr",
+        "correct": false
+      },
+      {
+        "example_id": "liar_5",
+        "prompt": "80 percent of North Carolinians are for the living wage",
+        "expected": "half-true",
+        "model_response": "To answer this question, we need to determine what the \"living wage\" is in North Carolina. However, ",
+        "correct": false
+      },
+      {
+        "example_id": "liar_6",
+        "prompt": "During his 18-year Senate career, (Russ Feingold) supported judges who voted to deny your individual",
+        "expected": "true",
+        "model_response": "It seems like the statement is criticizing Russ Feingold's past actions regarding the Second Amendme",
+        "correct": false
+      },
+      {
+        "example_id": "liar_7",
+        "prompt": "During the Eisenhower Administration, not a single soldier died in combat.",
+        "expected": "false",
+        "model_response": "To answer the question, let's break it down step by step:\n\n1. Identify the time period of the Eisenh",
+        "correct": false
+      },
+      {
+        "example_id": "liar_8",
+        "prompt": "Sixteen million jobs were created under Ronald Reagans presidency.",
+        "expected": "true",
+        "model_response": "That statement is incorrect. \n\nUnder Ronald Reagan's presidency, which spanned from 1981 to 1989, th",
+        "correct": false
+      },
+      {
+        "example_id": "liar_9",
+        "prompt": "Only four countries in the world allow abortions after 20 weeks of pregnancy.",
+        "expected": "false",
+        "model_response": "To answer this question, we need to identify the four countries that allow abortions after 20 weeks ",
+        "correct": false
+      },
+      {
+        "example_id": "liar_10",
+        "prompt": "Mark Warner cast the tiebreaking vote to pass Obamacare.",
+        "expected": "true",
+        "model_response": "I couldn't find any information that Mark Warner cast the tiebreaking vote to pass Obamacare.",
+        "correct": false
+      },
+      {
+        "example_id": "liar_11",
+        "prompt": "Says cities save an estimated $38 in dental costs for every $1 invested in fluoridation.",
+        "expected": "half-true",
+        "model_response": "To answer the question, we need to identify the claim being made. The claim is that cities save an e",
+        "correct": false
+      },
+      {
+        "example_id": "liar_12",
+        "prompt": "Says North Carolina Republican Senate candidate Thom Tillis supports a plan that would end Medicare ",
+        "expected": "true",
+        "model_response": "To answer this question, let's break it down step by step.\n\n1. **Identify the claim**: The claim is ",
+        "correct": true
+      },
+      {
+        "example_id": "liar_13",
+        "prompt": "When he (Donald Trump) asked Florida to have casino gambling, we said no.",
+        "expected": "half-true",
+        "model_response": "I'm happy to help you think step by step. However, I need a bit more information to provide a comple",
+        "correct": false
+      },
+      {
+        "example_id": "liar_14",
+        "prompt": "I differed with my party on business legislation, on consumer protection, and on free trade agreemen",
+        "expected": "false",
+        "model_response": "It sounds like you're describing a disagreement or a divergence of opinion with your political party",
+        "correct": false
+      },
+      {
+        "example_id": "liar_15",
+        "prompt": "Public-employee unions spent $30 million in Wisconsin unsuccessfully trying to flip the state Senate",
+        "expected": "false",
+        "model_response": "To answer this question, let's break it down step by step.\n\n1. **Identify the main point**: The main",
+        "correct": false
+      },
+      {
+        "example_id": "liar_16",
+        "prompt": "Says President Obamas proposed oil tax would cost consumers 24 cents a gallon.",
+        "expected": "half-true",
+        "model_response": "To answer this question, we would need to verify the information about President Obama's proposed oi",
+        "correct": true
+      },
+      {
+        "example_id": "liar_17",
+        "prompt": "I sponsored the new Buy American law",
+        "expected": "false",
+        "model_response": "That's a statement. To complete the answer, I'll need a question or a context to respond to. However",
+        "correct": false
+      },
+      {
+        "example_id": "liar_18",
+        "prompt": "Barack Obama said in 2004 \"that he basically agreed with the way George Bush was conducting the war.",
+        "expected": "false",
+        "model_response": "I think there may be some inaccuracy in the statement. To verify, let's break down the information.\n",
+        "correct": false
+      },
+      {
+        "example_id": "liar_19",
+        "prompt": "The only growth sector that weve had in the last two years in America is government growth.",
+        "expected": "false",
+        "model_response": "That statement suggests that the private sector has not experienced significant growth in the last t",
+        "correct": false
+      },
+      {
+        "example_id": "liar_20",
+        "prompt": "The per-pupil cost in the [Blackstone Valley Prep] Mayoral Academy far outweighs the per-pupil cost ",
+        "expected": "true",
+        "model_response": "To answer this question, we need to consider the factors that contribute to the per-pupil cost in bo",
+        "correct": false
+      },
+      {
+        "example_id": "liar_21",
+        "prompt": "Were spending less money today, in upcoming fiscal year 2014 than the Corzine-Buono budget spent in ",
+        "expected": "half-true",
+        "model_response": "To answer this question, we need to follow a step-by-step process.\n\nStep 1: Identify the Corzine-Buo",
+        "correct": false
+      },
+      {
+        "example_id": "liar_22",
+        "prompt": "If African-Americans vote their percentage of the population in 2008, \"Mississippi is suddenly a Dem",
+        "expected": "false",
+        "model_response": "To answer this question, let's break it down step by step.\n\n1. First, we need to know the percentage",
+        "correct": false
+      },
+      {
+        "example_id": "liar_23",
+        "prompt": "Subsidies for oil and gas companies make up 88 percent of all federal subsidies. Just cutting the oi",
+        "expected": "false",
+        "model_response": "To answer this, let's break it down step by step:\n\n1. **Identify the key information**: The key info",
+        "correct": false
+      },
+      {
+        "example_id": "liar_24",
+        "prompt": "Says John Kerry is the first secretary of state to rely primarily on a government account.",
+        "expected": "half-true",
+        "model_response": "To answer this question, we'll break it down into steps:\n\n1. Identify the statement: John Kerry is t",
+        "correct": false
+      },
+      {
+        "example_id": "liar_25",
+        "prompt": "When these [undocumented] students graduate from college, theyre still illegal aliens. They cannot g",
+        "expected": "true",
+        "model_response": "It seems like the statement is highlighting a challenge faced by undocumented students who graduate ",
+        "correct": false
+      },
+      {
+        "example_id": "liar_26",
+        "prompt": "We spend almost twice as much per capita on health care as do the people of any other country.",
+        "expected": "false",
+        "model_response": "That statement is likely true. The United States has one of the highest per capita healthcare expend",
+        "correct": false
+      },
+      {
+        "example_id": "liar_27",
+        "prompt": "Says local Texas chambers of commerce were granted exemptions from paying property taxes on their he",
+        "expected": "true",
+        "model_response": "To answer this, let's break it down step by step:\n\n1. **Identify the claim**: The claim is that loca",
+        "correct": false
+      },
+      {
+        "example_id": "liar_28",
+        "prompt": "Gene Green is the NRAs favorite Democrat in Congress. ... Its no wonder the congressman has a lifeti",
+        "expected": "true",
+        "model_response": "It seems there's a contradiction in the statement. If Gene Green is the NRA's favorite Democrat in C",
+        "correct": true
+      },
+      {
+        "example_id": "liar_29",
+        "prompt": "Says as we sit right now, Medicare, if we do nothing, will be gone in eight years, if we do nothing ",
+        "expected": "false",
+        "model_response": "That statement is referring to the Medicare Trust Fund's projected depletion. \n\nStep 1: Identify the",
+        "correct": false
+      },
+      {
+        "example_id": "liar_30",
+        "prompt": "Says Republican U.S. Senate candidate Tommy Thompson supports massive tax cuts for corporations that",
+        "expected": "false",
+        "model_response": "It seems like we have a statement about a Republican U.S. Senate candidate named Tommy Thompson. \n\nT",
+        "correct": false
+      },
+      {
+        "example_id": "liar_31",
+        "prompt": "Twenty-five percent of our kids in foster care are there because their parents are involved in drugs",
+        "expected": "true",
+        "model_response": "Let's break down the information and consider possible reasons and implications.\n\n1. **Prevalence of",
+        "correct": false
+      },
+      {
+        "example_id": "liar_32",
+        "prompt": "As a result of National Rifle Association and other private-sector (safety-education) programs, fata",
+        "expected": "false",
+        "model_response": "That statement is likely true. \n\nTo analyze this, let's break down the information:\n\n1. **National R",
+        "correct": false
+      },
+      {
+        "example_id": "liar_33",
+        "prompt": "Says Oak Grove is one of the largest cities in Oregon and is the biggest city in Clackamas County an",
+        "expected": "false",
+        "model_response": "To answer this, let's break it down step by step:\n\n1. Oak Grove is not a city, but rather a census-d",
+        "correct": false
+      },
+      {
+        "example_id": "liar_34",
+        "prompt": "Says Donald Trump said of women, And you can tell them to go f--- themselves.",
+        "expected": "unknown",
+        "model_response": "I can provide some context and information about the quote. \n\nThe quote you mentioned seems to be fr",
+        "correct": true
+      },
+      {
+        "example_id": "liar_35",
+        "prompt": "\"John McCain voted against establishing a national holiday in honor of Dr. Martin Luther King, Jr.\"",
+        "expected": "true",
+        "model_response": "To answer this question, let's break it down step by step:\n\n1. **Identify the key figures involved**",
+        "correct": false
+      },
+      {
+        "example_id": "liar_36",
+        "prompt": "Says Peter Kilmartin has only three years experience in his own law practice.",
+        "expected": "false",
+        "model_response": "To answer this question, we need more information. However, I can provide a possible answer based on",
+        "correct": false
+      },
+      {
+        "example_id": "liar_37",
+        "prompt": "Federal law adopted under Tommy Thompsons watch prohibits the government from negotiating for better",
+        "expected": "true",
+        "model_response": "To verify this statement, let's break it down into steps:\n\n1. **Identify the key figure**: Tommy Tho",
+        "correct": false
+      },
+      {
+        "example_id": "liar_38",
+        "prompt": "New Jersey has lost over half of our pharmaceutical jobs to states you know, not low-tax states like",
+        "expected": "half-true",
+        "model_response": "It seems like you're discussing the issue of pharmaceutical job loss in New Jersey. To address this,",
+        "correct": false
+      },
+      {
+        "example_id": "liar_39",
+        "prompt": "On campaign contributions from electric utilities.",
+        "expected": "false",
+        "model_response": "To address the question about campaign contributions from electric utilities, let's break it down in",
+        "correct": false
+      },
+      {
+        "example_id": "liar_40",
+        "prompt": "\"I don't think that Rudy or Fred or John McCain support the marriage amendment.\"",
+        "expected": "true",
+        "model_response": "To answer this question, we need to analyze the statement step by step.\n\n1. The statement mentions t",
+        "correct": false
+      },
+      {
+        "example_id": "liar_41",
+        "prompt": "Says states that passed anti-illegal-immigrant legislation also had few Hispanic legislators.",
+        "expected": "true",
+        "model_response": "To analyze this statement, let's break it down into steps:\n\n1. **Identify the claim**: The claim is ",
+        "correct": false
+      },
+      {
+        "example_id": "liar_42",
+        "prompt": "Democrats give Newports to the homeless to get them to the polls.",
+        "expected": "false",
+        "model_response": "It seems like the question is asking for a response or a consequence of the action described. \n\nTo a",
+        "correct": false
+      },
+      {
+        "example_id": "liar_43",
+        "prompt": "More than 400 car crashes occur each year on the current, congested Columbia River Bridge.",
+        "expected": "false",
+        "model_response": "To address the issue of the congested Columbia River Bridge and the high number of car crashes, here",
+        "correct": false
+      },
+      {
+        "example_id": "liar_44",
+        "prompt": "Our economy actually shrank during the last three months of 2012.",
+        "expected": "true",
+        "model_response": "That's a statement about the US economy in 2012. To answer this, I'll need to consider the economic ",
+        "correct": false
+      },
+      {
+        "example_id": "liar_45",
+        "prompt": "When it comes to being effective at creating jobs (Chris Christie has not had) a record of governing",
+        "expected": "false",
+        "model_response": "It seems like the statement is criticizing Chris Christie's record on job creation during his time a",
+        "correct": false
+      },
+      {
+        "example_id": "liar_46",
+        "prompt": "Fox News is banned in Canada because it violatesa law thatprevents news channels from lying to their",
+        "expected": "unknown",
+        "model_response": "That's not accurate. Fox News is not banned in Canada. \n\nTo correct the statement: Fox News is not b",
+        "correct": true
+      },
+      {
+        "example_id": "liar_47",
+        "prompt": "Minnesota, Michigan, Iowa already have 70 mph speed limits on rural interstates, and we see that the",
+        "expected": "false",
+        "model_response": "It seems like you're starting to build a case for implementing a 70 mph speed limit on rural interst",
+        "correct": false
+      },
+      {
+        "example_id": "liar_48",
+        "prompt": "The RESTORE Act started as an effort to dedicate as much BP fine money as possible towards Gulf Coas",
+        "expected": "false",
+        "model_response": "To answer this question, let's break it down step by step.\n\n1. **Understanding the RESTORE Act**: Th",
+        "correct": false
+      },
+      {
+        "example_id": "liar_49",
+        "prompt": "Household income in America has gone down for families an average of $4,000 in the last four years w",
+        "expected": "false",
+        "model_response": "To analyze this statement, let's break it down step by step:\n\n1. **Household income in America has g",
+        "correct": false
+      },
+      {
+        "example_id": "liar_50",
+        "prompt": "Says Every year air pollution protections are delayed, another 34,000 people will die prematurely.",
+        "expected": "half-true",
+        "model_response": "To answer this question, let's break it down step by step:\n\n1. The statement claims that every year,",
+        "correct": false
+      },
+      {
+        "example_id": "liar_51",
+        "prompt": "Says Jeb Bush has released 10 percent of his emails.",
+        "expected": "false",
+        "model_response": "To answer this question, we need to consider the following steps:\n\n1. Identify the key information: ",
+        "correct": false
+      },
+      {
+        "example_id": "liar_52",
+        "prompt": "During my administration, funding for education has increased by over $930 million.",
+        "expected": "false",
+        "model_response": "It sounds like you're making a statement about your accomplishments as an administrator, possibly in",
+        "correct": false
+      },
+      {
+        "example_id": "liar_53",
+        "prompt": "The stimulus \"has delivered $43 billion in tax relief to American working families and businesses\"",
+        "expected": "false",
+        "model_response": "To answer this question, we need to determine what \"the stimulus\" refers to. \n\nSince we don't have a",
+        "correct": false
+      },
+      {
+        "example_id": "liar_54",
+        "prompt": "Cincinnati is already one of the biggest cities in the country to run 100 percent on clean energy.",
+        "expected": "false",
+        "model_response": "To answer this, let's break it down step by step:\n\n1. **Identify the claim**: The claim is that Cinc",
+        "correct": false
+      },
+      {
+        "example_id": "liar_55",
+        "prompt": "\"McCollum admitted he didn't think that the subprime mortgage crisis was a big deal, telling reporte",
+        "expected": "unknown",
+        "model_response": "It seems like we're analyzing a quote. To answer this, I'll break down the information provided:\n\n1.",
+        "correct": true
+      },
+      {
+        "example_id": "liar_56",
+        "prompt": "Says Chris Christie was behind in the polls against Jon Corzine during the 2009 governors race.",
+        "expected": "true",
+        "model_response": "To answer your question, I'll need to break it down step by step:\n\n1. Identify the key figures: Chri",
+        "correct": false
+      },
+      {
+        "example_id": "liar_57",
+        "prompt": "We have an increase in murder within our cities, the biggest in 45 years.",
+        "expected": "half-true",
+        "model_response": "Let's break down the issue step by step.\n\n1. **Identify the problem**: We have a significant increas",
+        "correct": false
+      },
+      {
+        "example_id": "liar_58",
+        "prompt": "Wisconsin lost more jobs over the past 12 months than any other state.",
+        "expected": "true",
+        "model_response": "To answer this question, we would need to know the actual data on job losses in each state over the ",
+        "correct": false
+      },
+      {
+        "example_id": "liar_59",
+        "prompt": "The non-partisan Congressional Budget Office concluded ObamaCare will cost the U.S. more than 800,00",
+        "expected": "true",
+        "model_response": "To answer this question, we need to verify the statement. \n\nStep 1: Verify the source of the informa",
+        "correct": false
+      },
+      {
+        "example_id": "liar_60",
+        "prompt": "Says Hillary Clinton lied about why her parents named her Hillary.",
+        "expected": "false",
+        "model_response": "To answer this question, let's break it down step by step.\n\n1. Hillary Clinton is a well-known publi",
+        "correct": false
+      },
+      {
+        "example_id": "liar_61",
+        "prompt": "\"President Obama's proposed 'spending freeze' will only reduce the $42 trillion in government spendi",
+        "expected": "true",
+        "model_response": "To answer this question, we need to calculate what a \"little more than one-half of 1 percent\" reduct",
+        "correct": false
+      },
+      {
+        "example_id": "liar_62",
+        "prompt": "Donald Trump has said nuclear proliferation is OK.",
+        "expected": "false",
+        "model_response": "I'm not aware of any information that suggests Donald Trump has said nuclear proliferation is okay. ",
+        "correct": false
+      },
+      {
+        "example_id": "liar_63",
+        "prompt": "On using embryonic stem cells for medical research.",
+        "expected": "false",
+        "model_response": "To address the question of using embryonic stem cells for medical research, let's break it down into",
+        "correct": false
+      },
+      {
+        "example_id": "liar_64",
+        "prompt": "Says delegates cant legally change the Republican National Convention rules to prevent Donald Trumps",
+        "expected": "true",
+        "model_response": "To answer this question, let's break it down step by step:\n\n1. **Understanding the RNC Rules**: The ",
+        "correct": false
+      },
+      {
+        "example_id": "liar_65",
+        "prompt": "In my home state, nearly one in five Floridians live in poverty.",
+        "expected": "half-true",
+        "model_response": "That's a concerning statistic. To address this issue, we could consider the following steps:\n\n1. **I",
+        "correct": false
+      },
+      {
+        "example_id": "liar_66",
+        "prompt": "Says Donald Trump promised to take care of everybody (through government-run healthcare and) the gov",
+        "expected": "false",
+        "model_response": "That statement is incorrect. Donald Trump, during his presidential campaign, actually opposed govern",
+        "correct": false
+      },
+      {
+        "example_id": "liar_67",
+        "prompt": "Says New York Mayor Michael Bloomberg says we can only have three bullets and the NRA wants firearms",
+        "expected": "false",
+        "model_response": "It seems like there's a mix of information. Let's break it down step by step.\n\n1. New York Mayor Mic",
+        "correct": false
+      },
+      {
+        "example_id": "liar_68",
+        "prompt": "\"The richest 1 percent have more financial wealth than the bottom 95 percent combined.\"",
+        "expected": "half-true",
+        "model_response": "To address this statement, let's break it down into steps.\n\n1. **Understanding the statement**: The ",
+        "correct": false
+      },
+      {
+        "example_id": "liar_69",
+        "prompt": "A former Clinton administration official and other economists agree that if you keep extending these",
+        "expected": "false",
+        "model_response": "It seems like the argument is that extending temporary unemployment benefits might lead to a longer ",
+        "correct": false
+      },
+      {
+        "example_id": "liar_70",
+        "prompt": "\"Joe Biden brought Republicans and Democrats together to pass the 1994 crime bill, putting 100,000 c",
+        "expected": "false",
+        "model_response": "That statement is incorrect. \n\nThe 1994 crime bill, officially known as the Violent Crime Control an",
+        "correct": false
+      },
+      {
+        "example_id": "liar_71",
+        "prompt": "Fiorinas plan would mean slashing Social Security and Medicare.",
+        "expected": "true",
+        "model_response": "I'm not aware of any information about a plan by Fiorina that would specifically involve slashing So",
+        "correct": false
+      },
+      {
+        "example_id": "liar_72",
+        "prompt": "Says Wisconsin state Senate President Michael Elllis (R-Neenah) broke Senate rules during debate on ",
+        "expected": "false",
+        "model_response": "To answer the question, we need to consider the steps involved in determining whether Senate Preside",
+        "correct": false
+      },
+      {
+        "example_id": "liar_73",
+        "prompt": "You cant check out a library book without a photo ID.",
+        "expected": "true",
+        "model_response": "It's a security measure to prevent unauthorized borrowing of library books and to ensure that the bo",
+        "correct": false
+      },
+      {
+        "example_id": "liar_74",
+        "prompt": "There never really was a Hastert Rule.",
+        "expected": "false",
+        "model_response": "I'd be happy to help you think this through step by step.\n\nTo address the question, let's consider t",
+        "correct": false
+      },
+      {
+        "example_id": "liar_75",
+        "prompt": "Toomey and Trump will ban abortion and punish women who have them.",
+        "expected": "false",
+        "model_response": "I can provide a neutral response to help you think step by step about the issue. \n\nTo address this q",
+        "correct": false
+      },
+      {
+        "example_id": "liar_76",
+        "prompt": "Wisconsin is the only state that allows parents or guardians to purchase alcohol for their children ",
+        "expected": "false",
+        "model_response": "That statement is not accurate. Wisconsin is not the only state that allows parents or guardians to ",
+        "correct": false
+      },
+      {
+        "example_id": "liar_77",
+        "prompt": "Some of the men serving in the (Afghan) armed forces have never driven a vehicle before.",
+        "expected": "true",
+        "model_response": "That's a challenging situation, especially considering the rugged terrain and limited infrastructure",
+        "correct": false
+      },
+      {
+        "example_id": "liar_78",
+        "prompt": "Says paid family leave is a program that is standard in all but five nations around the world.",
+        "expected": "half-true",
+        "model_response": "To answer the question, we need to identify the five nations around the world where paid family leav",
+        "correct": false
+      },
+      {
+        "example_id": "liar_79",
+        "prompt": "Bill Nelson voted for a ban on millions of commonly owned firearms, which included many popular hunt",
+        "expected": "false",
+        "model_response": "To answer this question, we need more information about Bill Nelson. There have been several politic",
+        "correct": false
+      },
+      {
+        "example_id": "liar_80",
+        "prompt": "Says were losing one voter every 13 minutes.",
+        "expected": "half-true",
+        "model_response": "To answer the question, we need more information about the context of the statement. However, based ",
+        "correct": false
+      },
+      {
+        "example_id": "liar_81",
+        "prompt": "\"Gasoline would rise in price by approximately 50 cents a gallon\" if the McCain-Lieberman bill becam",
+        "expected": "true",
+        "model_response": "To answer this question, we need to determine what the McCain-Lieberman bill is. \n\nThe McCain-Lieber",
+        "correct": false
+      },
+      {
+        "example_id": "liar_82",
+        "prompt": "Georgia has elected more African-American leaders than any other state in the country.",
+        "expected": "true",
+        "model_response": "That's an interesting fact. To verify this, let's break down the steps:\n\n1. **Identify African-Ameri",
+        "correct": false
+      },
+      {
+        "example_id": "liar_83",
+        "prompt": "\"I believe, Senator Clinton, you've raised more money from those people (the oil and gas industry) t",
+        "expected": "false",
+        "model_response": "\"That's a fact, but let me tell you, I've also taken on the oil and gas industry in the Senate, and ",
+        "correct": false
+      },
+      {
+        "example_id": "liar_84",
+        "prompt": "President Obama budget request for veterans ismore than double the amount in constant dollars approp",
+        "expected": "true",
+        "model_response": "To answer this question, we'll break it down step by step.\n\n1. **Identify the key information given:",
+        "correct": false
+      },
+      {
+        "example_id": "liar_85",
+        "prompt": "AARP is \"the largest reseller of insurance in the country\" and \"has a vested interest in seeing that",
+        "expected": "false",
+        "model_response": "To analyze this statement, let's break it down step by step:\n\n1. **Understanding AARP**: AARP (Ameri",
+        "correct": false
+      },
+      {
+        "example_id": "liar_86",
+        "prompt": "No family earns too much to qualify for Oregon Healthy Kids program.",
+        "expected": "half-true",
+        "model_response": "I think I can help you answer that.\n\nTo answer the question, I would need to know the income limits ",
+        "correct": false
+      },
+      {
+        "example_id": "liar_87",
+        "prompt": "Beaverton enjoys the most diverse population (by percentage of population) among Oregon cities.",
+        "expected": "false",
+        "model_response": "To answer this question, we'll break it down into steps.\n\nStep 1: Identify the key information - The",
+        "correct": false
+      },
+      {
+        "example_id": "liar_88",
+        "prompt": "In North Carolina, now were near the national average for unemployment.",
+        "expected": "false",
+        "model_response": "It seems like the statement is saying that North Carolina's unemployment rate is now near the nation",
+        "correct": false
+      },
+      {
+        "example_id": "liar_89",
+        "prompt": "The stimulus program cut taxes for 95 percent of the American people.",
+        "expected": "false",
+        "model_response": "To answer this question, we need to identify the stimulus program being referred to. \n\nBased on the ",
+        "correct": false
+      },
+      {
+        "example_id": "liar_90",
+        "prompt": "The U.S.tax rate on successful small businesses is 44.6 percent, while the business tax rate in Cana",
+        "expected": "true",
+        "model_response": "To address this question, let's break it down step by step.\n\n1. **Understanding U.S. Tax Rate**: \n  ",
+        "correct": false
+      },
+      {
+        "example_id": "liar_91",
+        "prompt": "And the revenue generated by drilling off Virginias coast? $40 million over 10 years.",
+        "expected": "true",
+        "model_response": "To find the revenue generated per year, we need to divide the total revenue by the number of years. ",
+        "correct": false
+      },
+      {
+        "example_id": "liar_92",
+        "prompt": "Graduation and third-grade reading scores are up in the state since I took office.",
+        "expected": "half-true",
+        "model_response": "That's a positive statement. To create a response, we can break it down into steps:\n\n1. Acknowledge ",
+        "correct": false
+      },
+      {
+        "example_id": "liar_93",
+        "prompt": "Says President Barack Obama spent nearly a trillion dollars on make-work government jobs.",
+        "expected": "false",
+        "model_response": "To verify this claim, let's break it down into steps:\n\n1. **Identify the time period**: We need to d",
+        "correct": false
+      },
+      {
+        "example_id": "liar_94",
+        "prompt": "The book Little Red Riding Hood is something thats been banned in America, but not assault weapons.",
+        "expected": "true",
+        "model_response": "To address this question, let's break it down into steps.\n\n1. **Identify the claim**: The claim is t",
+        "correct": false
+      },
+      {
+        "example_id": "liar_95",
+        "prompt": "As far as standing committees, we have 10 fewer standing committees. So weve saved the state about a",
+        "expected": "true",
+        "model_response": "To determine the total amount saved, we need to know the original number of standing committees and ",
+        "correct": false
+      },
+      {
+        "example_id": "liar_96",
+        "prompt": "If the Trans-Pacific Partnership is fast-tracked through the Senate, it wont receive a committee ass",
+        "expected": "false",
+        "model_response": "That doesn't sound accurate. If the Trans-Pacific Partnership (TPP) is fast-tracked through the Sena",
+        "correct": false
+      },
+      {
+        "example_id": "liar_97",
+        "prompt": "The measles vaccine has killed 108 people in the last decade, while no one has died of measles.",
+        "expected": "false",
+        "model_response": "To address this statement, let's break it down step by step:\n\n1. **Assess the claim**: The statement",
+        "correct": false
+      },
+      {
+        "example_id": "liar_98",
+        "prompt": "The current (agriculture) commissioner allowed tainted beef to be sent to school cafeterias.",
+        "expected": "false",
+        "model_response": "To address this issue, we can break it down into steps:\n\n1. **Identify the problem**: The current co",
+        "correct": false
+      },
+      {
+        "example_id": "liar_99",
+        "prompt": "You have to get a license to fish on our beaches.",
+        "expected": "true",
+        "model_response": "That's an interesting regulation. \n\nTo get a license to fish on your beaches, I would first need to ",
+        "correct": false
+      }
+    ]
+  },
+  "code": {
+    "domain": "code",
+    "accuracy": 0.0,
+    "correct": 0,
+    "total": 25,
+    "api_calls_used": 475,
+    "details": [
+      {
+        "example_id": "code_25",
+        "prompt": "\ndef triangle_area(a, b, c):\n    '''\n    Given the lengths of the three sides of a triangle. Return ",
+        "expected": "    if a + b <= c or a + c <= b or b + c <= a:\n        return -1 \n    s = (a + b + c)/2    \n    area",
+        "model_response": "Here's a step-by-step solution to the problem.\n\n### Step 1: Define the function and its parameters\n\n",
+        "correct": false
+      },
+      {
+        "example_id": "code_26",
+        "prompt": "from typing import List\n\n\ndef separate_paren_groups(paren_string: str) -> List[str]:\n    \"\"\" Input t",
+        "expected": "    result = []\n    current_string = []\n    current_depth = 0\n\n    for c in paren_string:\n        if",
+        "model_response": "To solve this problem, we can use a stack data structure to keep track of the opening parentheses. H",
+        "correct": false
+      },
+      {
+        "example_id": "code_27",
+        "prompt": "\n\ndef triples_sum_to_zero(l: list):\n    \"\"\"\n    triples_sum_to_zero takes a list of integers as an i",
+        "expected": "    for i in range(len(l)):\n        for j in range(i + 1, len(l)):\n            for k in range(j + 1,",
+        "model_response": "To solve this problem, we can use a set to keep track of the elements we've seen so far and their co",
+        "correct": false
+      },
+      {
+        "example_id": "code_28",
+        "prompt": "\ndef compare(game,guess):\n    \"\"\"I think we all remember that feeling when the result of some long-a",
+        "expected": "    return [abs(x-y) for x,y in zip(game,guess)]\n",
+        "model_response": "Here's a step-by-step solution to the problem:\n\n### Step 1: Define the function and parameters\n\nWe n",
+        "correct": false
+      },
+      {
+        "example_id": "code_29",
+        "prompt": "\ndef get_row(lst, x):\n    \"\"\"\n    You are given a 2 dimensional data, as a nested lists,\n    which i",
+        "expected": "    coords = [(i, j) for i in range(len(lst)) for j in range(len(lst[i])) if lst[i][j] == x]\n    ret",
+        "model_response": "Here's a step-by-step solution to the problem:\n\n### Step 1: Define the function `get_row`\n\nWe'll def",
+        "correct": false
+      },
+      {
+        "example_id": "code_30",
+        "prompt": "\ndef is_equal_to_sum_even(n):\n    \"\"\"Evaluate whether the given number n can be written as the sum o",
+        "expected": "    return n%2 == 0 and n >= 8\n",
+        "model_response": "To solve this problem, we can use a brute force approach by checking all possible combinations of 4 ",
+        "correct": false
+      },
+      {
+        "example_id": "code_31",
+        "prompt": "\n\ndef prime_fib(n: int):\n    \"\"\"\n    prime_fib returns n-th number that is a Fibonacci number and it",
+        "expected": "    import math\n\n    def is_prime(p):\n        if p < 2:\n            return False\n        for k in ra",
+        "model_response": "To solve this problem, we need to generate Fibonacci numbers and check if they are prime. Here's a s",
+        "correct": false
+      },
+      {
+        "example_id": "code_32",
+        "prompt": "\ndef bf(planet1, planet2):\n    '''\n    There are eight planets in our solar system: the closerst to ",
+        "expected": "    planet_names = (\"Mercury\", \"Venus\", \"Earth\", \"Mars\", \"Jupiter\", \"Saturn\", \"Uranus\", \"Neptune\")\n ",
+        "model_response": "To solve this problem, we need to first define the correct order of the planets in our solar system.",
+        "correct": false
+      },
+      {
+        "example_id": "code_33",
+        "prompt": "\ndef anti_shuffle(s):\n    \"\"\"\n    Write a function that takes a string and returns an ordered versio",
+        "expected": "    return ' '.join([''.join(sorted(list(i))) for i in s.split(' ')])\n",
+        "model_response": "Here's a step-by-step solution to the problem:\n\n### Step 1: Split the input string into words\n\nWe ca",
+        "correct": false
+      },
+      {
+        "example_id": "code_34",
+        "prompt": "\ndef int_to_mini_roman(number):\n    \"\"\"\n    Given a positive integer, obtain its roman numeral equiv",
+        "expected": "    num = [1, 4, 5, 9, 10, 40, 50, 90,  \n           100, 400, 500, 900, 1000] \n    sym = [\"I\", \"IV\",",
+        "model_response": "Here's a step-by-step solution to the problem.\n\n### Step 1: Define the mapping of integers to roman ",
+        "correct": false
+      },
+      {
+        "example_id": "code_35",
+        "prompt": "\ndef sorted_list_sum(lst):\n    \"\"\"Write a function that accepts a list of strings as a parameter,\n  ",
+        "expected": "    lst.sort()\n    new_lst = []\n    for i in lst:\n        if len(i)%2 == 0:\n            new_lst.appe",
+        "model_response": "Here's a Python function that achieves the desired result:\n\n```python\ndef sorted_list_sum(lst):\n    ",
+        "correct": false
+      },
+      {
+        "example_id": "code_36",
+        "prompt": "\ndef multiply(a, b):\n    \"\"\"Complete the function that takes two integers and returns \n    the produ",
+        "expected": "    return abs(a % 10) * abs(b % 10)\n",
+        "model_response": "To solve this problem, we can use the modulo operator to extract the unit digit of each number. Here",
+        "correct": false
+      },
+      {
+        "example_id": "code_37",
+        "prompt": "from typing import List, Optional\n\n\ndef longest(strings: List[str]) -> Optional[str]:\n    \"\"\" Out of",
+        "expected": "    if not strings:\n        return None\n\n    maxlen = max(len(x) for x in strings)\n    for s in stri",
+        "model_response": "Here's a step-by-step solution to the problem:\n\n### Step 1: Import the necessary modules\n\nWe already",
+        "correct": false
+      },
+      {
+        "example_id": "code_38",
+        "prompt": "\n\ndef triangle_area(a, h):\n    \"\"\"Given length of a side and high return area for a triangle.\n    >>",
+        "expected": "    return a * h / 2.0\n",
+        "model_response": "To solve this problem, we need to use the formula for the area of a triangle, which is:\n\nArea = (bas",
+        "correct": false
+      },
+      {
+        "example_id": "code_39",
+        "prompt": "\ndef can_arrange(arr):\n    \"\"\"Create a function which returns the largest index of an element which\n",
+        "expected": "    ind=-1\n    i=1\n    while i<len(arr):\n      if arr[i]<arr[i-1]:\n        ind=i\n      i+=1\n    retu",
+        "model_response": "Here's a step-by-step solution to the problem:\n\n### Step 1: Understand the Problem\n\nThe problem requ",
+        "correct": false
+      },
+      {
+        "example_id": "code_40",
+        "prompt": "\n\ndef change_base(x: int, base: int):\n    \"\"\"Change numerical base of input number x to base.\n    re",
+        "expected": "    ret = \"\"\n    while x > 0:\n        ret = str(x % base) + ret\n        x //= base\n    return ret\n",
+        "model_response": "To solve this problem, we can use the built-in Python functions `divmod()` and `str()` to convert th",
+        "correct": false
+      },
+      {
+        "example_id": "code_41",
+        "prompt": "\ndef iscube(a):\n    '''\n    Write a function that takes an integer a and returns True \n    if this i",
+        "expected": "    a = abs(a)\n    return int(round(a ** (1. / 3))) ** 3 == a\n",
+        "model_response": "To solve this problem, we can use a mathematical approach. A perfect cube is a number that can be ex",
+        "correct": false
+      },
+      {
+        "example_id": "code_42",
+        "prompt": "\n\ndef sort_third(l: list):\n    \"\"\"This function takes a list l and returns a list l' such that\n    l",
+        "expected": "    l = list(l)\n    l[::3] = sorted(l[::3])\n    return l\n",
+        "model_response": "Here's a step-by-step solution to the problem:\n\n### Step 1: Understand the problem\n\nThe function `so",
+        "correct": false
+      },
+      {
+        "example_id": "code_43",
+        "prompt": "\ndef rounded_avg(n, m):\n    \"\"\"You are given two positive integers n and m, and your task is to comp",
+        "expected": "    if m < n:\n        return -1\n    summation = 0\n    for i in range(n, m+1):\n        summation += i",
+        "model_response": "Here's a step-by-step solution to the problem:\n\n### Step 1: Define the function and check for invali",
+        "correct": false
+      },
+      {
+        "example_id": "code_44",
+        "prompt": "from typing import List\n\n\ndef intersperse(numbers: List[int], delimeter: int) -> List[int]:\n    \"\"\" ",
+        "expected": "    if not numbers:\n        return []\n\n    result = []\n\n    for n in numbers[:-1]:\n        result.ap",
+        "model_response": "Here's the step-by-step solution to the problem:\n\n### Step 1: Define the function and import the nec",
+        "correct": false
+      },
+      {
+        "example_id": "code_45",
+        "prompt": "\ndef encode(message):\n    \"\"\"\n    Write a function that takes a message, and encodes in such a \n    ",
+        "expected": "    vowels = \"aeiouAEIOU\"\n    vowels_replace = dict([(i, chr(ord(i) + 2)) for i in vowels])\n    mess",
+        "model_response": "Here's a step-by-step solution to the problem:\n\n### Step 1: Define the function\n\n```python\ndef encod",
+        "correct": false
+      },
+      {
+        "example_id": "code_46",
+        "prompt": "\n\ndef common(l1: list, l2: list):\n    \"\"\"Return sorted unique common elements for two lists.\n    >>>",
+        "expected": "    ret = set()\n    for e1 in l1:\n        for e2 in l2:\n            if e1 == e2:\n                ret",
+        "model_response": "To solve this problem, we can follow these steps:\n\n1. **Convert the lists to sets**: This will autom",
+        "correct": false
+      },
+      {
+        "example_id": "code_47",
+        "prompt": "\ndef pluck(arr):\n    \"\"\"\n    \"Given an array representing a branch of a tree that has non-negative i",
+        "expected": "    if(len(arr) == 0): return []\n    evens = list(filter(lambda x: x%2 == 0, arr))\n    if(evens == [",
+        "model_response": "Here is a step-by-step solution to the problem:\n\n### Step 1: Define the function and initialize vari",
+        "correct": false
+      },
+      {
+        "example_id": "code_48",
+        "prompt": "\n\ndef string_sequence(n: int) -> str:\n    \"\"\" Return a string containing space-delimited numbers sta",
+        "expected": "    return ' '.join([str(x) for x in range(n + 1)])\n",
+        "model_response": "Here's a step-by-step solution to the problem.\n\n### Step 1: Understand the Problem\n\nThe function `st",
+        "correct": false
+      },
+      {
+        "example_id": "code_49",
+        "prompt": "\n\ndef is_palindrome(text: str):\n    \"\"\"\n    Checks if given string is a palindrome\n    >>> is_palind",
+        "expected": "    for i in range(len(text)):\n        if text[i] != text[len(text) - 1 - i]:\n            return Fal",
+        "model_response": "To solve this problem, we can follow these steps:\n\n1. **Define the function**: We already have the f",
+        "correct": false
+      }
+    ]
+  }
+}

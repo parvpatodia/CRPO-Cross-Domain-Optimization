@@ -1,0 +1,50 @@
+{
+  "math": {
+    "task": "Solve grade-school math word problems",
+    "domain": "math",
+    "reasoning": "Based on the provided high-quality and low-quality examples, I've identified the key properties that make prompts effective for solving grade-school math word problems. Here are 3-4 key insights:\n\n1. **Specificity and Clarity**: High-quality prompts are specific, clear, and concise. They avoid ambiguity and provide enough context for the model to understand the problem. In contrast, low-quality prompts are often vague or open-ended, making it challenging for the model to generate an accurate response. For example, \"c#...\" is a specific programming language, whereas \"obama breaking glass\" is a vague and unrelated term.\n\n2. **Focus on the Task**: Effective prompts clearly state the task or objective, often with a specific question or goal in mind. This helps the model understand what is expected of it and encourages focused reasoning. In high-quality prompts like \"Solve grade-school math word problems,\" the task is explicitly stated, whereas low-quality prompts often lack this clarity, such as \"what was it like to be a woman living in Hollywood in the 1960s?\"\n\n3. **Instructions that Encourage Reasoning**: High-quality prompts often include specific instructions that encourage the model to engage in reasoning or problem-solving. For example, the prompt \"Please, use the Bloom Taxonomy to develop a professional development plan for learner assessment and...\" encourages the model to apply a specific framework to the task, demonstrating a deeper understanding of the subject matter. In contrast, low-quality prompts often lack this",
+    "optimized_prompt": "Explain the solution to the following grade-school math word problem step-by-step, using logical reasoning and basic arithmetic operations: {question}",
+    "api_calls": 2,
+    "evaluation": {
+      "average_score": 0.8882911357879638,
+      "std_dev": 0.1248446543823521,
+      "api_calls_used": 100
+    }
+  },
+  "reasoning": {
+    "task": "Solve logical reasoning and spatial navigation tasks",
+    "domain": "reasoning",
+    "reasoning": "Based on the provided high and low-quality examples, I've identified the key properties that make prompts effective for solving logical reasoning and spatial navigation tasks. Here are the insights:\n\n**1. Clarity and Specificity**: Effective prompts for logical reasoning and spatial navigation tasks should be clear and specific. This means avoiding vague or open-ended questions that may lead to ambiguous responses. For example, the high-quality prompt \"bacillus subtilus\" is a specific term that likely requires a detailed response, whereas the low-quality prompt \"obama breaking glass\" is too vague and may not directly relate to logical reasoning or spatial navigation.\n\n**2. Structure and Organization**: High-quality prompts often have a clear structure and organization, making it easier for the respondent to understand the task and provide a relevant response. For instance, the high-quality prompt \"Please, use the Bloom Taxonomy to develop a professional development plan for learner assessment and...\" includes a clear instruction and a specific framework (Bloom Taxonomy) to follow. In contrast, the low-quality prompts are often disorganized and lack a clear structure.\n\n**3. Encouraging Specific Reasoning**: Effective prompts should encourage specific types of reasoning, such as deductive reasoning, inductive reasoning, or spatial reasoning. For example, the high-quality prompt \"Solve logical reasoning and spatial navigation tasks\" explicitly mentions the types of reasoning required, whereas the low-quality prompts do not provide any guidance on the type of reasoning expected.\n\n**4. Avoiding Ambigu",
+    "optimized_prompt": "Solve the logical reasoning and spatial navigation task step-by-step using deductive and inductive reasoning, and describe your thought process and methodology: {question}",
+    "api_calls": 4,
+    "evaluation": {
+      "average_score": 0.5936082797646524,
+      "std_dev": 0.1252939339860348,
+      "api_calls_used": 150
+    }
+  },
+  "fact": {
+    "task": "Verify the truthfulness of statements",
+    "domain": "fact_verification",
+    "reasoning": "Based on the high and low-quality examples you provided, I've identified key properties that make prompts effective for the task of \"Verifying the truthfulness of statements\":\n\n1. **Specificity and Clarity**: High-quality prompts are specific and clear about the task at hand. They do not leave room for ambiguity or interpretation. For example, \"c#...\" and \"bacillus subtilus...\" are concise and unambiguous, making it easy for the model to understand the context and provide a relevant response. In contrast, low-quality prompts like \"obama breaking glass...\" and \"what was it like to be a woman living in Hollywood in the 1960s?\" are vague and open-ended, making it difficult for the model to determine the specific task.\n\n2. **Relevant Context and Information**: Effective prompts provide relevant context and information that allows the model to understand the topic and task. For example, \"Please, use the Bloom Taxonomy to develop a professional development plan for learner assessment and...\" provides a clear context and framework for the model to follow. In contrast, low-quality prompts lack relevant context and information, making it challenging for the model to provide a relevant response.\n\n3. **Clear Instructions and Requirements**: High-quality prompts include clear instructions and requirements for the task. For example, \"Verify the truthfulness of statements\" provides a clear instruction for the model to follow. In contrast, low-quality prompts lack clear instructions and requirements, leading to unclear or irrelevant responses.\n\n4.",
+    "optimized_prompt": "Verify the truthfulness of the following statement step-by-step, using a logical and evidence-based approach: {question}",
+    "api_calls": 6,
+    "evaluation": {
+      "average_score": 0.8624578269720078,
+      "std_dev": 0.1490082554982305,
+      "api_calls_used": 200
+    }
+  },
+  "code": {
+    "task": "Generate correct Python code",
+    "domain": "code",
+    "reasoning": "Based on the provided examples and the task \"Generate correct Python code,\" I've identified the following key insights that make prompts effective for this task:\n\n1. **Specificity and Clarity**: Effective prompts should be clear and concise about what is being asked. They should provide enough context to guide the model towards the desired response. For example, \"Write a Python function to calculate the sum of all elements in a list\" is more effective than \"Python code.\" This specificity encourages the model to focus on the task at hand and reduces the likelihood of generating irrelevant or low-quality responses.\n\n2. **Unambiguity and Well-defined Requirements**: Prompts should avoid ambiguity and ensure that the requirements are well-defined. This can be achieved by specifying constraints, parameters, or assumptions. For instance, \"Generate a Python script to sort a list of integers in ascending order using the quicksort algorithm\" is more effective than \"Python sorting code.\" This clarity helps the model to understand what is expected and generate a more accurate response.\n\n3. **Relevance and Context**: Effective prompts should provide relevant context and information necessary for the task. This can include background knowledge, constraints, or specific requirements. For example, \"Write a Python function to calculate the area of a rectangle given its length and width\" is more effective than \"Python function.\" This context helps the model to understand the nuances of the task and generate a more accurate response.\n\n4. **Precision and Specificity of the Task**: Prompts should clearly",
+    "optimized_prompt": "Explain the process to generate correct Python code for a given task, and provide a step-by-step implementation of the solution: {question}",
+    "api_calls": 8,
+    "evaluation": {
+      "average_score": 0.7591558586955071,
+      "std_dev": 0.16939479474025712,
+      "api_calls_used": 225
+    }
+  }
+}

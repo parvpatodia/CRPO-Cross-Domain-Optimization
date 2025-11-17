@@ -68,16 +68,35 @@ class DataLoader:
         with open(f"data/raw/liar/{split}.json", "r") as f:
             data = json.load(f)
         
+        # Map LIAR labels
+        label_map = {
+            0: 'false',      # pants-fire
+            1: 'false',      # false
+            2: 'half-true',  # half-true
+            3: 'true',       # mostly-true
+            4: 'true'        # true
+        }
+        
         processed = []
         for item in data:
+            # Get the label - it might be 'label' or encoded as int
+            label = item.get('label', item.get('truthfulness', 0))
+            
+            # Map to human-readable label
+            if isinstance(label, int):
+                label = label_map.get(label, 'unknown')
+            else:
+                label = str(label).lower()
+            
             processed.append({
                 'id': f"liar_{len(processed)}",
-                'prompt': item['statement'],
-                'answer': item['label'],  # true/false/etc
+                'prompt': item.get('statement', ''),
+                'answer': label,  # Now this is a string like 'true', 'false', etc.
                 'domain': 'fact_verification'
             })
         
         return processed
+
     
     @staticmethod
     def load_humaneval(n_samples=50):

@@ -1,0 +1,1707 @@
+{
+  "gsm8k": {
+    "domain": "math",
+    "average_score": 0.7515422315448523,
+    "std_dev": 0.19249847614923868,
+    "min_score": 0.26106867790222166,
+    "max_score": 1.0,
+    "num_examples": 100,
+    "api_calls_used": 100,
+    "details": [
+      {
+        "example_id": "gsm8k_0",
+        "prompt": "There are four schools competing at a basketball tournament. Each school has sent a girls\u2019 basketbal",
+        "response": "To find the total number of people sent by the schools, we need to break it down into parts.\n\n1. Eac",
+        "score": 0.8626767158508301
+      },
+      {
+        "example_id": "gsm8k_1",
+        "prompt": "Jack decides to visit a museum 150 miles from home.  He drives 75 mph there and back.  He spends 6 h",
+        "response": "To find out how long Jack is gone from home, we need to calculate the total time he spends driving a",
+        "score": 1
+      },
+      {
+        "example_id": "gsm8k_2",
+        "prompt": "A plague infects ten people. Every day, each infected person infects six others. How many people are",
+        "response": "To find the total number of people infected after three days, we need to calculate the number of peo",
+        "score": 0.7479840278625488
+      },
+      {
+        "example_id": "gsm8k_3",
+        "prompt": "Sarah went to buy books from the store and spent $300 on the books. If each book was $15 and she gav",
+        "response": "To find out how many books each child got, we need to follow these steps:\n\n1. First, let's find out ",
+        "score": 1
+      },
+      {
+        "example_id": "gsm8k_4",
+        "prompt": "James delivers 600 newspapers in a day. He delivers 198 newspapers to District A, some to District B",
+        "response": "To find out how many newspapers James delivers to District B, we need to subtract the number of news",
+        "score": 0.8070961475372315
+      },
+      {
+        "example_id": "gsm8k_5",
+        "prompt": "Jerry is twice as old as he was 5 years ago. How old will Jerry be in 3 years?",
+        "response": "Let's break it down step by step.\n\nLet Jerry's current age be 'x'.\n\nSince Jerry is twice as old as h",
+        "score": 0.5130165249109269
+      },
+      {
+        "example_id": "gsm8k_6",
+        "prompt": "Tom went on a two-week-long trip through Europe. In the first 4 days, he traveled 200 kilometers eve",
+        "response": "To find the total distance traveled by Tom, let's break down the information step by step:\n\n1. In th",
+        "score": 0.5534600377082824
+      },
+      {
+        "example_id": "gsm8k_7",
+        "prompt": "Melanie is a door-to-door saleswoman. She sold a third of her vacuum cleaners at the green house, 2 ",
+        "response": "Let's break down the problem step by step.\n\n1. Melanie sold a third of her vacuum cleaners at the gr",
+        "score": 0.3485631823539734
+      },
+      {
+        "example_id": "gsm8k_8",
+        "prompt": "A herd consists of camels and dromedaries. There are 180 heads and 304 bumps. How many dromedaries a",
+        "response": "Let's break this down step by step.\n\n1. Let's assume the number of camels is 'c' and the number of d",
+        "score": 0.445143061876297
+      },
+      {
+        "example_id": "gsm8k_9",
+        "prompt": "Roger goes to the store to buy some coffee.  The normal brand of coffee he buys cost $5 per pound.  ",
+        "response": "To find the total cost, let's break it down step by step:\n\n1. Roger uses 1 pound of coffee per day, ",
+        "score": 0.7994669914245606
+      },
+      {
+        "example_id": "gsm8k_10",
+        "prompt": "The Smith family is getting ready for summer and needs to have their swimming pool filled. The pool ",
+        "response": "To find the cost to fill the pool, we need to follow these steps:\n\n1. Calculate the volume of the po",
+        "score": 0.9917620658874512
+      },
+      {
+        "example_id": "gsm8k_11",
+        "prompt": "Sadie slept 8 hours on Monday. For the next two days, she slept 2 hours less, each, because she had ",
+        "response": "Let's break it down step by step:\n\n1. On Monday, Sadie slept 8 hours.\n2. For the next two days (Tues",
+        "score": 0.4719450891017914
+      },
+      {
+        "example_id": "gsm8k_12",
+        "prompt": "Josh decides to take up juggling to perform at the school talent show a month in the future.  He sta",
+        "response": "To find out how many balls Josh has left to juggle, we need to know how many balls he had initially ",
+        "score": 0.985104751586914
+      },
+      {
+        "example_id": "gsm8k_13",
+        "prompt": "James decides to buy birthday candles for his 2 sons.  One of them is 12 and the other is 4 years yo",
+        "response": "To find out how much James spends on candles, we need to determine the number of candles he buys and",
+        "score": 0.6547185063362122
+      },
+      {
+        "example_id": "gsm8k_14",
+        "prompt": "Janet had 22 green pens and 10 yellow pens. Then she bought 6 bags of blue pens and 2 bags of red pe",
+        "response": "To find out how many pens Janet has now, we need to calculate the total number of pens she had initi",
+        "score": 0.9007082939147949
+      },
+      {
+        "example_id": "gsm8k_15",
+        "prompt": "Adam went to a store to buy some sweets. He bought 7 candies of type A and 10 candies of type B. One",
+        "response": "To find out how much change Adam got, we need to calculate the total cost of the candies he bought a",
+        "score": 0.42362982630729673
+      },
+      {
+        "example_id": "gsm8k_16",
+        "prompt": "A cobra, which has 70 spots, has twice as many spots as a mamba. If there are 40 cobras and 60 mamba",
+        "response": "To find the total number of spots, we need to calculate the spots on the cobras and mambas separatel",
+        "score": 0.5552699089050293
+      },
+      {
+        "example_id": "gsm8k_17",
+        "prompt": "Janet buys a brooch for her daughter.  She pays $500 for the material to make it and then another $8",
+        "response": "Let's break it down step by step:\n\n1. Janet pays $500 for the material to make the brooch.\n2. She th",
+        "score": 0.7995371341705322
+      },
+      {
+        "example_id": "gsm8k_18",
+        "prompt": "There are 20 students in Miss Susan's class. 5 of them are good at math only, 8 of them perform well",
+        "response": "Let's break it down step by step:\n\n1. Total number of students: 20\n2. Students good at math only: 5\n",
+        "score": 0.7929333209991455
+      },
+      {
+        "example_id": "gsm8k_19",
+        "prompt": "Will buys 15 oranges. When he gets home, he asks his 2 sons to wash as many oranges as they are year",
+        "response": "To find out how many oranges are left unwashed, we need to determine how many oranges the sons washe",
+        "score": 0.8847465515136719
+      },
+      {
+        "example_id": "gsm8k_20",
+        "prompt": "John fills a 6 foot by 4 foot pool that is 5 feet deep.  It cost $.1 per cubic foot to fill.  How mu",
+        "response": "To find the cost of filling the pool, we need to find the volume of the pool in cubic feet. \n\nThe po",
+        "score": 1
+      },
+      {
+        "example_id": "gsm8k_21",
+        "prompt": "A news website publishes an average of 20 political and weather news articles every day. Its sister ",
+        "response": "To find the total number of articles published in February, we need to calculate the total number of",
+        "score": 0.7940446376800537
+      },
+      {
+        "example_id": "gsm8k_22",
+        "prompt": "Tommy caught 3 more fish than Darren and Darren caught 6 less than Naomi. If Naomi caught 17 fish, h",
+        "response": "To find out how many fish Tommy caught, we need to follow the steps:\n\n1. First, we know that Naomi c",
+        "score": 0.8385616302490234
+      },
+      {
+        "example_id": "gsm8k_23",
+        "prompt": "Jillian's handbag cost $20 less than 3 times as much as her shoes cost. If her shoes cost $80, how m",
+        "response": "To find the cost of Jillian's handbag, we need to follow these steps:\n\n1. First, we need to find 3 t",
+        "score": 0.7137674570083619
+      },
+      {
+        "example_id": "gsm8k_24",
+        "prompt": "A company wanted to buy 500 computers and had $700 for each computer. However, when they went to ord",
+        "response": "To find the total amount of money the company paid, we need to follow these steps:\n\n1. First, we nee",
+        "score": 0.5595523595809937
+      },
+      {
+        "example_id": "gsm8k_25",
+        "prompt": "In his training as a professional athlete, Tyson runs 5000 meters every day. His coach, however, wan",
+        "response": "To find the total distance Tyson covered in June, we first need to calculate the new daily distance ",
+        "score": 0.7177361488342285
+      },
+      {
+        "example_id": "gsm8k_26",
+        "prompt": "Maria buys 8 shares of a stock for $8 each. The stock price increases 50% the first year Maria holds",
+        "response": "To find the final value of Maria's shares, we'll break it down step by step.\n\n1. Initial purchase: M",
+        "score": 0.8942174911499023
+      },
+      {
+        "example_id": "gsm8k_27",
+        "prompt": "Each solid 10-foot section of a redwood tree weighs 400 pounds. Termites ate 30% of this redwood's w",
+        "response": "To find the total weight of the redwood tree, we need to calculate the total number of solid 10-foot",
+        "score": 0.9712594032287598
+      },
+      {
+        "example_id": "gsm8k_28",
+        "prompt": "Charlie had 10 stickers. He bought 21 stickers from a store in the mall and got 23 stickers for his ",
+        "response": "To find out how many stickers Charlie has left, we need to follow the steps of what happened to his ",
+        "score": 0.9424433708190918
+      },
+      {
+        "example_id": "gsm8k_29",
+        "prompt": "Gloria is shoe shopping when she comes across a pair of boots that fit her shoe budget. However, she",
+        "response": "Let's break down the problem step by step.\n\n1. One pair of heels costs $33.\n2. The other pair of hee",
+        "score": 0.5989740014076232
+      },
+      {
+        "example_id": "gsm8k_30",
+        "prompt": "Peter purchased 20 popsicles at $0.25 each. He also purchased 4 ice cream bars at $0.50 each. How mu",
+        "response": "To find the total amount Peter paid, we need to calculate the cost of the popsicles and the cost of ",
+        "score": 0.5921645998954773
+      },
+      {
+        "example_id": "gsm8k_31",
+        "prompt": "The price of Parmesan cheese is $11 per pound. Mozzarella cheese is $6 per pound.  Amor buys 2 pound",
+        "response": "To find out how much money Amor will have left to buy meat, we need to calculate the total cost of t",
+        "score": 0.825801944732666
+      },
+      {
+        "example_id": "gsm8k_32",
+        "prompt": "While Joanne is gathering apples from her family\u2019s orchard, her sister comes outside to help her. Jo",
+        "response": "Let's break down the information given and solve it step by step.\n\n1. Joanne gathers:\n   - 30 apples",
+        "score": 0.5242859929800033
+      },
+      {
+        "example_id": "gsm8k_33",
+        "prompt": "Cole hid 3 dozen eggs in the yard for the Easter egg hunt.  Lamar finds 5 eggs. Stacy finds twice as",
+        "response": "Let's break down the information step by step:\n\n1. Lamar finds 5 eggs.\n2. Stacy finds twice as many ",
+        "score": 0.9617362976074219
+      },
+      {
+        "example_id": "gsm8k_34",
+        "prompt": "In a dance class of 20 students, 20% enrolled in contemporary dance, 25% of the remaining enrolled i",
+        "response": "To find the percentage of students who enrolled in hip-hop dance, we need to follow the steps:\n\n1. C",
+        "score": 0.6106298685073852
+      },
+      {
+        "example_id": "gsm8k_35",
+        "prompt": "Arnold, Madeline, Camden, and Sarah painted 56 easter eggs. Arnold and Madeline painted the same num",
+        "response": "Let's break down the problem step by step:\n\n1. Arnold and Madeline painted the same number of eggs. ",
+        "score": 0.26106867790222166
+      },
+      {
+        "example_id": "gsm8k_36",
+        "prompt": "Shelly's 3 kids spent all day at the water park.  Mitchel went down the water slide 30 times.  Anne ",
+        "response": "To find out how many times Robert went down the water slide, we need to follow the steps:\n\n1. First,",
+        "score": 0.8595820903778076
+      },
+      {
+        "example_id": "gsm8k_37",
+        "prompt": "Greta and Celinda are baking cookies. Greta bakes 30 cookies and Celinda bakes twice as many. If the",
+        "response": "To find out how many cookies are in the box, we need to follow these steps:\n\n1. Determine how many c",
+        "score": 0.9628400325775146
+      },
+      {
+        "example_id": "gsm8k_38",
+        "prompt": "A bakery produces 60 loaves of bread each day. Two-thirds of the loaves are sold in the morning and ",
+        "response": "Let's break down the problem step by step:\n\n1. The bakery produces 60 loaves of bread each day.\n2. T",
+        "score": 0.7280731201171875
+      },
+      {
+        "example_id": "gsm8k_39",
+        "prompt": "Carla is downloading a 200 GB file. Normally she can download 2 GB/minute, but 40% of the way throug",
+        "response": "To solve this problem, let's break it down into steps.\n\n1. Carla starts downloading the 200 GB file ",
+        "score": 0.7344958782196045
+      },
+      {
+        "example_id": "gsm8k_40",
+        "prompt": "Anthony had 50 pencils. He gave 1/2 of his pencils to Brandon, and he gave 3/5 of the remaining penc",
+        "response": "To find out how many pencils Anthony kept, let's break down the problem step by step.\n\n1. Anthony st",
+        "score": 0.6158101558685303
+      },
+      {
+        "example_id": "gsm8k_41",
+        "prompt": "Jim spends 2 hours watching TV and then decides to go to bed and reads for half as long.  He does th",
+        "response": "To find the total hours Jim spends on TV and reading, we need to break it down into steps.\n\nStep 1: ",
+        "score": 0.7124971151351929
+      },
+      {
+        "example_id": "gsm8k_42",
+        "prompt": "Apple High School is holding graduation in their Fine Arts Center this year which has space for 6000",
+        "response": "To find out how many tickets each graduate would receive, we need to first find out how many seats a",
+        "score": 0.9102928161621093
+      },
+      {
+        "example_id": "gsm8k_43",
+        "prompt": "At the end of the school year, Kate asked her teacher if she could have the 3 boxes of 64 crayons si",
+        "response": "To find out how much money Kate can make, we need to calculate the total number of muffin crayons sh",
+        "score": 0.9712942123413086
+      },
+      {
+        "example_id": "gsm8k_44",
+        "prompt": "Elvis starts driving from his house and travels west for 5 hours. Then he turns around and travels e",
+        "response": "To solve this problem, let's break it down into steps:\n\n1. **Distance traveled west**: Since Elvis t",
+        "score": 0.9645720481872558
+      },
+      {
+        "example_id": "gsm8k_45",
+        "prompt": "Carrie is planning the caroling schedule. The choir plans to sing \"Deck the Halls\" twice and \"Jingle",
+        "response": "To find the total time the choir will be caroling, we need to calculate the total time spent singing",
+        "score": 0.9820504188537598
+      },
+      {
+        "example_id": "gsm8k_46",
+        "prompt": "Artie has a flower stand at the Farmers Market. He sells three kinds of flowers: marigolds, petunias",
+        "response": "Let's break down the problem step by step.\n\nStep 1: Round the prices of each flower to the nearest d",
+        "score": 0.5415552139282227
+      },
+      {
+        "example_id": "gsm8k_47",
+        "prompt": "Belen has two kinds of pennies, a 2010 penny and a 1959 penny. The 2010 penny is three-quarters of t",
+        "response": "To find the combined weight of the two pennies, we first need to find the weight of the 2010 penny.\n",
+        "score": 0.7257140159606934
+      },
+      {
+        "example_id": "gsm8k_48",
+        "prompt": "Four friends ordered four pizzas for a total of 64 dollars. If two of the pizzas cost 30 dollars, ho",
+        "response": "To find the cost of each of the other two pizzas, let's break it down step by step.\n\n1. Two of the p",
+        "score": 0.5947390556335449
+      },
+      {
+        "example_id": "gsm8k_49",
+        "prompt": "The school auditorium has 4 rows of seats. There are 18 seats in each row. One-fourth of the seats w",
+        "response": "Let's break down the problem step by step:\n\n1. Total number of seats in the auditorium: \n   There ar",
+        "score": 0.6125888705253602
+      },
+      {
+        "example_id": "gsm8k_50",
+        "prompt": "Ashley's pizza delivery costs $15. What is the total amount that Ashley should give the delivery man",
+        "response": "To find the total amount Ashley should give the delivery man, we need to follow these steps:\n\n1. Fir",
+        "score": 0.8009125232696533
+      },
+      {
+        "example_id": "gsm8k_51",
+        "prompt": "James likes to check the coin return of the vending machine for change. One day he finds a quarter, ",
+        "response": "To find the total amount of money James has, we need to calculate the value of each coin in cents an",
+        "score": 0.9468621253967285
+      },
+      {
+        "example_id": "gsm8k_52",
+        "prompt": "Jenna starts out with 8 sapphires. She trades 3 sapphires for two rubies. If sapphires are worth $80",
+        "response": "Let's break it down step by step.\n\n1. Jenna starts with 8 sapphires. \n2. She trades 3 sapphires for ",
+        "score": 0.8267830610275269
+      },
+      {
+        "example_id": "gsm8k_53",
+        "prompt": "If it takes 3 kangaroos traveling at the same speed a total of 18 hours to travel across a highway, ",
+        "response": "To solve this problem, we'll break it down into steps.\n\n**Step 1: Calculate the time it takes for on",
+        "score": 0.4017382383346558
+      },
+      {
+        "example_id": "gsm8k_54",
+        "prompt": "Tyrion changes his face mask two times every time he goes out. If he goes out three times a day, how",
+        "response": "To find out how many face masks Tyrion uses every 2 days, we need to follow these steps:\n\n1. First, ",
+        "score": 0.8744737148284912
+      },
+      {
+        "example_id": "gsm8k_55",
+        "prompt": "The elevator in Jack's building supports a maximum load of 700 kg. An adult weighs an average of 80 ",
+        "response": "To find out how much they will have exceeded the maximum load, we need to calculate the total weight",
+        "score": 0.8356663942337036
+      },
+      {
+        "example_id": "gsm8k_56",
+        "prompt": "Mark took a test yesterday that consisted of 75 questions. He completed the test at a rate of 5 ques",
+        "response": "To find out how many questions Mark left incomplete, we need to calculate the total questions he com",
+        "score": 0.478246408700943
+      },
+      {
+        "example_id": "gsm8k_57",
+        "prompt": "The recent floods in Mamou\u2019s country have left many families without food or shelter. To help, Mamou",
+        "response": "To find out how many meals Mamou has left to distribute, we need to calculate the total number of me",
+        "score": 0.7834337472915649
+      },
+      {
+        "example_id": "gsm8k_58",
+        "prompt": "One meatball sub sandwich contains 4 meatballs.  Sidney ordered 3 less than ten meatball sub sandwic",
+        "response": "Let's break it down step by step.\n\n1. Sidney ordered 3 less than ten meatball sub sandwiches. \n   To",
+        "score": 0.6262407541275025
+      },
+      {
+        "example_id": "gsm8k_59",
+        "prompt": "James wants to hang crepe-paper streamers from his backyard fence for his birthday party. His backya",
+        "response": "To find out how many feet of crepe paper James needs, we need to calculate the perimeter of the back",
+        "score": 1
+      },
+      {
+        "example_id": "gsm8k_60",
+        "prompt": "There are 10 quarts of tea left from the party. Four students each drank 1.5 quarts of tea and 16 st",
+        "response": "To solve this problem, let's break it down into steps.\n\nStep 1: Calculate the total amount of tea dr",
+        "score": 0.596423327922821
+      },
+      {
+        "example_id": "gsm8k_61",
+        "prompt": "John decides to take up an odd hobby of speed talking.  His normally speaking speed is 150 WPM.  Aft",
+        "response": "To find the time it takes John to speak 10 pages, we need to follow these steps:\n\n1. First, let's fi",
+        "score": 1
+      },
+      {
+        "example_id": "gsm8k_62",
+        "prompt": "Mark was unwell for 3 months, during which he lost 10 pounds per month. If his final weight was 70 p",
+        "response": "To find Mark's initial weight, we need to calculate the total weight he lost and then add that to hi",
+        "score": 0.5875856578350067
+      },
+      {
+        "example_id": "gsm8k_63",
+        "prompt": "Jason works as a salesperson at a car dealership.  He needs to sell 15 cars this month to earn a big",
+        "response": "To solve this problem, let's break it down step by step.\n\n1. Jason needs to sell 15 cars to earn his",
+        "score": 1
+      },
+      {
+        "example_id": "gsm8k_64",
+        "prompt": "In a set of magicians cards, there are 15 red cards, and 60% more green cards. Yellow cards are as m",
+        "response": "To find the total number of cards of all mentioned colors, we need to calculate the number of green ",
+        "score": 0.6523354291915894
+      },
+      {
+        "example_id": "gsm8k_65",
+        "prompt": "To kick off summer, Jolene is having a water balloon fight with her friends.  They fill up 10 packs ",
+        "response": "To find out how many balloons they threw, we need to know the total number of balloons they started ",
+        "score": 0.9153347492218018
+      },
+      {
+        "example_id": "gsm8k_66",
+        "prompt": "Nik has 200 crayons. He wants to separate them into groups of 8 and put them into boxes.  Each box w",
+        "response": "To find the total weight of the crayons and the boxes, we need to calculate the weight of the crayon",
+        "score": 0.8409664630889893
+      },
+      {
+        "example_id": "gsm8k_67",
+        "prompt": "John drives for 3 hours at a speed of 60 mph and then turns around because he realizes he forgot som",
+        "response": "To solve this problem, we need to break it down into steps.\n\nStep 1: Calculate the distance John cov",
+        "score": 0.5156394124031067
+      },
+      {
+        "example_id": "gsm8k_68",
+        "prompt": "Micheal loves riding a bike. He rode it at least 5 times a week and makes 25 kilometers each time. H",
+        "response": "To find the total number of kilometers Michael rode his bike, we need to break it down into two part",
+        "score": 0.7037218093872071
+      },
+      {
+        "example_id": "gsm8k_69",
+        "prompt": "Carly wants to treat her friends. She orders five hamburgers at $4 each, ten packs of potato fries a",
+        "response": "To find out how much change Carly gets back, we need to calculate the total cost of the items she or",
+        "score": 0.42598782777786254
+      },
+      {
+        "example_id": "gsm8k_70",
+        "prompt": "Jim has a 20 pack of gum.  He chews 1 piece of gum for every 2 hours he's at school over a school da",
+        "response": "Let's break down the problem step by step:\n\n1. Jim chews gum for every 2 hours he's at school. Since",
+        "score": 0.8823098182678223
+      },
+      {
+        "example_id": "gsm8k_71",
+        "prompt": "The bananas at the supermarket cost $0.80 each, or a bunch for $3.00.  Jenny buys 10 bunches that av",
+        "response": "To find out how much money Jenny saved, we need to calculate the cost of buying the bananas individu",
+        "score": 0.8657775163650513
+      },
+      {
+        "example_id": "gsm8k_72",
+        "prompt": "Tobias, Chikote, and Igneous are the three little wolves who live in the forest and howl at the moon",
+        "response": "To find the combined length of time of the three wolves' howls, we need to calculate the individual ",
+        "score": 0.829800796508789
+      },
+      {
+        "example_id": "gsm8k_73",
+        "prompt": "The ratio of popsicles that Betty and Sam have is 5:6. If the total number of popsicles they have to",
+        "response": "To find out how many more popsicles Sam has than Betty, we first need to find out how many popsicles",
+        "score": 0.6757287859916687
+      },
+      {
+        "example_id": "gsm8k_74",
+        "prompt": "John plans to sell all his toys and use the money to buy video games. He has 13 lego sets and he sel",
+        "response": "To find out how many Lego sets John still has, we need to follow these steps:\n\n1. Calculate the tota",
+        "score": 0.4513586848974228
+      },
+      {
+        "example_id": "gsm8k_75",
+        "prompt": "Adrianne is collecting different kinds of beads for making bracelets. Her mother gave her 20 metalli",
+        "response": "To find out how many beads Adrianne had altogether, let's break it down step by step:\n\n1. Adrianne's",
+        "score": 0.8004483699798584
+      },
+      {
+        "example_id": "gsm8k_76",
+        "prompt": "To be promoted to the next school year, Jane takes 3 tests that together must total at least 42 poin",
+        "response": "Let's break down the problem step by step.\n\n1. Jane scored 15 points on the first test and 18 points",
+        "score": 0.9226206779479981
+      },
+      {
+        "example_id": "gsm8k_77",
+        "prompt": "A hotel in the Philippines charges 1000 pesos for a 12-hour stay or 1600 pesos for a 24-hour stay. A",
+        "response": "To find out how much Cameron would save, we need to calculate the cost of his stay in both scenarios",
+        "score": 0.6786746740341186
+      },
+      {
+        "example_id": "gsm8k_78",
+        "prompt": "Janet takes two bus trips five days a week. If each bus trip costs her $2.20, how much would she sav",
+        "response": "To find out how much Janet would save by buying a weekly bus pass, we need to calculate the total co",
+        "score": 1
+      },
+      {
+        "example_id": "gsm8k_79",
+        "prompt": "Jean is two years older than Mark.  Two years ago Mark was 5 years older than half Jan's age.  If Ja",
+        "response": "Let's break it down step by step:\n\n1. Jean is two years older than Mark. \n   Let's represent Mark's ",
+        "score": 0.36640167236328125
+      },
+      {
+        "example_id": "gsm8k_80",
+        "prompt": "Jen works for 7.5 hours a day 6 days a week. Her hourly rate is $1.5. Jen also receives an additiona",
+        "response": "To find out how much Jen will receive, we need to calculate her total earnings for the month of Apri",
+        "score": 0.9296410560607911
+      },
+      {
+        "example_id": "gsm8k_81",
+        "prompt": "Annabelle is saving for a phone that costs $400. She already has $80 in her savings. Her first job, ",
+        "response": "To find out how much money Annabelle still needs to save, we need to calculate how much money she ea",
+        "score": 0.7646242618560791
+      },
+      {
+        "example_id": "gsm8k_82",
+        "prompt": "Bob spends $27000 distributed between 3 schools to buy books.  He can buy 100 books for $500.  How m",
+        "response": "To find out how many books Bob can buy per school, we need to follow these steps:\n\n1. First, let's f",
+        "score": 1
+      },
+      {
+        "example_id": "gsm8k_83",
+        "prompt": "There are 100 plants in Mrs. Smith's garden. One-fourth of her plants are indoor plants. Two-thirds ",
+        "response": "To find the percentage of flowering plants, we need to follow the steps:\n\n1. One-fourth of the plant",
+        "score": 0.8866655349731445
+      },
+      {
+        "example_id": "gsm8k_84",
+        "prompt": "There are 27 unicorns left in the world.  One third of them are in the Scottish Highlands.  Two thir",
+        "response": "To solve this problem, let's break it down into steps:\n\n1. One third of the 27 unicorns are in the S",
+        "score": 0.5187930107116699
+      },
+      {
+        "example_id": "gsm8k_85",
+        "prompt": "Denise and Daniel are reading the same book. Yesterday, Denise read 10 pages while Daniel read 13 pa",
+        "response": "To find out how many more pages Denise read than Daniel, we need to calculate the total number of pa",
+        "score": 0.9872178077697754
+      },
+      {
+        "example_id": "gsm8k_86",
+        "prompt": "Dana can run at a rate of speed four times faster than she can walk, but she can skip at a rate of s",
+        "response": "To solve this problem, let's break it down into steps.\n\nStep 1: Find Dana's running speed.\nSince Dan",
+        "score": 0.3224652290344238
+      },
+      {
+        "example_id": "gsm8k_87",
+        "prompt": "Mary and John got married last weekend.  There were 20 private cars and 12 buses parked outside the ",
+        "response": "Let's break down the problem step by step:\n\n1. First, we need to find out how many people were trans",
+        "score": 0.6816679835319519
+      },
+      {
+        "example_id": "gsm8k_88",
+        "prompt": "Roy has saved 40% more in money earned by chores than his brother Anthony.  Anthony has saved $10.00",
+        "response": "To solve this problem, let's break it down step by step:\n\n1. Eva has saved $20.00.\n2. Anthony has sa",
+        "score": 0.6962796092033386
+      },
+      {
+        "example_id": "gsm8k_89",
+        "prompt": "Nick is choosing between two jobs. Job A pays $15 an hour for 2000 hours a year, and is in a state w",
+        "response": "To find the difference in net pay between the two jobs, we need to calculate the net pay for each jo",
+        "score": 0.5206917241215706
+      },
+      {
+        "example_id": "gsm8k_90",
+        "prompt": "Colby works for a manufacturing company in the packaging division.  He gets paid $0.20 for every pac",
+        "response": "To find out how much money Colby earns in a typical eight-hour workday, we need to calculate the tot",
+        "score": 1
+      },
+      {
+        "example_id": "gsm8k_91",
+        "prompt": "Julie operates the cash register exactly twice as fast as her less-experienced colleague Jewel. Dail",
+        "response": "To find the total weekly production, we need to first determine how many customers each of them can ",
+        "score": 0.8062716245651245
+      },
+      {
+        "example_id": "gsm8k_92",
+        "prompt": "A fruit vendor bought 50 watermelons for $80. He sold all of them at a profit of 25%. How much was e",
+        "response": "To find the cost price of each watermelon, we need to divide the total cost by the number of waterme",
+        "score": 0.7975995779037476
+      },
+      {
+        "example_id": "gsm8k_93",
+        "prompt": "A clothing store has 40 white shirts and 50 floral shirts. Half of the white shirts have collars, an",
+        "response": "To find the number of floral shirts with no buttons and white shirts with no collars, we need to cal",
+        "score": 0.8935491800308227
+      },
+      {
+        "example_id": "gsm8k_94",
+        "prompt": "A basket contains 25 oranges among which 1 is bad, 20% are unripe, 2 are sour and the rest are good.",
+        "response": "To find the number of good oranges, we need to first find the total number of oranges that are not g",
+        "score": 1
+      },
+      {
+        "example_id": "gsm8k_95",
+        "prompt": "Charmaine will be 16 years old in 12 years. How old will she be 4 years from now?",
+        "response": "To find Charmaine's age 4 years from now, we need to know her current age. Since she will be 16 in 1",
+        "score": 0.6887552499771118
+      },
+      {
+        "example_id": "gsm8k_96",
+        "prompt": "A treasure hunter found a buried treasure chest filled with gems. There were 175 diamonds, 35 fewer ",
+        "response": "To find the total number of gems in the chest, we need to calculate the number of each type of gem a",
+        "score": 0.9746923923492432
+      },
+      {
+        "example_id": "gsm8k_97",
+        "prompt": "Brandon's iPhone is four times as old as Ben's iPhone. Ben's iPhone is two times older than Suzy's i",
+        "response": "To find the age of Brandon's iPhone, we need to follow the given information step by step.\n\n1. Suzy'",
+        "score": 0.5926421523094177
+      },
+      {
+        "example_id": "gsm8k_98",
+        "prompt": "Mr. Maxim works at The Best Cookeries Around restaurant. On a particular day, 50 people entered the ",
+        "response": "To find the total number of people who entered the restaurant, we need to break down the information",
+        "score": 0.6054256081581115
+      },
+      {
+        "example_id": "gsm8k_99",
+        "prompt": "On Easter Sunday Cindy went to the city park to participate in the Easter Egg Hunt, and ended up wit",
+        "response": "To find out how many eggs Cindy had altogether, we need to calculate the number of each color of egg",
+        "score": 0.9416574478149414
+      }
+    ]
+  },
+  "bbh_navigate": {
+    "domain": "reasoning",
+    "average_score": 0.5049896462112664,
+    "std_dev": 0.17248577232964607,
+    "min_score": 0.007098197937011719,
+    "max_score": 0.8244076251983643,
+    "num_examples": 50,
+    "api_calls_used": 150,
+    "details": [
+      {
+        "example_id": "bbh_navigate_0",
+        "prompt": "If you follow these instructions, do you return to the starting point? Take 8 steps. Take 1 step. Ta",
+        "response": "To determine if you return to the starting point, let's break down the instructions step by step.\n\n1",
+        "score": 0.6245894193649292
+      },
+      {
+        "example_id": "bbh_navigate_1",
+        "prompt": "If you follow these instructions, do you return to the starting point? Always face forward. Take 8 s",
+        "response": "To determine if you return to the starting point, let's break down the steps:\n\n1. Take 8 steps left:",
+        "score": 0.5879762411117554
+      },
+      {
+        "example_id": "bbh_navigate_2",
+        "prompt": "If you follow these instructions, do you return to the starting point? Always face forward. Take 10 ",
+        "response": "To determine if you return to the starting point, let's break down the instructions step by step.\n\n1",
+        "score": 0.20627129077911377
+      },
+      {
+        "example_id": "bbh_navigate_3",
+        "prompt": "If you follow these instructions, do you return to the starting point? Take 3 steps. Turn around. Ta",
+        "response": "Let's break down the instructions step by step:\n\n1. Take 3 steps: You move forward 3 steps.\n2. Turn ",
+        "score": 0.3785288333892822
+      },
+      {
+        "example_id": "bbh_navigate_4",
+        "prompt": "If you follow these instructions, do you return to the starting point? Always face forward. Take 7 s",
+        "response": "Let's break down the steps:\n\n1. Take 7 steps right: You are now 7 steps away from the starting point",
+        "score": 0.5524181187152862
+      },
+      {
+        "example_id": "bbh_navigate_5",
+        "prompt": "If you follow these instructions, do you return to the starting point? Always face forward. Take 8 s",
+        "response": "To determine if you return to the starting point, let's break down the steps:\n\n1. Take 8 steps left:",
+        "score": 0.518811696767807
+      },
+      {
+        "example_id": "bbh_navigate_6",
+        "prompt": "If you follow these instructions, do you return to the starting point? Always face forward. Take 6 s",
+        "response": "To determine if you return to the starting point, let's break down the instructions step by step:\n\n1",
+        "score": 0.634492564201355
+      },
+      {
+        "example_id": "bbh_navigate_7",
+        "prompt": "If you follow these instructions, do you return to the starting point? Take 5 steps. Turn around. Ta",
+        "response": "Let's break down the instructions step by step:\n\n1. Take 5 steps: You move forward 5 steps.\n2. Turn ",
+        "score": 0.16754522323608398
+      },
+      {
+        "example_id": "bbh_navigate_8",
+        "prompt": "If you follow these instructions, do you return to the starting point? Take 7 steps. Turn around. Ta",
+        "response": "Let's break down the instructions step by step:\n\n1. Take 7 steps: This means you move forward 7 step",
+        "score": 0.8244076251983643
+      },
+      {
+        "example_id": "bbh_navigate_9",
+        "prompt": "If you follow these instructions, do you return to the starting point? Always face forward. Take 9 s",
+        "response": "To determine if you return to the starting point, let's break down the steps:\n\n1. Take 9 steps backw",
+        "score": 0.6890824794769287
+      },
+      {
+        "example_id": "bbh_navigate_10",
+        "prompt": "If you follow these instructions, do you return to the starting point? Take 5 steps. Take 10 steps. ",
+        "response": "Let's break it down step by step.\n\n1. You take 5 steps. \n2. Then, you take 10 steps. \n3. Since you t",
+        "score": 0.4587091147899628
+      },
+      {
+        "example_id": "bbh_navigate_11",
+        "prompt": "If you follow these instructions, do you return to the starting point? Always face forward. Take 6 s",
+        "response": "Let's break it down step by step:\n\n1. You take 6 steps backward. This means you are now 6 steps away",
+        "score": 0.6173891305923462
+      },
+      {
+        "example_id": "bbh_navigate_12",
+        "prompt": "If you follow these instructions, do you return to the starting point? Take 6 steps. Turn right. Tur",
+        "response": "To determine if you return to the starting point, let's break down the instructions step by step.\n\n1",
+        "score": 0.5697144746780396
+      },
+      {
+        "example_id": "bbh_navigate_13",
+        "prompt": "If you follow these instructions, do you return to the starting point? Always face forward. Take 4 s",
+        "response": "Let's break down the instructions step by step:\n\n1. Take 4 steps forward: You move 4 steps forward f",
+        "score": 0.6568985223770142
+      },
+      {
+        "example_id": "bbh_navigate_14",
+        "prompt": "If you follow these instructions, do you return to the starting point? Take 2 steps. Turn right. Tak",
+        "response": "To determine if you return to the starting point, let's analyze the instructions step by step:\n\n1. T",
+        "score": 0.4991795517504215
+      },
+      {
+        "example_id": "bbh_navigate_15",
+        "prompt": "If you follow these instructions, do you return to the starting point? Take 6 steps. Turn left. Turn",
+        "response": "To determine if you return to the starting point, let's break down the instructions step by step:\n\n1",
+        "score": 0.5820189416408539
+      },
+      {
+        "example_id": "bbh_navigate_16",
+        "prompt": "If you follow these instructions, do you return to the starting point? Take 2 steps. Take 10 steps. ",
+        "response": "Let's break it down step by step:\n\n1. Take 2 steps: You are now 2 steps away from the starting point",
+        "score": 0.2974723815917969
+      },
+      {
+        "example_id": "bbh_navigate_17",
+        "prompt": "If you follow these instructions, do you return to the starting point? Take 3 steps. Take 6 steps. T",
+        "response": "Let's break down the instructions step by step:\n\n1. Take 3 steps: You are now 3 steps away from the ",
+        "score": 0.007098197937011719
+      },
+      {
+        "example_id": "bbh_navigate_18",
+        "prompt": "If you follow these instructions, do you return to the starting point? Always face forward. Take 1 s",
+        "response": "To determine if you return to the starting point, let's break down the steps:\n\n1. You start by facin",
+        "score": 0.5559495210647583
+      },
+      {
+        "example_id": "bbh_navigate_19",
+        "prompt": "If you follow these instructions, do you return to the starting point? Always face forward. Take 6 s",
+        "response": "To determine if you return to the starting point, let's analyze the steps:\n\n1. You take 6 steps left",
+        "score": 0.700861120223999
+      },
+      {
+        "example_id": "bbh_navigate_20",
+        "prompt": "If you follow these instructions, do you return to the starting point? Turn left. Turn right. Take 8",
+        "response": "Let's break down the instructions step by step:\n\n1. Turn left: This means you are moving in a new di",
+        "score": 0.026318454742431642
+      },
+      {
+        "example_id": "bbh_navigate_21",
+        "prompt": "If you follow these instructions, do you return to the starting point? Turn left. Take 9 steps. Take",
+        "response": "Let's break down the instructions step by step:\n\n1. Turn left: This means you're changing direction,",
+        "score": 0.5380798816680908
+      },
+      {
+        "example_id": "bbh_navigate_22",
+        "prompt": "If you follow these instructions, do you return to the starting point? Always face forward. Take 2 s",
+        "response": "To determine if you return to the starting point, let's break down the steps:\n\n1. Take 2 steps backw",
+        "score": 0.5145299896597862
+      },
+      {
+        "example_id": "bbh_navigate_23",
+        "prompt": "If you follow these instructions, do you return to the starting point? Always face forward. Take 9 s",
+        "response": "To determine if you return to the starting point, let's break down the steps:\n\n1. Take 9 steps right",
+        "score": 0.47295762300491334
+      },
+      {
+        "example_id": "bbh_navigate_24",
+        "prompt": "If you follow these instructions, do you return to the starting point? Take 9 steps. Turn around. Ta",
+        "response": "Let's break it down step by step.\n\n1. Take 9 steps: You move forward 9 steps from the starting point",
+        "score": 0.6928500413894654
+      },
+      {
+        "example_id": "bbh_navigate_25",
+        "prompt": "If you follow these instructions, do you return to the starting point? Always face forward. Take 2 s",
+        "response": "To determine if you return to the starting point, let's break down the steps:\n\n1. You start by facin",
+        "score": 0.6374157905578614
+      },
+      {
+        "example_id": "bbh_navigate_26",
+        "prompt": "If you follow these instructions, do you return to the starting point? Always face forward. Take 10 ",
+        "response": "To determine if you return to the starting point, let's analyze the instructions step by step.\n\n1. T",
+        "score": 0.6290418863296509
+      },
+      {
+        "example_id": "bbh_navigate_27",
+        "prompt": "If you follow these instructions, do you return to the starting point? Take 1 step. Take 8 steps. Tu",
+        "response": "Let's break down the instructions step by step:\n\n1. Take 1 step: You move forward 1 step.\n2. Take 8 ",
+        "score": 0.4551759988069534
+      },
+      {
+        "example_id": "bbh_navigate_28",
+        "prompt": "If you follow these instructions, do you return to the starting point? Take 3 steps. Take 10 steps. ",
+        "response": "To determine if you return to the starting point, let's break down the instructions step by step.\n\n1",
+        "score": 0.46955967247486113
+      },
+      {
+        "example_id": "bbh_navigate_29",
+        "prompt": "If you follow these instructions, do you return to the starting point? Always face forward. Take 2 s",
+        "response": "Let's break it down step by step:\n\n1. You start at the starting point.\n2. You take 2 steps forward, ",
+        "score": 0.6093344449996948
+      },
+      {
+        "example_id": "bbh_navigate_30",
+        "prompt": "If you follow these instructions, do you return to the starting point? Always face forward. Take 3 s",
+        "response": "Let's break down the instructions step by step:\n\n1. Take 3 steps right: You move 3 steps to the righ",
+        "score": 0.5211207017302513
+      },
+      {
+        "example_id": "bbh_navigate_31",
+        "prompt": "If you follow these instructions, do you return to the starting point? Always face forward. Take 3 s",
+        "response": "To determine if you return to the starting point, let's break down the instructions step by step.\n\n1",
+        "score": 0.6509171009063721
+      },
+      {
+        "example_id": "bbh_navigate_32",
+        "prompt": "If you follow these instructions, do you return to the starting point? Always face forward. Take 5 s",
+        "response": "Let's break it down step by step:\n\n1. You take 5 steps backward. \n   - You are now 5 steps away from",
+        "score": 0.4737076938152313
+      },
+      {
+        "example_id": "bbh_navigate_33",
+        "prompt": "If you follow these instructions, do you return to the starting point? Turn left. Turn around. Take ",
+        "response": "To determine if you return to the starting point, let's analyze the instructions step by step:\n\n1. T",
+        "score": 0.6290542125701905
+      },
+      {
+        "example_id": "bbh_navigate_34",
+        "prompt": "If you follow these instructions, do you return to the starting point? Always face forward. Take 8 s",
+        "response": "To determine if you return to the starting point, let's break down the steps:\n\n1. Take 8 steps left:",
+        "score": 0.36558749675750735
+      },
+      {
+        "example_id": "bbh_navigate_35",
+        "prompt": "If you follow these instructions, do you return to the starting point? Take 8 steps. Take 9 steps. T",
+        "response": "Let's break down the instructions step by step:\n\n1. Take 8 steps: You move forward 8 steps.\n2. Take ",
+        "score": 0.5030588805675507
+      },
+      {
+        "example_id": "bbh_navigate_36",
+        "prompt": "If you follow these instructions, do you return to the starting point? Always face forward. Take 10 ",
+        "response": "Let's break it down step by step:\n\n1. You take 10 steps left. This means you are now 10 steps away f",
+        "score": 0.42969135046005247
+      },
+      {
+        "example_id": "bbh_navigate_37",
+        "prompt": "If you follow these instructions, do you return to the starting point? Always face forward. Take 10 ",
+        "response": "Let's break down the steps:\n\n1. You take 10 steps to the left. This means you are now 10 steps away ",
+        "score": 0.5533976197242737
+      },
+      {
+        "example_id": "bbh_navigate_38",
+        "prompt": "If you follow these instructions, do you return to the starting point? Take 6 steps. Turn around. Ta",
+        "response": "To determine if you return to the starting point, let's break down the instructions step by step:\n\n1",
+        "score": 0.7877817630767823
+      },
+      {
+        "example_id": "bbh_navigate_39",
+        "prompt": "If you follow these instructions, do you return to the starting point? Always face forward. Take 6 s",
+        "response": "Let's break down the instructions step by step:\n\n1. Take 6 steps forward: You are now 6 steps away f",
+        "score": 0.48691698014736173
+      },
+      {
+        "example_id": "bbh_navigate_40",
+        "prompt": "If you follow these instructions, do you return to the starting point? Take 7 steps. Take 8 steps. T",
+        "response": "Let's break down the instructions step by step:\n\n1. Take 7 steps: You move forward 7 steps.\n2. Take ",
+        "score": 0.48963367715477946
+      },
+      {
+        "example_id": "bbh_navigate_41",
+        "prompt": "If you follow these instructions, do you return to the starting point? Always face forward. Take 10 ",
+        "response": "To determine if you return to the starting point, let's break down the steps:\n\n1. Take 10 steps left",
+        "score": 0.4970336459577084
+      },
+      {
+        "example_id": "bbh_navigate_42",
+        "prompt": "If you follow these instructions, do you return to the starting point? Take 9 steps. Turn left. Turn",
+        "response": "To determine if you return to the starting point, let's break down the instructions step by step:\n\n1",
+        "score": 0.4052989661693573
+      },
+      {
+        "example_id": "bbh_navigate_43",
+        "prompt": "If you follow these instructions, do you return to the starting point? Always face forward. Take 5 s",
+        "response": "To determine if you return to the starting point, let's break down the steps:\n\n1. Take 5 steps right",
+        "score": 0.2908306121826172
+      },
+      {
+        "example_id": "bbh_navigate_44",
+        "prompt": "If you follow these instructions, do you return to the starting point? Turn around. Take 2 steps. Ta",
+        "response": "To determine if you return to the starting point, let's break down the instructions step by step:\n\n1",
+        "score": 0.6836678504943847
+      },
+      {
+        "example_id": "bbh_navigate_45",
+        "prompt": "If you follow these instructions, do you return to the starting point? Take 6 steps. Take 2 steps. T",
+        "response": "To determine if you return to the starting point, let's break down the instructions step by step:\n\n1",
+        "score": 0.5016660779714585
+      },
+      {
+        "example_id": "bbh_navigate_46",
+        "prompt": "If you follow these instructions, do you return to the starting point? Take 2 steps. Take 1 step. Ta",
+        "response": "To determine if you return to the starting point, let's break down the instructions step by step:\n\n1",
+        "score": 0.13667426109313965
+      },
+      {
+        "example_id": "bbh_navigate_47",
+        "prompt": "If you follow these instructions, do you return to the starting point? Take 7 steps. Turn around. Ta",
+        "response": "To determine if you return to the starting point, let's break down the instructions step by step.\n\n1",
+        "score": 0.5970138072967529
+      },
+      {
+        "example_id": "bbh_navigate_48",
+        "prompt": "If you follow these instructions, do you return to the starting point? Take 10 steps. Take 7 steps. ",
+        "response": "To determine if you return to the starting point, let's break down the instructions step by step:\n\n1",
+        "score": 0.6315272450447083
+      },
+      {
+        "example_id": "bbh_navigate_49",
+        "prompt": "If you follow these instructions, do you return to the starting point? Take 1 step. Take 5 steps. Ta",
+        "response": "To determine if you return to the starting point, let's break down the steps:\n\n1. Take 1 step: You a",
+        "score": 0.4402241349220276
+      }
+    ]
+  },
+  "bbh_boolean": {
+    "domain": "reasoning",
+    "average_score": 0.37614864158630373,
+    "std_dev": 0.15183901061569316,
+    "min_score": 0.0,
+    "max_score": 0.8247868299484253,
+    "num_examples": 50,
+    "api_calls_used": 200,
+    "details": [
+      {
+        "example_id": "bbh_boolean_expressions_0",
+        "prompt": "True and not False and not not True is",
+        "response": "To solve this, let's break it down step by step:\n\n1. \"True and not False\" means we are looking for s",
+        "score": 0.4096120476722717
+      },
+      {
+        "example_id": "bbh_boolean_expressions_1",
+        "prompt": "True and not not not not not True is",
+        "response": "To solve this, let's break it down step by step:\n\n1. 'not not not not not True' means we have 5 'not",
+        "score": 0.3069573163986206
+      },
+      {
+        "example_id": "bbh_boolean_expressions_2",
+        "prompt": "not ( ( False and True ) ) is",
+        "response": "To find the answer, let's break it down step by step:\n\n1. Evaluate the innermost parentheses: \n   - ",
+        "score": 0.337817645072937
+      },
+      {
+        "example_id": "bbh_boolean_expressions_3",
+        "prompt": "( True and not True and False ) is",
+        "response": "To solve this, let's break it down step by step:\n\n1. Evaluate the expression inside the parentheses:",
+        "score": 0.31518328189849854
+      },
+      {
+        "example_id": "bbh_boolean_expressions_4",
+        "prompt": "False or ( not False ) and True is",
+        "response": "To evaluate this expression, we need to follow the order of operations (PEMDAS):\n\n1. Evaluate the ex",
+        "score": 0.36626769304275514
+      },
+      {
+        "example_id": "bbh_boolean_expressions_5",
+        "prompt": "not ( False and True ) and True is",
+        "response": "To evaluate this expression, we need to follow the order of operations (PEMDAS):\n\n1. Evaluate the ex",
+        "score": 0.4398084580898285
+      },
+      {
+        "example_id": "bbh_boolean_expressions_6",
+        "prompt": "( not False ) or ( True ) is",
+        "response": "To determine the answer, let's break it down step by step.\n\n1. The expression contains two parts: \"(",
+        "score": 0.40581865310668946
+      },
+      {
+        "example_id": "bbh_boolean_expressions_7",
+        "prompt": "True or not ( ( True ) ) is",
+        "response": "To determine the answer, we need to evaluate the expression \"( ( True ) )\". \n\nIn most programming la",
+        "score": 0.5164902061223984
+      },
+      {
+        "example_id": "bbh_boolean_expressions_8",
+        "prompt": "not False and True or ( True ) is",
+        "response": "To solve this, let's break it down step by step:\n\n1. 'not False' means we are negating the value of ",
+        "score": 0.5572878897190094
+      },
+      {
+        "example_id": "bbh_boolean_expressions_9",
+        "prompt": "not ( False ) and ( False ) is",
+        "response": "To solve this, let's break it down step by step:\n\n1. \"not (False)\" means we first negate the value i",
+        "score": 0.459963396191597
+      },
+      {
+        "example_id": "bbh_boolean_expressions_10",
+        "prompt": "not True and False or False or True is",
+        "response": "To solve this, let's break it down step by step:\n\n1. 'not True' is False\n2. 'False or False' is Fals",
+        "score": 0
+      },
+      {
+        "example_id": "bbh_boolean_expressions_11",
+        "prompt": "True and False or ( not True ) is",
+        "response": "True and False or (not True) is False.",
+        "score": 0.1713792324066162
+      },
+      {
+        "example_id": "bbh_boolean_expressions_12",
+        "prompt": "False or ( False ) or not True is",
+        "response": "To evaluate the expression \"False or (False) or not True\", let's break it down step by step:\n\n1. \"no",
+        "score": 0.5546947300434113
+      },
+      {
+        "example_id": "bbh_boolean_expressions_13",
+        "prompt": "not not not not ( not False ) is",
+        "response": "To solve this, let's break it down step by step:\n\n1. Not False: This means we're negating the value ",
+        "score": 0.33354350328445437
+      },
+      {
+        "example_id": "bbh_boolean_expressions_14",
+        "prompt": "( False ) and ( not False ) is",
+        "response": "To solve this, let's break it down step by step:\n\n1. (False) is a statement that is false.\n2. The 'n",
+        "score": 0.3692646622657776
+      },
+      {
+        "example_id": "bbh_boolean_expressions_15",
+        "prompt": "False or False and False or not True is",
+        "response": "To solve this, let's break it down step by step:\n\n1. \"False or False\" can be simplified to \"False\" b",
+        "score": 0.26182847023010253
+      },
+      {
+        "example_id": "bbh_boolean_expressions_16",
+        "prompt": "not not not False and True and False is",
+        "response": "To solve this, let's break it down step by step.\n\n1. 'not not not False' \n   - 'not False' is True\n ",
+        "score": 0.30816303491592406
+      },
+      {
+        "example_id": "bbh_boolean_expressions_17",
+        "prompt": "not False or True and False and False is",
+        "response": "To solve this, let's break it down step by step.\n\n1. The statement is: not False or True and False a",
+        "score": 0.5166674852371216
+      },
+      {
+        "example_id": "bbh_boolean_expressions_18",
+        "prompt": "True and not False or False and False is",
+        "response": "To determine the answer, we need to break down the statement into its components.\n\n1. True and not F",
+        "score": 0.6584873199462891
+      },
+      {
+        "example_id": "bbh_boolean_expressions_19",
+        "prompt": "False and not ( not not False ) is",
+        "response": "To solve this, let's break it down step by step.\n\n1. \"not not False\" is the inner part of the expres",
+        "score": 0.2611489772796631
+      },
+      {
+        "example_id": "bbh_boolean_expressions_20",
+        "prompt": "True and True and True or not False is",
+        "response": "To evaluate the statement \"True and True and True or not False,\" let's break it down step by step.\n\n",
+        "score": 0.8247868299484253
+      },
+      {
+        "example_id": "bbh_boolean_expressions_21",
+        "prompt": "( False ) or not False or True is",
+        "response": "To evaluate this expression, we need to follow the order of operations (PEMDAS):\n\n1. Evaluate the in",
+        "score": 0.3779977560043335
+      },
+      {
+        "example_id": "bbh_boolean_expressions_22",
+        "prompt": "( True and not not not True ) is",
+        "response": "To determine the answer, let's break down the expression step by step.\n\n1. 'not not not True' can be",
+        "score": 0.28864753246307373
+      },
+      {
+        "example_id": "bbh_boolean_expressions_23",
+        "prompt": "not True or False and True and True is",
+        "response": "To solve this, let's break it down step by step:\n\n1. We have three statements:\n   - Not True\n   - Tr",
+        "score": 0.29559926986694335
+      },
+      {
+        "example_id": "bbh_boolean_expressions_24",
+        "prompt": "not ( False ) and ( True ) is",
+        "response": "To solve this, let's break it down step by step:\n\n1. 'not (False)' means we first negate the value '",
+        "score": 0.33601741790771483
+      },
+      {
+        "example_id": "bbh_boolean_expressions_25",
+        "prompt": "False or ( not False and False ) is",
+        "response": "To evaluate this expression, we need to follow the order of operations (PEMDAS):\n\n1. Evaluate the ex",
+        "score": 0.31233303546905516
+      },
+      {
+        "example_id": "bbh_boolean_expressions_26",
+        "prompt": "not not not not True or not True is",
+        "response": "To solve this, let's break it down step by step.\n\n1. 'not not not not True' can be read as 'not (not",
+        "score": 0.0995859146118164
+      },
+      {
+        "example_id": "bbh_boolean_expressions_27",
+        "prompt": "not False and not not True and True is",
+        "response": "To solve this, let's break it down step by step:\n\n1. \"not False\" means True, because anything is Tru",
+        "score": 0.2912705898284912
+      },
+      {
+        "example_id": "bbh_boolean_expressions_28",
+        "prompt": "True or False and not ( True ) is",
+        "response": "It seems like you're asking for a statement that is \"True or False and not (True)\".\n\nThis statement ",
+        "score": 0.1605595827102661
+      },
+      {
+        "example_id": "bbh_boolean_expressions_29",
+        "prompt": "( False ) or False and not True is",
+        "response": "To solve this, let's break it down step by step:\n\n1. We have \"False\" as the first part.\n2. The secon",
+        "score": 0.48585993945598605
+      },
+      {
+        "example_id": "bbh_boolean_expressions_30",
+        "prompt": "not True and True and False and True is",
+        "response": "To evaluate this expression, we need to follow the order of operations (also known as PEMDAS):\n\n1. E",
+        "score": 0.1515841007232666
+      },
+      {
+        "example_id": "bbh_boolean_expressions_31",
+        "prompt": "False and not ( False or False ) is",
+        "response": "To solve this, let's break it down step by step:\n\n1. \"False or False\" is a logical OR operation. In ",
+        "score": 0.3975156307220459
+      },
+      {
+        "example_id": "bbh_boolean_expressions_32",
+        "prompt": "( ( not False ) and False ) is",
+        "response": "To determine the answer, we need to follow the order of operations (PEMDAS):\n\n1. Evaluate the expres",
+        "score": 0.46613091230392456
+      },
+      {
+        "example_id": "bbh_boolean_expressions_33",
+        "prompt": "not ( not not False ) and True is",
+        "response": "To solve this expression, we need to follow the order of operations (PEMDAS):\n\n1. Evaluate the inner",
+        "score": 0.36911935806274415
+      },
+      {
+        "example_id": "bbh_boolean_expressions_34",
+        "prompt": "( False and True or not False ) is",
+        "response": "To determine the answer, let's break it down step by step:\n\n1. \"( False and True ) or not False\"\n2. ",
+        "score": 0.6473360300064087
+      },
+      {
+        "example_id": "bbh_boolean_expressions_35",
+        "prompt": "True and False and not True or False is",
+        "response": "To determine the answer, let's break it down step by step:\n\n1. True: This is a statement that is cor",
+        "score": 0.10429232120513916
+      },
+      {
+        "example_id": "bbh_boolean_expressions_36",
+        "prompt": "False and not False or False and True is",
+        "response": "To solve this, let's break it down step by step.\n\n1. \"False and not False\" - Since \"not False\" is Tr",
+        "score": 0.2110069513320923
+      },
+      {
+        "example_id": "bbh_boolean_expressions_37",
+        "prompt": "True and not not ( not False ) is",
+        "response": "To solve this, let's break it down step by step:\n\n1. \"not False\" means the opposite of False, which ",
+        "score": 0.33487887382507325
+      },
+      {
+        "example_id": "bbh_boolean_expressions_38",
+        "prompt": "( ( not False ) ) and True is",
+        "response": "To evaluate this expression, we need to follow the order of operations (PEMDAS):\n\n1. Evaluate the ex",
+        "score": 0.5151973187923431
+      },
+      {
+        "example_id": "bbh_boolean_expressions_39",
+        "prompt": "not not not not not not not True is",
+        "response": "To solve this, let's break it down step by step:\n\n1. 'not not not not not not not True' can be read ",
+        "score": 0.2620396614074707
+      },
+      {
+        "example_id": "bbh_boolean_expressions_40",
+        "prompt": "not True and False or False and False is",
+        "response": "To solve this, let's break it down step by step.\n\n1. We have two conditions: \n   - not True\n   - Fal",
+        "score": 0.46896985173225403
+      },
+      {
+        "example_id": "bbh_boolean_expressions_41",
+        "prompt": "not True and not True and not True is",
+        "response": "To evaluate this expression, we need to understand the logical operators involved:\n\n- 'not True' mea",
+        "score": 0.5565752506256103
+      },
+      {
+        "example_id": "bbh_boolean_expressions_42",
+        "prompt": "( not False and ( True ) ) is",
+        "response": "To evaluate this expression, we need to follow the order of operations (PEMDAS):\n\n1. Evaluate the in",
+        "score": 0.4697853118181229
+      },
+      {
+        "example_id": "bbh_boolean_expressions_43",
+        "prompt": "( True or not not not False ) is",
+        "response": "To determine the answer, let's break down the statement \"( True or not not not False )\".\n\n1. First, ",
+        "score": 0.3807950496673584
+      },
+      {
+        "example_id": "bbh_boolean_expressions_44",
+        "prompt": "not ( False ) or not not False is",
+        "response": "To solve this, let's break it down step by step:\n\n1. 'not (False)' means we first negate the value '",
+        "score": 0.5646316766738891
+      },
+      {
+        "example_id": "bbh_boolean_expressions_45",
+        "prompt": "not ( not False ) and not False is",
+        "response": "To evaluate the given expression, we need to follow the order of operations (PEMDAS):\n\n1. Evaluate t",
+        "score": 0.357446551322937
+      },
+      {
+        "example_id": "bbh_boolean_expressions_46",
+        "prompt": "( True and not True and True ) is",
+        "response": "To solve this, let's follow the order of operations for logical expressions, which is often represen",
+        "score": 0.41081140637397767
+      },
+      {
+        "example_id": "bbh_boolean_expressions_47",
+        "prompt": "( not True and False or True ) is",
+        "response": "It seems like we're playing a game of logic. \n\nTo solve this, let's break it down step by step:\n\n1. ",
+        "score": 0.35596925020217896
+      },
+      {
+        "example_id": "bbh_boolean_expressions_48",
+        "prompt": "not False or False or ( False ) is",
+        "response": "To solve this, let's break it down step by step:\n\n1. 'not False' means True. \n2. 'False or True' mea",
+        "score": 0.30611798763275144
+      },
+      {
+        "example_id": "bbh_boolean_expressions_49",
+        "prompt": "( True or True or not False ) is",
+        "response": "It seems like you're asking for a classification of a statement as True, Not True, or Not False (whi",
+        "score": 0.4541867136955261
+      }
+    ]
+  },
+  "liar": {
+    "domain": "fact_verification",
+    "average_score": 0.6279451481103897,
+    "std_dev": 0.26926691789285173,
+    "min_score": 0.0,
+    "max_score": 1.0,
+    "num_examples": 50,
+    "api_calls_used": 250,
+    "details": [
+      {
+        "example_id": "liar_0",
+        "prompt": "\"I'm prolife. I'm not going to apologize for becoming prolife. Ronald Reagan followed that same cour",
+        "response": "It appears the speaker is expressing their stance on being pro-life and stating that they are not as",
+        "score": 0.8910077571868896
+      },
+      {
+        "example_id": "liar_1",
+        "prompt": "If the Republicans were the majority, (Rep. Barton) would have actually the gavel and the chairmansh",
+        "response": "If the Republicans were the majority, Representative Barton would have been in a position of power, ",
+        "score": 0.45516901314258573
+      },
+      {
+        "example_id": "liar_2",
+        "prompt": "Spanish was the first European language spoken in this country.",
+        "response": "To answer this question, we need to identify the country in question. However, you haven't specified",
+        "score": 0.22961030006408692
+      },
+      {
+        "example_id": "liar_3",
+        "prompt": "Says stories about his birth certificate drowned out media coverage of the Republican and White Hous",
+        "response": "To answer the question, we need to identify the person being referred to in the statement. \n\nSince t",
+        "score": 0.46737684309482574
+      },
+      {
+        "example_id": "liar_4",
+        "prompt": "Big rooftop solars plan forces Nevada families who dont have solar panels to pay higher power bills ",
+        "response": "To address this issue, let's break it down into steps:\n\n1. **Identify the problem**: The problem is ",
+        "score": 0.9334900856018067
+      },
+      {
+        "example_id": "liar_5",
+        "prompt": "80 percent of North Carolinians are for the living wage",
+        "response": "To answer the question, we need to determine what \"the living wage\" refers to. However, based on the",
+        "score": 0.28624687194824217
+      },
+      {
+        "example_id": "liar_6",
+        "prompt": "During his 18-year Senate career, (Russ Feingold) supported judges who voted to deny your individual",
+        "response": "It seems like the statement is criticizing Russ Feingold's past record on the Second Amendment. To c",
+        "score": 1
+      },
+      {
+        "example_id": "liar_7",
+        "prompt": "During the Eisenhower Administration, not a single soldier died in combat.",
+        "response": "To verify the claim, let's break it down step by step:\n\n1. **Identify the time period**: The Eisenho",
+        "score": 0.8663988590240479
+      },
+      {
+        "example_id": "liar_8",
+        "prompt": "Sixteen million jobs were created under Ronald Reagans presidency.",
+        "response": "That statement is incorrect. \n\nUnder Ronald Reagan's presidency, approximately 16 million jobs were ",
+        "score": 0.2879863977432251
+      },
+      {
+        "example_id": "liar_9",
+        "prompt": "Only four countries in the world allow abortions after 20 weeks of pregnancy.",
+        "response": "To answer this question, we'll need to identify the countries that allow abortions after 20 weeks of",
+        "score": 0.6370761275291443
+      },
+      {
+        "example_id": "liar_10",
+        "prompt": "Mark Warner cast the tiebreaking vote to pass Obamacare.",
+        "response": "I couldn't find any information that Mark Warner cast the tiebreaking vote to pass Obamacare.",
+        "score": 0.39701864719390867
+      },
+      {
+        "example_id": "liar_11",
+        "prompt": "Says cities save an estimated $38 in dental costs for every $1 invested in fluoridation.",
+        "response": "To answer this question, we need to identify the claim being made. The claim is that cities save an ",
+        "score": 0.9400506496429444
+      },
+      {
+        "example_id": "liar_12",
+        "prompt": "Says North Carolina Republican Senate candidate Thom Tillis supports a plan that would end Medicare ",
+        "response": "To address this question, let's break it down step by step:\n\n1. **Understanding the claim**: The cla",
+        "score": 1
+      },
+      {
+        "example_id": "liar_13",
+        "prompt": "When he (Donald Trump) asked Florida to have casino gambling, we said no.",
+        "response": "It seems like we're setting up a scenario. To complete the answer, I'll need a bit more information.",
+        "score": 0.13383197784423828
+      },
+      {
+        "example_id": "liar_14",
+        "prompt": "I differed with my party on business legislation, on consumer protection, and on free trade agreemen",
+        "response": "It sounds like you were disagreeing with your party on several key issues. \n\nTo complete the answer,",
+        "score": 0.30711873769760134
+      },
+      {
+        "example_id": "liar_15",
+        "prompt": "Public-employee unions spent $30 million in Wisconsin unsuccessfully trying to flip the state Senate",
+        "response": "To answer this question, let's break it down step by step:\n\n1. **Identify the main event**: The main",
+        "score": 0.8130179405212402
+      },
+      {
+        "example_id": "liar_16",
+        "prompt": "Says President Obamas proposed oil tax would cost consumers 24 cents a gallon.",
+        "response": "To answer this question, we would need to know more context or information about President Obama's p",
+        "score": 0.5650546848773956
+      },
+      {
+        "example_id": "liar_17",
+        "prompt": "I sponsored the new Buy American law",
+        "response": "It seems like you're thinking of a famous politician who sponsored the Buy American law. \n\nTo answer",
+        "score": 0
+      },
+      {
+        "example_id": "liar_18",
+        "prompt": "Barack Obama said in 2004 \"that he basically agreed with the way George Bush was conducting the war.",
+        "response": "I think there may be some information to clarify here. \n\nTo answer your question, I would need to ve",
+        "score": 0.10828874111175538
+      },
+      {
+        "example_id": "liar_19",
+        "prompt": "The only growth sector that weve had in the last two years in America is government growth.",
+        "response": "That's a concerning statement. Let's break it down step by step:\n\n1. **Identify the issue**: The sta",
+        "score": 0.9790397167205811
+      },
+      {
+        "example_id": "liar_20",
+        "prompt": "The per-pupil cost in the [Blackstone Valley Prep] Mayoral Academy far outweighs the per-pupil cost ",
+        "response": "To address this statement, let's break it down into a step-by-step analysis.\n\n1. **Define the variab",
+        "score": 0.7283881187438965
+      },
+      {
+        "example_id": "liar_21",
+        "prompt": "Were spending less money today, in upcoming fiscal year 2014 than the Corzine-Buono budget spent in ",
+        "response": "To answer this question, let's break it down step by step:\n\n1. Identify the Corzine-Buono budget:  T",
+        "score": 0.4851526990532875
+      },
+      {
+        "example_id": "liar_22",
+        "prompt": "If African-Americans vote their percentage of the population in 2008, \"Mississippi is suddenly a Dem",
+        "response": "To answer this question, we need to consider the voting patterns and demographics of African-America",
+        "score": 0.9179387569427491
+      },
+      {
+        "example_id": "liar_23",
+        "prompt": "Subsidies for oil and gas companies make up 88 percent of all federal subsidies. Just cutting the oi",
+        "response": "If cutting the oil and gas subsidies out would save the U.S. government $45 billion every year, then",
+        "score": 0.7216565608978271
+      },
+      {
+        "example_id": "liar_24",
+        "prompt": "Says John Kerry is the first secretary of state to rely primarily on a government account.",
+        "response": "To answer the question, let's break it down step by step:\n\n1. Identify the key information: John Ker",
+        "score": 0.5883872628211975
+      },
+      {
+        "example_id": "liar_25",
+        "prompt": "When these [undocumented] students graduate from college, theyre still illegal aliens. They cannot g",
+        "response": "It seems like there's an issue with the current immigration system and the challenges faced by undoc",
+        "score": 0.6908047199249268
+      },
+      {
+        "example_id": "liar_26",
+        "prompt": "We spend almost twice as much per capita on health care as do the people of any other country.",
+        "response": "It seems like we're starting with a statement about health care spending. To answer, we would need m",
+        "score": 0.5439190983772277
+      },
+      {
+        "example_id": "liar_27",
+        "prompt": "Says local Texas chambers of commerce were granted exemptions from paying property taxes on their he",
+        "response": "To answer this question, let's break it down into steps:\n\n1. **Identify the statement**: The stateme",
+        "score": 1
+      },
+      {
+        "example_id": "liar_28",
+        "prompt": "Gene Green is the NRAs favorite Democrat in Congress. ... Its no wonder the congressman has a lifeti",
+        "response": "It sounds like the statement is saying that Gene Green has a lifetime A rating from the NRA, which i",
+        "score": 0.3175194501876831
+      },
+      {
+        "example_id": "liar_29",
+        "prompt": "Says as we sit right now, Medicare, if we do nothing, will be gone in eight years, if we do nothing ",
+        "response": "That's a concerning statement. To break it down, let's consider the current state of Medicare and it",
+        "score": 0.4936875946819782
+      },
+      {
+        "example_id": "liar_30",
+        "prompt": "Says Republican U.S. Senate candidate Tommy Thompson supports massive tax cuts for corporations that",
+        "response": "It seems like we're starting with a statement about Tommy Thompson. To answer the question, I'll nee",
+        "score": 0.5589073598384857
+      },
+      {
+        "example_id": "liar_31",
+        "prompt": "Twenty-five percent of our kids in foster care are there because their parents are involved in drugs",
+        "response": "To address this issue, let's break it down into steps:\n\n1. **Identify the root cause**: The primary ",
+        "score": 0.8580784320831298
+      },
+      {
+        "example_id": "liar_32",
+        "prompt": "As a result of National Rifle Association and other private-sector (safety-education) programs, fata",
+        "response": "That statement seems to be accurate. \n\nHere's a step-by-step breakdown:\n\n1. **National Rifle Associa",
+        "score": 0.7815574169158935
+      },
+      {
+        "example_id": "liar_33",
+        "prompt": "Says Oak Grove is one of the largest cities in Oregon and is the biggest city in Clackamas County an",
+        "response": "Let's break down the information step by step.\n\n1. Oak Grove is one of the largest cities in Oregon.",
+        "score": 0.1243819236755371
+      },
+      {
+        "example_id": "liar_34",
+        "prompt": "Says Donald Trump said of women, And you can tell them to go f--- themselves.",
+        "response": "I can provide information on this topic. \n\nTo answer your question, I found that Donald Trump made a",
+        "score": 0.35472854375839236
+      },
+      {
+        "example_id": "liar_35",
+        "prompt": "\"John McCain voted against establishing a national holiday in honor of Dr. Martin Luther King, Jr.\"",
+        "response": "To answer this question, we need to verify the information. \n\nStep 1: Identify the key elements of t",
+        "score": 0.7917757749557495
+      },
+      {
+        "example_id": "liar_36",
+        "prompt": "Says Peter Kilmartin has only three years experience in his own law practice.",
+        "response": "To answer this question, I would need more information about Peter Kilmartin. However, I can try to ",
+        "score": 0.532314932346344
+      },
+      {
+        "example_id": "liar_37",
+        "prompt": "Federal law adopted under Tommy Thompsons watch prohibits the government from negotiating for better",
+        "response": "I think there may be some misinformation here. Let's break it down step by step.\n\n1. Tommy Thompson ",
+        "score": 0.54958456158638
+      },
+      {
+        "example_id": "liar_38",
+        "prompt": "New Jersey has lost over half of our pharmaceutical jobs to states you know, not low-tax states like",
+        "response": "It seems like you're starting a discussion about the issue of pharmaceutical job loss in New Jersey.",
+        "score": 0.7311816692352295
+      },
+      {
+        "example_id": "liar_39",
+        "prompt": "On campaign contributions from electric utilities.",
+        "response": "To address the question about campaign contributions from electric utilities, let's break it down in",
+        "score": 1
+      },
+      {
+        "example_id": "liar_40",
+        "prompt": "\"I don't think that Rudy or Fred or John McCain support the marriage amendment.\"",
+        "response": "To answer this question, we need to break it down step by step.\n\n1. Identify the key individuals men",
+        "score": 0.5558549582958221
+      },
+      {
+        "example_id": "liar_41",
+        "prompt": "Says states that passed anti-illegal-immigrant legislation also had few Hispanic legislators.",
+        "response": "To analyze this statement, let's break it down step by step:\n\n1. **Understanding the statement**: Th",
+        "score": 0.5020750746130943
+      },
+      {
+        "example_id": "liar_42",
+        "prompt": "Democrats give Newports to the homeless to get them to the polls.",
+        "response": "It seems like you're asking me to come up with a possible answer or a consequence of the given scena",
+        "score": 0.8024043798446655
+      },
+      {
+        "example_id": "liar_43",
+        "prompt": "More than 400 car crashes occur each year on the current, congested Columbia River Bridge.",
+        "response": "To think step by step, let's break down the information given and consider possible solutions or ans",
+        "score": 0.8882071495056152
+      },
+      {
+        "example_id": "liar_44",
+        "prompt": "Our economy actually shrank during the last three months of 2012.",
+        "response": "That's an interesting statement. To understand the context, let's break it down step by step.\n\n1. **",
+        "score": 0.6230705261230469
+      },
+      {
+        "example_id": "liar_45",
+        "prompt": "When it comes to being effective at creating jobs (Chris Christie has not had) a record of governing",
+        "response": "It seems like the statement is criticizing Chris Christie's effectiveness in creating jobs as a gove",
+        "score": 0.9437747001647949
+      },
+      {
+        "example_id": "liar_46",
+        "prompt": "Fox News is banned in Canada because it violatesa law thatprevents news channels from lying to their",
+        "response": "That's not accurate. Fox News is not banned in Canada. \n\nTo break down the answer:\n\n1. Fox News is s",
+        "score": 0.5094718210399151
+      },
+      {
+        "example_id": "liar_47",
+        "prompt": "Minnesota, Michigan, Iowa already have 70 mph speed limits on rural interstates, and we see that the",
+        "response": "It seems like you're starting to build an argument for implementing a 70 mph speed limit on rural in",
+        "score": 0.9032167434692383
+      },
+      {
+        "example_id": "liar_48",
+        "prompt": "The RESTORE Act started as an effort to dedicate as much BP fine money as possible towards Gulf Coas",
+        "response": "To address the question step by step:\n\n1. **Understanding the RESTORE Act**: The RESTORE Act (Resour",
+        "score": 0.8180598497390748
+      },
+      {
+        "example_id": "liar_49",
+        "prompt": "Household income in America has gone down for families an average of $4,000 in the last four years w",
+        "response": "To evaluate the claim, let's break it down into steps:\n\n1. **Identify the claim**: The claim is that",
+        "score": 0.7833739757537842
+      }
+    ]
+  },
+  "code": {
+    "domain": "code",
+    "average_score": 0.7441609015464783,
+    "std_dev": 0.12042670855512883,
+    "min_score": 0.5733655691146851,
+    "max_score": 1.0,
+    "num_examples": 25,
+    "api_calls_used": 275,
+    "details": [
+      {
+        "example_id": "code_25",
+        "prompt": "\ndef triangle_area(a, b, c):\n    '''\n    Given the lengths of the three sides of a triangle. Return ",
+        "response": "Here's a step-by-step solution to the problem:\n\n### Step 1: Define the function and its parameters\n\n",
+        "score": 0.8412384510040283
+      },
+      {
+        "example_id": "code_26",
+        "prompt": "from typing import List\n\n\ndef separate_paren_groups(paren_string: str) -> List[str]:\n    \"\"\" Input t",
+        "response": "Here's a step-by-step approach to solve this problem:\n\n### Step 1: Remove spaces from the input stri",
+        "score": 0.6435590744018554
+      },
+      {
+        "example_id": "code_27",
+        "prompt": "\n\ndef triples_sum_to_zero(l: list):\n    \"\"\"\n    triples_sum_to_zero takes a list of integers as an i",
+        "response": "To solve this problem, we can use a set to store the numbers we have seen so far, and then for each ",
+        "score": 0.5733655691146851
+      },
+      {
+        "example_id": "code_28",
+        "prompt": "\ndef compare(game,guess):\n    \"\"\"I think we all remember that feeling when the result of some long-a",
+        "response": "Here's a step-by-step solution to the problem:\n\n### Step 1: Define the function and its parameters\n\n",
+        "score": 0.6416027665138244
+      },
+      {
+        "example_id": "code_29",
+        "prompt": "\ndef get_row(lst, x):\n    \"\"\"\n    You are given a 2 dimensional data, as a nested lists,\n    which i",
+        "response": "Here's a step-by-step solution to the problem:\n\n### Step 1: Define the function\n\nWe'll define a func",
+        "score": 0.7195572853088379
+      },
+      {
+        "example_id": "code_30",
+        "prompt": "\ndef is_equal_to_sum_even(n):\n    \"\"\"Evaluate whether the given number n can be written as the sum o",
+        "response": "To solve this problem, we can use a brute force approach by checking all possible combinations of 4 ",
+        "score": 0.6878185033798218
+      },
+      {
+        "example_id": "code_31",
+        "prompt": "\n\ndef prime_fib(n: int):\n    \"\"\"\n    prime_fib returns n-th number that is a Fibonacci number and it",
+        "response": "To solve this problem, we need to generate Fibonacci numbers and check if they are prime. Here's a s",
+        "score": 0.6543203234672547
+      },
+      {
+        "example_id": "code_32",
+        "prompt": "\ndef bf(planet1, planet2):\n    '''\n    There are eight planets in our solar system: the closerst to ",
+        "response": "Here's a step-by-step solution to the problem.\n\n### Step 1: Define the list of planets in our solar ",
+        "score": 0.9844955444335938
+      },
+      {
+        "example_id": "code_33",
+        "prompt": "\ndef anti_shuffle(s):\n    \"\"\"\n    Write a function that takes a string and returns an ordered versio",
+        "response": "Here's a step-by-step solution to the problem.\n\n### Step 1: Split the input string into words\n\nWe'll",
+        "score": 0.7873654842376709
+      },
+      {
+        "example_id": "code_34",
+        "prompt": "\ndef int_to_mini_roman(number):\n    \"\"\"\n    Given a positive integer, obtain its roman numeral equiv",
+        "response": "To solve this problem, we'll break it down into steps.\n\n### Step 1: Define the Mapping of Roman Nume",
+        "score": 0.9218720436096192
+      },
+      {
+        "example_id": "code_35",
+        "prompt": "\ndef sorted_list_sum(lst):\n    \"\"\"Write a function that accepts a list of strings as a parameter,\n  ",
+        "response": "Here's a Python function that fulfills the requirements:\n\n```python\ndef sorted_list_sum(lst):\n    \"\"",
+        "score": 0.6744106769561767
+      },
+      {
+        "example_id": "code_36",
+        "prompt": "\ndef multiply(a, b):\n    \"\"\"Complete the function that takes two integers and returns \n    the produ",
+        "response": "To solve this problem, we need to find the unit digits of the two input numbers and multiply them to",
+        "score": 0.7669880867004395
+      },
+      {
+        "example_id": "code_37",
+        "prompt": "from typing import List, Optional\n\n\ndef longest(strings: List[str]) -> Optional[str]:\n    \"\"\" Out of",
+        "response": "To solve this problem, we can follow these steps:\n\n### Step 1: Import the necessary modules\n\nWe have",
+        "score": 0.7255396604537964
+      },
+      {
+        "example_id": "code_38",
+        "prompt": "\n\ndef triangle_area(a, h):\n    \"\"\"Given length of a side and high return area for a triangle.\n    >>",
+        "response": "To solve this problem, we need to use the formula for the area of a triangle, which is:\n\nArea = (bas",
+        "score": 0.589837372303009
+      },
+      {
+        "example_id": "code_39",
+        "prompt": "\ndef can_arrange(arr):\n    \"\"\"Create a function which returns the largest index of an element which\n",
+        "response": "Here's a step-by-step solution to the problem.\n\n### Step 1: Understand the problem\n\nWe need to find ",
+        "score": 0.8261284589767456
+      },
+      {
+        "example_id": "code_40",
+        "prompt": "\n\ndef change_base(x: int, base: int):\n    \"\"\"Change numerical base of input number x to base.\n    re",
+        "response": "To solve this problem, we can use the built-in `int` and `str` functions in Python, along with a loo",
+        "score": 0.6267303943634033
+      },
+      {
+        "example_id": "code_41",
+        "prompt": "\ndef iscube(a):\n    '''\n    Write a function that takes an integer a and returns True \n    if this i",
+        "response": "To solve this problem, we can use the mathematical property that every perfect cube can be expressed",
+        "score": 0.8310033321380615
+      },
+      {
+        "example_id": "code_42",
+        "prompt": "\n\ndef sort_third(l: list):\n    \"\"\"This function takes a list l and returns a list l' such that\n    l",
+        "response": "To solve this problem, we can use the following steps:\n\n1. **Identify the indices that are divisible",
+        "score": 0.5890835285186767
+      },
+      {
+        "example_id": "code_43",
+        "prompt": "\ndef rounded_avg(n, m):\n    \"\"\"You are given two positive integers n and m, and your task is to comp",
+        "response": "Here's a step-by-step solution to the problem:\n\n### Step 1: Define the function and handle edge case",
+        "score": 0.7470714092254639
+      },
+      {
+        "example_id": "code_44",
+        "prompt": "from typing import List\n\n\ndef intersperse(numbers: List[int], delimeter: int) -> List[int]:\n    \"\"\" ",
+        "response": "To solve this problem, we can use a list comprehension to generate the output list. Here's the step-",
+        "score": 0.7944917440414428
+      },
+      {
+        "example_id": "code_45",
+        "prompt": "\ndef encode(message):\n    \"\"\"\n    Write a function that takes a message, and encodes in such a \n    ",
+        "response": "To solve this problem, we can break it down into smaller steps:\n\n1. Define a function `encode(messag",
+        "score": 0.917305326461792
+      },
+      {
+        "example_id": "code_46",
+        "prompt": "\n\ndef common(l1: list, l2: list):\n    \"\"\"Return sorted unique common elements for two lists.\n    >>>",
+        "response": "To solve this problem, we can follow these steps:\n\n### Step 1: Convert the input lists to sets\n\nWe'l",
+        "score": 0.6031502485275269
+      },
+      {
+        "example_id": "code_47",
+        "prompt": "\ndef pluck(arr):\n    \"\"\"\n    \"Given an array representing a branch of a tree that has non-negative i",
+        "response": "Here's a step-by-step approach to solving this problem.\n\n### Step 1: Define the function and its par",
+        "score": 0.7403136014938354
+      },
+      {
+        "example_id": "code_48",
+        "prompt": "\n\ndef string_sequence(n: int) -> str:\n    \"\"\" Return a string containing space-delimited numbers sta",
+        "response": "Here's a step-by-step solution to the problem:\n\n### Problem Analysis\n\nThe function `string_sequence(",
+        "score": 1
+      },
+      {
+        "example_id": "code_49",
+        "prompt": "\n\ndef is_palindrome(text: str):\n    \"\"\"\n    Checks if given string is a palindrome\n    >>> is_palind",
+        "response": "To solve this problem, we can follow these steps:\n\n1. **Define the function**: We need to define a f",
+        "score": 0.7167736530303955
+      }
+    ]
+  }
+}

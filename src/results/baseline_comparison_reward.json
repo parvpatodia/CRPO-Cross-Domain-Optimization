@@ -1,0 +1,32 @@
+[
+  {
+    "Domain": "Gsm8K",
+    "Zero-Shot": "0.752",
+    "Few-Shot": "0.784",
+    "Single-Domain CRPO": "0.888"
+  },
+  {
+    "Domain": "Bbh Navigate",
+    "Zero-Shot": "0.505",
+    "Few-Shot": "0.429",
+    "Single-Domain CRPO": "0.594"
+  },
+  {
+    "Domain": "Bbh Boolean",
+    "Zero-Shot": "0.376",
+    "Few-Shot": "0.300",
+    "Single-Domain CRPO": "0.594"
+  },
+  {
+    "Domain": "Liar",
+    "Zero-Shot": "0.628",
+    "Few-Shot": "0.614",
+    "Single-Domain CRPO": "0.862"
+  },
+  {
+    "Domain": "Code",
+    "Zero-Shot": "0.744",
+    "Few-Shot": "0.773",
+    "Single-Domain CRPO": "0.759"
+  }
+]

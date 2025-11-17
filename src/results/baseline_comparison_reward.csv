@@ -1,0 +1,6 @@
+Domain,Zero-Shot,Few-Shot,Single-Domain CRPO
+Gsm8K,0.752,0.784,0.888
+Bbh Navigate,0.505,0.429,0.594
+Bbh Boolean,0.376,0.300,0.594
+Liar,0.628,0.614,0.862
+Code,0.744,0.773,0.759
