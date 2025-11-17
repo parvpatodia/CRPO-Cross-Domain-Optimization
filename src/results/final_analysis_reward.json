@@ -1,0 +1,45 @@
+{
+  "per_domain": [
+    {
+      "Domain": "Gsm8K",
+      "Zero-Shot": 0.7515422315448523,
+      "Few-Shot": 0.7838293558135628,
+      "Single-Domain CRPO": 0.8882911357879638,
+      "Multi-Domain CRPO": 0.9774951181411743
+    },
+    {
+      "Domain": "Bbh Navigate",
+      "Zero-Shot": 0.5049896462112664,
+      "Few-Shot": 0.4294201605618001,
+      "Single-Domain CRPO": 0.5936082797646524,
+      "Multi-Domain CRPO": 0.8525085896253585
+    },
+    {
+      "Domain": "Liar",
+      "Zero-Shot": 0.6279451481103897,
+      "Few-Shot": 0.6138447153121234,
+      "Single-Domain CRPO": 0.8624578269720078,
+      "Multi-Domain CRPO": 0.9580309083461762
+    },
+    {
+      "Domain": "Code",
+      "Zero-Shot": 0.7441609015464783,
+      "Few-Shot": 0.7733047328293324,
+      "Single-Domain CRPO": 0.7591558586955071,
+      "Multi-Domain CRPO": 0.8900065340995789
+    }
+  ],
+  "averages": {
+    "Zero-Shot": 0.6571594818532467,
+    "Few-Shot": 0.6500997411292047,
+    "Single-Domain CRPO": 0.7758782753050327,
+    "Multi-Domain CRPO": 0.919510287553072
+  },
+  "robustness": {
+    "Zero-Shot": 0.1161701146929686,
+    "Few-Shot": 0.1664101198844372,
+    "Single-Domain CRPO": 0.13370946172000714,
+    "Multi-Domain CRPO": 0.05832603134581258
+  },
+  "robustness_improvement_percent": 56.378531036233184
+}

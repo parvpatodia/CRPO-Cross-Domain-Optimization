@@ -1,0 +1,36 @@
+{
+  "optimization_type": "multi_domain",
+  "domains": [
+    "math",
+    "reasoning",
+    "fact",
+    "code"
+  ],
+  "tasks": {
+    "math": "Solve grade-school math word problems",
+    "reasoning": "Solve logical reasoning tasks",
+    "fact": "Verify statement truthfulness",
+    "code": "Generate correct Python code"
+  },
+  "reasoning": "Based on the provided examples and analysis of high and low-quality prompts across multiple domains, here are 5 insights about generalizable prompt properties that work across all domains:\n\n1. **Specificity is key, but context is more important**: While being specific about the task or problem can help, providing context that sets the tone, scope, and expectations is crucial for achieving accurate results across diverse domains. A good prompt should balance specificity with context, ensuring the model understands what is required and why.\n\nExample: \"Explain the concept of entropy in the context of information theory\" (context) versus \"Explain the concept of entropy\" (too general).\n\n2. **Universal reasoning style: Hypothetical and abstract thinking**: Many high-quality prompts across domains involve hypothetical or abstract thinking. This style of reasoning encourages the model to consider multiple perspectives, explore possibilities, and generate creative solutions. By using hypothetical scenarios or abstract concepts, prompts can elicit more comprehensive and accurate responses.\n\nExample: \"Imagine a world where... \" (math and code) or \"Why would someone... \" (logic and fact).\n\n3. **Structure: Clear objectives, constraints, and outputs**: Effective prompts across domains often have a clear structure that outlines objectives, constraints, and desired outputs. This structure helps the model understand what is expected, what to prioritize, and how to organize its response.\n\nExample: \"Given a set of equations, solve for x\" (math) or \"Write a Python function to... \" (code).\n\n4. **Avoid ambiguous language and unclear goals**: Low-quality prompts often use ambiguous language or unclear goals, leading to inaccurate or irrelevant responses. High-quality prompts, on the other hand, use precise and concise language, ensuring the model understands the task and generates relevant output.\n\nExample: \"What is the meaning of HI\" (ambiguous) versus \"Explain the definition of HI in the context of...\" (clear and specific).\n\n5. **Emphasize the desired outcome, not just the input",
+  "optimized_prompt": "Please provide a step-by-step explanation of {question}, clearly outlining the reasoning and thought process behind your answer, while considering multiple perspectives and hypothetical scenarios, and adhering to a structured approach that outlines objectives, constraints, and desired outputs.",
+  "api_calls": 2,
+  "evaluations": {
+    "math": {
+      "average_score": 0.9774951181411743,
+      "std_dev": 0.05039616999737464
+    },
+    "reasoning": {
+      "average_score": 0.8525085896253585,
+      "std_dev": 0.13231313366344255
+    },
+    "fact": {
+      "average_score": 0.9580309083461762,
+      "std_dev": 0.0993036951470379
+    },
+    "code": {
+      "average_score": 0.8900065340995789,
+      "std_dev": 0.15596152922711964
+    }
+  }
+}
