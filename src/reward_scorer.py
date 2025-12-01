@@ -1,12 +1,13 @@
 from transformers import AutoModelForSequenceClassification, AutoTokenizer
 import torch
 import numpy as np
-from typing import List, Tuple
+from typing import List, Tuple, Optional
+from src.config import REWARD_MODEL_NAME
 
 class RewardModelScorer:
     """Score responses using a pre-trained reward model (like the paper does)"""
     
-    def __init__(self, model_name: str = "OpenAssistant/reward-model-deberta-v3-large"):
+    def __init__(self, model_name: str = REWARD_MODEL_NAME):
         """
         Initialize reward model. This model scores prompt-response pairs on quality.
         Similar to what the paper uses (ArmoRM-Llama3-8B-v0.1)
@@ -52,7 +53,7 @@ class RewardModelScorer:
             # Normalize to [0, 1] range
             # Most reward models output in range [-5, 5] or similar
             normalized_score = (score + 5) / 10  # Adjust based on model's typical output
-            normalized_score = max(0, min(1, normalized_score))  # Clamp to [0, 1]
+            normalized_score = max(0.0, min(1.0, normalized_score))  # Clamp to [0, 1]
             
             return normalized_score
         

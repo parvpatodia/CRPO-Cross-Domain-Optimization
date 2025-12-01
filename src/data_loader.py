@@ -1,36 +1,58 @@
 import json
 import random
-from typing import List, Dict
+from typing import List, Dict, Any, Tuple, Optional
+from pathlib import Path
+from src.config import (
+    GSM8K_DIR, BBH_DIR, LIAR_DIR, HUMANEVAL_DIR, HELPSTEER2_DIR
+)
 
 class DataLoader:
-    """Load and preprocess all datasets"""
+    """Load and preprocess all datasets using centralized configuration."""
     
     @staticmethod
-    def load_gsm8k(split='train', n_samples=None):
-        """Load GSM8K math problems"""
-        with open(f"data/raw/gsm8k/{split}.json", "r") as f:
-            data = json.load(f)
+    def _load_json(file_path: Path) -> List[Dict[str, Any]]:
+        """Helper to load JSON data with error handling."""
+        try:
+            with open(file_path, "r") as f:
+                return json.load(f)
+        except FileNotFoundError:
+            print(f"Warning: File not found at {file_path}")
+            return []
+        except json.JSONDecodeError:
+            print(f"Error: Failed to decode JSON from {file_path}")
+            return []
+
+    @staticmethod
+    def load_gsm8k(split: str = 'train', n_samples: Optional[int] = None) -> List[Dict[str, Any]]:
+        """Load GSM8K math problems."""
+        file_path = GSM8K_DIR / f"{split}.json"
+        data = DataLoader._load_json(file_path)
         
+        if not data:
+            return []
+
         if split == 'train':
-            data = random.sample(data, min(500, len(data)))
+            sample_size = min(500, len(data)) if n_samples is None else min(n_samples, len(data))
+            data = random.sample(data, sample_size)
         elif split == 'test':
-            data = random.sample(data, min(1000, len(data)))
+            sample_size = min(1000, len(data)) if n_samples is None else min(n_samples, len(data))
+            data = random.sample(data, sample_size)
         
         # Standardize format
         processed = []
-        for item in data:
+        for i, item in enumerate(data):
             processed.append({
-                'id': f"gsm8k_{len(processed)}",
-                'prompt': item['question'],
-                'answer': item['answer'],
+                'id': f"gsm8k_{i}",
+                'prompt': item.get('question', ''),
+                'answer': item.get('answer', ''),
                 'domain': 'math'
             })
         
         return processed
     
     @staticmethod
-    def load_bbh(task='navigate'):
-        """Load BBH tasks"""
+    def load_bbh(task: str = 'navigate') -> Tuple[List[Dict[str, Any]], List[Dict[str, Any]]]:
+        """Load BBH tasks."""
         # Map task names to actual filenames
         task_map = {
             'navigate': 'navigate',
@@ -38,8 +60,11 @@ class DataLoader:
             'boolean': 'boolean'
         }
         filename = task_map.get(task, task)
-        with open(f"data/raw/bbh/{filename}.json", "r") as f:
-            data = json.load(f)
+        file_path = BBH_DIR / f"{filename}.json"
+        
+        data = DataLoader._load_json(file_path)
+        if not data:
+            return [], []
         
         # Split 70-30
         random.seed(42)
@@ -49,13 +74,13 @@ class DataLoader:
         train = data[:split_idx]
         test = data[split_idx:]
         
-        def process_split(items, split_name):
+        def process_split(items: List[Dict[str, Any]], split_name: str) -> List[Dict[str, Any]]:
             processed = []
-            for item in items:
+            for i, item in enumerate(items):
                 processed.append({
-                    'id': f"bbh_{task}_{len(processed)}",
-                    'prompt': item['input'],
-                    'answer': item['target'],
+                    'id': f"bbh_{task}_{i}",
+                    'prompt': item.get('input', ''),
+                    'answer': item.get('target', ''),
                     'domain': 'reasoning'
                 })
             return processed
@@ -63,10 +88,13 @@ class DataLoader:
         return process_split(train, 'train'), process_split(test, 'test')
     
     @staticmethod
-    def load_liar(split='test'):
-        """Load LIAR fact verification"""
-        with open(f"data/raw/liar/{split}.json", "r") as f:
-            data = json.load(f)
+    def load_liar(split: str = 'test') -> List[Dict[str, Any]]:
+        """Load LIAR fact verification."""
+        file_path = LIAR_DIR / f"{split}.json"
+        data = DataLoader._load_json(file_path)
+        
+        if not data:
+            return []
         
         # Map LIAR labels
         label_map = {
@@ -78,7 +106,7 @@ class DataLoader:
         }
         
         processed = []
-        for item in data:
+        for i, item in enumerate(data):
             # Get the label - it might be 'label' or encoded as int
             label = item.get('label', item.get('truthfulness', 0))
             
@@ -89,43 +117,48 @@ class DataLoader:
                 label = str(label).lower()
             
             processed.append({
-                'id': f"liar_{len(processed)}",
+                'id': f"liar_{i}",
                 'prompt': item.get('statement', ''),
-                'answer': label,  # Now this is a string like 'true', 'false', etc.
+                'answer': label,
                 'domain': 'fact_verification'
             })
         
         return processed
 
-    
     @staticmethod
-    def load_humaneval(n_samples=50):
-        """Load code generation tasks"""
-        with open("data/raw/humaneval/samples.json", "r") as f:
-            data = json.load(f)
+    def load_humaneval(n_samples: int = 50) -> List[Dict[str, Any]]:
+        """Load code generation tasks."""
+        file_path = HUMANEVAL_DIR / "samples.json"
+        data = DataLoader._load_json(file_path)
+        
+        if not data:
+            return []
         
         processed = []
-        for item in data[:n_samples]:
+        for i, item in enumerate(data[:n_samples]):
             processed.append({
-                'id': f"code_{len(processed)}",
-                'prompt': item['prompt'],
-                'answer': item['canonical_solution'],
+                'id': f"code_{i}",
+                'prompt': item.get('prompt', ''),
+                'answer': item.get('canonical_solution', ''),
                 'domain': 'code'
             })
         
         return processed
     
     @staticmethod
-    def load_helpsteer2():
-        """Load reference examples for CRPO optimization"""
-        with open("data/raw/helpsteer2/full.json", "r") as f:
-            data = json.load(f)
+    def load_helpsteer2() -> List[Dict[str, Any]]:
+        """Load reference examples for CRPO optimization."""
+        file_path = HELPSTEER2_DIR / "full.json"
+        data = DataLoader._load_json(file_path)
+        
+        if not data:
+            return []
         
         # Extract quality scores (if available)
         processed = []
-        for item in data:
+        for i, item in enumerate(data):
             processed.append({
-                'id': f"help_{len(processed)}",
+                'id': f"help_{i}",
                 'prompt': item.get('prompt', ''),
                 'response': item.get('response', ''),
                 'quality_score': item.get('helpfulness', 5)  # normalize
@@ -140,9 +173,11 @@ if __name__ == "__main__":
     print("Loading GSM8K train...")
     gsm8k_train = loader.load_gsm8k('train')
     print(f"Loaded {len(gsm8k_train)} examples")
-    print(f"Sample: {gsm8k_train[0]}")
+    if gsm8k_train:
+        print(f"Sample: {gsm8k_train[0]}")
     
     print("\nLoading LIAR...")
     liar = loader.load_liar('test')
     print(f"Loaded {len(liar)} examples")
-    print(f"Sample: {liar[0]}")
+    if liar:
+        print(f"Sample: {liar[0]}")

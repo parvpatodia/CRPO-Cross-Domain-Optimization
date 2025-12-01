@@ -3,6 +3,14 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import numpy as np
 import pandas as pd
+import sys
+from pathlib import Path
+
+# Add project root to path
+project_root = Path(__file__).parent.parent
+sys.path.append(str(project_root))
+
+from src.config import RESULTS_DIR
 
 # Set style for publication-quality plots
 sns.set_style("whitegrid")
@@ -11,15 +19,15 @@ plt.rcParams['font.size'] = 11
 plt.rcParams['font.family'] = 'sans-serif'
 
 # Load results
-with open("results/final_analysis_reward.json") as f:
+with open(RESULTS_DIR / "final_analysis_reward.json") as f:
     analysis = json.load(f)
 
 results_table = analysis['per_domain']
 df = pd.DataFrame(results_table)
 
 # Create output directory
-import os
-os.makedirs("results/figures", exist_ok=True)
+FIGURES_DIR = RESULTS_DIR / "figures"
+FIGURES_DIR.mkdir(parents=True, exist_ok=True)
 
 print("Creating visualizations...\n")
 
@@ -52,8 +60,8 @@ ax.set_ylim([0, 1.0])
 ax.grid(axis='y', alpha=0.3)
 plt.xticks(rotation=15, ha='right')
 plt.tight_layout()
-plt.savefig('results/figures/01_average_scores.png', dpi=300, bbox_inches='tight')
-print("✓ Saved: results/figures/01_average_scores.png")
+plt.savefig(FIGURES_DIR / '01_average_scores.png', dpi=300, bbox_inches='tight')
+print(f"✓ Saved: {FIGURES_DIR}/01_average_scores.png")
 plt.close()
 
 # =====================================================================
@@ -91,8 +99,8 @@ ax.set_ylim([0, max(robustness_scores) * 1.3])
 ax.grid(axis='y', alpha=0.3)
 plt.xticks(rotation=15, ha='right')
 plt.tight_layout()
-plt.savefig('results/figures/02_robustness_scores.png', dpi=300, bbox_inches='tight')
-print("✓ Saved: results/figures/02_robustness_scores.png")
+plt.savefig(FIGURES_DIR / '02_robustness_scores.png', dpi=300, bbox_inches='tight')
+print(f"✓ Saved: {FIGURES_DIR}/02_robustness_scores.png")
 plt.close()
 
 # =====================================================================
@@ -119,8 +127,8 @@ ax.set_ylim([0, 1.05])
 ax.grid(axis='y', alpha=0.3)
 
 plt.tight_layout()
-plt.savefig('results/figures/03_per_domain_performance.png', dpi=300, bbox_inches='tight')
-print("✓ Saved: results/figures/03_per_domain_performance.png")
+plt.savefig(FIGURES_DIR / '03_per_domain_performance.png', dpi=300, bbox_inches='tight')
+print(f"✓ Saved: {FIGURES_DIR}/03_per_domain_performance.png")
 plt.close()
 
 # =====================================================================
@@ -148,8 +156,8 @@ ax.set_xlabel('Domain', fontsize=12, fontweight='bold')
 ax.set_ylabel('Method', fontsize=12, fontweight='bold')
 
 plt.tight_layout()
-plt.savefig('results/figures/04_performance_heatmap.png', dpi=300, bbox_inches='tight')
-print("✓ Saved: results/figures/04_performance_heatmap.png")
+plt.savefig(FIGURES_DIR / '04_performance_heatmap.png', dpi=300, bbox_inches='tight')
+print(f"✓ Saved: {FIGURES_DIR}/04_performance_heatmap.png")
 plt.close()
 
 # =====================================================================
@@ -178,8 +186,8 @@ ax.grid(True, alpha=0.3)
 ax.set_ylim([0.3, 1.0])
 
 plt.tight_layout()
-plt.savefig('results/figures/05_robustness_trajectory.png', dpi=300, bbox_inches='tight')
-print("✓ Saved: results/figures/05_robustness_trajectory.png")
+plt.savefig(FIGURES_DIR / '05_robustness_trajectory.png', dpi=300, bbox_inches='tight')
+print(f"✓ Saved: {FIGURES_DIR}/05_robustness_trajectory.png")
 plt.close()
 
 # =====================================================================
@@ -188,7 +196,7 @@ plt.close()
 print("\n" + "="*80)
 print("VISUALIZATION SUMMARY")
 print("="*80)
-print(f"\n✓ All figures saved to: results/figures/")
+print(f"\n✓ All figures saved to: {FIGURES_DIR}")
 print(f"\nFigures created:")
 print(f"  1. Average Scores - Shows multi-domain achieves highest avg score (0.920)")
 print(f"  2. Robustness (KEY FINDING) - Shows 56.4% variance reduction")

@@ -1,18 +1,22 @@
 from groq import Groq
-from typing import List, Dict, Tuple
+from typing import List, Dict, Any, Optional
 import json
+from src.config import GROQ_API_KEY, DEFAULT_MODEL, TEMPERATURE
 
 class CRPOMultiDomain:
     """Contrastive Reasoning Prompt Optimization - Multi-Domain Variant"""
     
-    def __init__(self, api_key):
-        self.client = Groq(api_key=api_key)
+    def __init__(self, api_key: Optional[str] = None):
+        self.api_key = api_key or GROQ_API_KEY
+        if not self.api_key:
+            raise ValueError("API Key must be provided or set in environment variables.")
+        self.client = Groq(api_key=self.api_key)
         self.api_calls = 0
     
     def retrieve_multidomain_examples(self,
-                                     helpsteer2_data: List[Dict],
-                                     k: int = 3) -> Dict:
-        """Retrieve k examples from EACH domain (simulated by quality tiers)"""
+                                     helpsteer2_data: List[Dict[str, Any]],
+                                     k: int = 3) -> Dict[str, Dict[str, List[Dict[str, Any]]]]:
+        """Retrieve k examples from EACH domain (simulated by quality tiers)."""
         
         # Sort by quality score
         sorted_data = sorted(helpsteer2_data,
@@ -45,7 +49,7 @@ class CRPOMultiDomain:
     
     def multidomain_contrastive_reasoning(self,
                                          tasks: Dict[str, str],
-                                         multidomain_examples: Dict) -> str:
+                                         multidomain_examples: Dict[str, Dict[str, List[Dict[str, Any]]]]) -> str:
         """Ask LLM: what prompt properties work across ALL domains?"""
         
         # Format examples from all domains
@@ -84,9 +88,9 @@ Please provide 4-5 insights about GENERALIZABLE prompt properties that work acro
 """
         
         response = self.client.chat.completions.create(
-            model="llama-3.1-8b-instant",
+            model=DEFAULT_MODEL,
             messages=[{"role": "user", "content": reasoning_prompt}],
-            temperature=0.7,
+            temperature=TEMPERATURE,
             max_tokens=400
         )
         
@@ -97,7 +101,7 @@ Please provide 4-5 insights about GENERALIZABLE prompt properties that work acro
     
     def generate_multidomain_optimized_prompt(self,
                                              reasoning: str) -> str:
-        """Generate prompt optimized for robustness across domains"""
+        """Generate prompt optimized for robustness across domains."""
         
         generation_prompt = f"""
 You are a prompt engineer creating a ROBUST prompt that works across diverse domains.
@@ -121,7 +125,7 @@ Output ONLY the optimized prompt template, no explanation.
 """
         
         response = self.client.chat.completions.create(
-            model="llama-3.1-8b-instant",
+            model=DEFAULT_MODEL,
             messages=[{"role": "user", "content": generation_prompt}],
             temperature=0.3,
             max_tokens=250
@@ -141,9 +145,9 @@ Output ONLY the optimized prompt template, no explanation.
         return optimized_prompt
     
     def optimize_multidomain(self,
-                           helpsteer2_data: List[Dict],
-                           tasks: Dict[str, str]) -> Dict:
-        """Full multi-domain CRPO pipeline"""
+                           helpsteer2_data: List[Dict[str, Any]],
+                           tasks: Dict[str, str]) -> Dict[str, Any]:
+        """Full multi-domain CRPO pipeline."""
         
         print(f"\n" + "=" * 70)
         print(f"MULTI-DOMAIN CRPO OPTIMIZATION")

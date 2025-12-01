@@ -7,6 +7,14 @@ import json
 import os
 import random
 import pyarrow as pa
+import sys
+from pathlib import Path
+
+# Add project root to path
+project_root = Path(__file__).parent.parent
+sys.path.append(str(project_root))
+
+from src.config import RAW_DATA_DIR
 
 print("Downloading LIAR...")
 
@@ -87,15 +95,13 @@ print(f"Optimization examples: {len(opt_data)}")
 print(f"Test examples: {len(test_data)}")
 
 # Ensure directory exists
-liar_dir = "data/raw/liar"
-if os.path.exists(liar_dir) and not os.path.isdir(liar_dir):
-    os.remove(liar_dir)
-os.makedirs(liar_dir, exist_ok=True)
+liar_dir = RAW_DATA_DIR / "liar"
+liar_dir.mkdir(parents=True, exist_ok=True)
 
-with open("data/raw/liar/optimization.json", "w") as f:
+with open(liar_dir / "optimization.json", "w") as f:
     json.dump(opt_data, f, indent=2)
 
-with open("data/raw/liar/test.json", "w") as f:
+with open(liar_dir / "test.json", "w") as f:
     json.dump(test_data, f, indent=2)
 
-print("LIAR saved to data/raw/liar/")
+print(f"LIAR saved to {liar_dir}")

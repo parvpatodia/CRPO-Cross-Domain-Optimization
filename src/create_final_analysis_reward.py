@@ -1,15 +1,23 @@
 import json
 import numpy as np
 import pandas as pd
+import sys
+from pathlib import Path
+
+# Add project root to path
+project_root = Path(__file__).parent.parent
+sys.path.append(str(project_root))
+
+from src.config import EXPERIMENTS_DIR, RESULTS_DIR
 
 # Load all results
-with open("experiments/baseline_zero_shot_reward.json") as f:
+with open(EXPERIMENTS_DIR / "baseline_zero_shot_reward.json") as f:
     zero_shot = json.load(f)
-with open("experiments/baseline_few_shot_reward.json") as f:
+with open(EXPERIMENTS_DIR / "baseline_few_shot_reward.json") as f:
     few_shot = json.load(f)
-with open("experiments/single_domain_crpo_reward.json") as f:
+with open(EXPERIMENTS_DIR / "single_domain_crpo_reward.json") as f:
     single_crpo = json.load(f)
-with open("experiments/multi_domain_crpo_reward.json") as f:
+with open(EXPERIMENTS_DIR / "multi_domain_crpo_reward.json") as f:
     multi_crpo = json.load(f)
 
 # Map baseline domain names to CRPO domain names
@@ -79,7 +87,8 @@ improvement = (1 - robustness_multi / robustness_single) * 100 if robustness_sin
 print(f"\n  ROBUSTNESS IMPROVEMENT: {improvement:.1f}%")
 
 # Save tables
-df_results.to_csv("results/final_results_table_reward.csv", index=False)
+RESULTS_DIR.mkdir(parents=True, exist_ok=True)
+df_results.to_csv(RESULTS_DIR / "final_results_table_reward.csv", index=False)
 
 analysis_data = {
     'per_domain': df_results.to_dict('records'),
@@ -98,10 +107,10 @@ analysis_data = {
     'robustness_improvement_percent': float(improvement)
 }
 
-with open("results/final_analysis_reward.json", "w") as f:
+with open(RESULTS_DIR / "final_analysis_reward.json", "w") as f:
     json.dump(analysis_data, f, indent=2)
 
 print("\n" + "=" * 60)
 print(" Results saved to:")
-print("  - results/final_results_table_reward.csv")
-print("  - results/final_analysis_reward.json")
+print(f"  - {RESULTS_DIR}/final_results_table_reward.csv")
+print(f"  - {RESULTS_DIR}/final_analysis_reward.json")

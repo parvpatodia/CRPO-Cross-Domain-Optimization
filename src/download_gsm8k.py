@@ -1,24 +1,37 @@
 from datasets import load_dataset
 import json
 import os
+from src.config import GSM8K_DIR
 
-print("Downloading GSM8K...")
-gsm8k = load_dataset("openai/gsm8k", "main")
+def download_gsm8k():
+    """Download and save GSM8K dataset."""
+    print("Downloading GSM8K...")
+    try:
+        gsm8k = load_dataset("openai/gsm8k", "main")
+    except Exception as e:
+        print(f"Error downloading GSM8K: {e}")
+        return
 
-# Save raw data
-os.makedirs("data/raw/gsm8k", exist_ok=True)
+    # Ensure directory exists
+    GSM8K_DIR.mkdir(parents=True, exist_ok=True)
 
-train_data = gsm8k['train']
-test_data = gsm8k['test']
+    train_data = gsm8k['train']
+    test_data = gsm8k['test']
 
-print(f"Train examples: {len(train_data)}")
-print(f"Test examples: {len(test_data)}")
+    print(f"Train examples: {len(train_data)}")
+    print(f"Test examples: {len(test_data)}")
 
-# Save as JSON
-with open("data/raw/gsm8k/train.json", "w") as f:
-    json.dump([dict(item) for item in train_data], f)
+    # Save as JSON
+    try:
+        with open(GSM8K_DIR / "train.json", "w") as f:
+            json.dump([dict(item) for item in train_data], f)
+        
+        with open(GSM8K_DIR / "test.json", "w") as f:
+            json.dump([dict(item) for item in test_data], f)
+            
+        print(f"GSM8K saved to {GSM8K_DIR}")
+    except IOError as e:
+        print(f"Error saving files: {e}")
 
-with open("data/raw/gsm8k/test.json", "w") as f:
-    json.dump([dict(item) for item in test_data], f)
-
-print("GSM8K saved to data/raw/gsm8k/")
+if __name__ == "__main__":
+    download_gsm8k()

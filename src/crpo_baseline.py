@@ -1,19 +1,23 @@
 from groq import Groq
 import json
-from typing import List, Dict, Tuple
+from typing import List, Dict, Tuple, Any, Optional
 import time
+from src.config import GROQ_API_KEY, DEFAULT_MODEL, TEMPERATURE
 
 class CRPOBaseline:
     """Contrastive Reasoning Prompt Optimization - Single Domain"""
     
-    def __init__(self, api_key):
-        self.client = Groq(api_key=api_key)
+    def __init__(self, api_key: Optional[str] = None):
+        self.api_key = api_key or GROQ_API_KEY
+        if not self.api_key:
+            raise ValueError("API Key must be provided or set in environment variables.")
+        self.client = Groq(api_key=self.api_key)
         self.api_calls = 0
     
     def retrieve_reference_examples(self, 
-                                   helpsteer2_data: List[Dict],
+                                   helpsteer2_data: List[Dict[str, Any]],
                                    domain: str,
-                                   k: int = 5) -> Tuple[List, List]:
+                                   k: int = 5) -> Tuple[List[Dict[str, Any]], List[Dict[str, Any]]]:
         """Retrieve k high-quality and k low-quality examples"""
         
         # Sort by quality score
@@ -31,8 +35,8 @@ class CRPOBaseline:
     
     def tiered_contrastive_reasoning(self,
                                     task: str,
-                                    high_examples: List[Dict],
-                                    low_examples: List[Dict]) -> str:
+                                    high_examples: List[Dict[str, Any]],
+                                    low_examples: List[Dict[str, Any]]) -> str:
         """Ask LLM to reason about why high > low quality"""
         
         # Format examples for display
@@ -67,9 +71,9 @@ Please provide 3-4 key insights about what makes prompts work better.
 """
         
         response = self.client.chat.completions.create(
-            model="llama-3.1-8b-instant",
+            model=DEFAULT_MODEL,
             messages=[{"role": "user", "content": reasoning_prompt}],
-            temperature=0.7,
+            temperature=TEMPERATURE,
             max_tokens=300
         )
         
@@ -104,7 +108,7 @@ Example: "Solve the following math problem step-by-step: {{question}}"
 """
     
         response = self.client.chat.completions.create(
-            model="llama-3.1-8b-instant",
+            model=DEFAULT_MODEL,
             messages=[{"role": "user", "content": generation_prompt}],
             temperature=0.3,
             max_tokens=200
@@ -127,8 +131,8 @@ Example: "Solve the following math problem step-by-step: {{question}}"
     
     def optimize(self, 
                 task: str,
-                helpsteer2_data: List[Dict],
-                domain: str = 'general') -> Dict:
+                helpsteer2_data: List[Dict[str, Any]],
+                domain: str = 'general') -> Dict[str, Any]:
         """Full single-domain CRPO pipeline"""
         
         print(f"\n" + "=" * 60)

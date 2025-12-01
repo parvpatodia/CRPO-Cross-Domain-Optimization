@@ -5,6 +5,14 @@ that causes LocalFileSystem caching errors. This script uses a workaround.
 from huggingface_hub import hf_hub_download
 import json
 import os
+import sys
+from pathlib import Path
+
+# Add project root to path
+project_root = Path(__file__).parent.parent
+sys.path.append(str(project_root))
+
+from src.config import RAW_DATA_DIR
 
 print("Downloading BBH...")
 
@@ -102,17 +110,15 @@ boolean = load_bbh_config("boolean_expressions")
 print(f"Navigate examples: {len(navigate)}")
 print(f"Boolean examples: {len(boolean)}")
 
-# Ensure directory exists (remove if it's a file)
-bbh_dir = "data/raw/bbh"
-if os.path.exists(bbh_dir) and not os.path.isdir(bbh_dir):
-    os.remove(bbh_dir)
-os.makedirs(bbh_dir, exist_ok=True)
+# Ensure directory exists
+bbh_dir = RAW_DATA_DIR / "bbh"
+bbh_dir.mkdir(parents=True, exist_ok=True)
 
 # Save
-with open("data/raw/bbh/navigate.json", "w") as f:
+with open(bbh_dir / "navigate.json", "w") as f:
     json.dump(navigate, f, indent=2)
 
-with open("data/raw/bbh/boolean.json", "w") as f:
+with open(bbh_dir / "boolean.json", "w") as f:
     json.dump(boolean, f, indent=2)
 
-print("BBH saved to data/raw/bbh/")
+print(f"BBH saved to {bbh_dir}")

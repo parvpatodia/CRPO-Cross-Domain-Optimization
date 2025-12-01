@@ -1,22 +1,26 @@
 from groq import Groq
 import json
 import os
-from typing import List, Dict
+from typing import List, Dict, Any, Optional
 import time
 import numpy as np
-from reward_scorer import RewardModelScorer
+from src.reward_scorer import RewardModelScorer
+from src.config import GROQ_API_KEY, DEFAULT_MODEL, TEMPERATURE
 
 class EvaluatorWithRewardModel:
     """Evaluate prompts using a reward model instead of accuracy heuristics"""
     
-    def __init__(self, api_key):
-        self.client = Groq(api_key=api_key)
+    def __init__(self, api_key: Optional[str] = None):
+        self.api_key = api_key or GROQ_API_KEY
+        if not self.api_key:
+            raise ValueError("API Key must be provided or set in environment variables.")
+        self.client = Groq(api_key=self.api_key)
         self.reward_scorer = RewardModelScorer()
         self.results = {}
         self.api_calls = 0
     
-    def evaluate_dataset(self, prompt_template: str, dataset: List[Dict], 
-                        domain: str, max_examples=None) -> Dict:
+    def evaluate_dataset(self, prompt_template: str, dataset: List[Dict[str, Any]], 
+                        domain: str, max_examples: Optional[int] = None) -> Dict[str, Any]:
         """Evaluate prompt on a dataset using reward model scoring"""
         
         if max_examples:
@@ -38,11 +42,11 @@ class EvaluatorWithRewardModel:
             try:
                 # Get model response
                 response = self.client.chat.completions.create(
-                    model="llama-3.1-8b-instant",
+                    model=DEFAULT_MODEL,
                     messages=[
                         {"role": "user", "content": full_prompt}
                     ],
-                    temperature=0.3,
+                    temperature=0.3, # Evaluation usually uses lower temp for stability
                     max_tokens=200
                 )
                 
@@ -71,15 +75,15 @@ class EvaluatorWithRewardModel:
                 })
         
         # Calculate statistics
-        average_score = np.mean(scores) if scores else 0
-        std_dev = np.std(scores) if scores else 0
+        average_score = float(np.mean(scores)) if scores else 0.0
+        std_dev = float(np.std(scores)) if scores else 0.0
         
         return {
             'domain': domain,
             'average_score': average_score,
             'std_dev': std_dev,
-            'min_score': np.min(scores) if scores else 0,
-            'max_score': np.max(scores) if scores else 0,
+            'min_score': float(np.min(scores)) if scores else 0.0,
+            'max_score': float(np.max(scores)) if scores else 0.0,
             'num_examples': len(scores),
             'api_calls_used': self.api_calls,
             'details': detailed_results
